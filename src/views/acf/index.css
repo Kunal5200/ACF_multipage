@@ -1,0 +1,63 @@
+.ACf {
+  background-image: url("../../assests/images/acf.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  background-attachment: fixed;
+}
+.bg-ACF {
+  background-color: rgba(0, 0, 0, 0.203);
+  height: 100%;
+  color: white;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+.image_round {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+.img_rounded {
+  position: absolute;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  margin-top: -580px;
+  margin-left: 110px;
+}
+.border_div {
+  border: 2px dashed #36ba24;
+  padding: 5px;
+  margin-left: 85px;
+  animation-name: angle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes angle {
+  from {
+    --border-angle: 0turn;
+  }
+  to {
+    --border-angle: 1turn;
+  }
+}
+
+@property --border-anlge {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+.upper_div {
+  position: relative;
+  overflow: hidden;
+}
+.process_hover:hover {
+  scale: 1.2;
+}
+.process_hover {
+  transition: 1s ease all;
+}

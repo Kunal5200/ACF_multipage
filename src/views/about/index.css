@@ -1,0 +1,24 @@
+.bg-about {
+  background-image: url("../../assests/images/background/bg-about.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg__about {
+  background-color: #22222242;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lifecycle::after {
+  content: "→";
+  position: absolute;
+  left: 34%;
+  color: #36ba24;
+  top: 46pc;
+  font-size: xxx-large;
+}
