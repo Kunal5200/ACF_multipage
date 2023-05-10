@@ -12,8 +12,18 @@ let description = {
 };
 
 let Lifecycle = {
-  heading: "Farmer",
-  desc: "Farmers with multiple farms with different crops, fruit orchards, or farms with a single crop can associate with AllCanFarm. Like Mango Orchard, Mustard Farm, and Wheat Farm  ",
+  heading1: "FARMER",
+  desc1:
+    "Farmers with multiple farms with different crops, fruit orchards, or farms with a single crop can associate with AllCanFarm. Like Mango Orchard, Mustard Farm, and Wheat Farm.  ",
+  heading2: "ANGEL FARMER",
+  desc2:
+    "Angel Farmers invest in and adopt multiple crop farms and fruit orchards. May also request a farmer for a new crop or fruit tree, depending on the market and demand.  ",
+  heading3: "VALUE ADDITION",
+  desc3:
+    "Add value to yields through various latest and approved technologies and equipment. ",
+  heading4: "MAATI MARKETPLACE",
+  desc4:
+    "Allows the angel farmer to list the crops and fruits produced on the adopted farm to reach urban homes.",
 };
 
 export default { description, Lifecycle };

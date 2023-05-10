@@ -22,3 +22,48 @@
   top: 46pc;
   font-size: xxx-large;
 }
+.cycle__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.arrow_rotate {
+  position: absolute;
+  right: 16pc;
+  top: 72pc;
+  transform: rotate(90deg);
+}
+.rotate_img {
+  transform: rotate(180deg);
+}
+.arrow_down {
+  position: relative;
+  bottom: 111px;
+}
+.arrow_left {
+  position: absolute;
+  top: 72pc;
+  transform: rotate(270deg);
+  left: 220px;
+}
+.circle_top_left {
+  right: 115px;
+  top: 69px;
+}
+.circle_top_right {
+  left: 108px;
+  top: 55px;
+}
+.circle_bottom_right {
+  right: 100px;
+  top: 90px;
+}
+.circle_bottom_left {
+  top: 90px;
+  left: 105px;
+}
+.arrow_up {
+  position: relative;
+  top: 220px;
+}
