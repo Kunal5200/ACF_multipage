@@ -1,7 +1,7 @@
 import market from "../images/marketplace.svg";
 import techniques from "../images/techniques.svg";
-import employment from "../images/employment.svg";
-import value from "../images/value.svg";
+import employment from "../images/equipment.png";
+import value from "../images/value.png";
 let maati = {
   img1: market,
   heading1: "MARKETPLACE FOR PRODUCE",

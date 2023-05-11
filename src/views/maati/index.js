@@ -14,7 +14,7 @@ const Marketplace = () => {
           <h2 className="animate__animated animate__zoomInLeft ">Dhur Maati</h2>
         </div>
       </div>
-      <div className="container">
+      <div className="container p-3">
         <div className="row my-5">
           <div className="col-sm-12">
             <h4
