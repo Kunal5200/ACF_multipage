@@ -562,10 +562,30 @@ const Home = () => {
       <div className="container-fluid my-7">
         <h3 className="text-center my-4">Common Questions</h3>
         <div className="row">
-          <div className="col-sm-5">
+          <div
+            className="col-sm-5"
+            data-aos="fade-right"
+            data-aos-offset="20"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
             <img src={organic} width="100%" />
           </div>
-          <div className="col-sm-7">
+          <div
+            className="col-sm-7"
+            data-aos="fade-left"
+            data-aos-offset="20"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
             <Accordion transition={{ duration: "1000ms" }}>
               {data.faq.map((val, i) => (
                 <AccordionItem key={i}>

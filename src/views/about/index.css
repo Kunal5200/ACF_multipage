@@ -30,8 +30,8 @@
 }
 .arrow_rotate {
   position: absolute;
-  right: 16pc;
-  top: 72pc;
+  right: 11pc;
+  top: 69pc;
   transform: rotate(90deg);
 }
 .rotate_img {
@@ -39,31 +39,40 @@
 }
 .arrow_down {
   position: relative;
-  bottom: 111px;
+  bottom: 228px;
+  left: 66px;
 }
 .arrow_left {
   position: absolute;
-  top: 72pc;
+  top: 68pc;
   transform: rotate(270deg);
-  left: 220px;
+  left: 179px;
 }
 .circle_top_left {
-  right: 115px;
-  top: 69px;
+  right: 30px;
+  bottom: 90px;
 }
 .circle_top_right {
   left: 108px;
-  top: 55px;
+  bottom: 90px;
 }
 .circle_bottom_right {
-  right: 100px;
-  top: 90px;
+  right: 20px;
+  bottom: 53px;
 }
 .circle_bottom_left {
-  top: 90px;
-  left: 105px;
+  left: 108px;
+  bottom: 53px;
 }
 .arrow_up {
   position: relative;
-  top: 220px;
+  left: 30px;
+}
+
+.circle__circle {
+  border: 2px solid #36ba24;
+  border-radius: 50%;
+  width: 800px;
+  height: 800px;
+  margin: auto;
 }

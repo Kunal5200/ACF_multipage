@@ -40,10 +40,9 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-sm-3 ">
               <img src={logo} />
-              <p className="text-justify text-white">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s.
+              <p className="text-left text-white">
+                AllCanFarm empowers farmers to achieve higher yields, increase
+                profitability, and embrace sustainable farming practices.
               </p>
               {/* <div className="d-flex align-items-center justify-content-between my-3">
               <div className="icons">

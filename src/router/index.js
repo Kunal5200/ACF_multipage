@@ -8,11 +8,14 @@ import Scrolltotop from "../components/scrolltotop";
 import ACF from "../views/acf";
 import About from "../views/about";
 import Marketplace from "../views/maati";
+import Contact from "../views/contact";
+import Whatsapp from "../components/whatsapp";
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Navbar />
+      <Whatsapp />
       <Scrolltotop />
       <Scrollup />
       <Routes>
@@ -20,6 +23,7 @@ const Router = () => {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/allcanfarm" element={<ACF />} />
         <Route exact path="/maati" element={<Marketplace />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>

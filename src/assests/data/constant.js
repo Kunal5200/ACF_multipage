@@ -26,4 +26,5 @@ let Lifecycle = {
     "Allows the angel farmer to list the crops and fruits produced on the adopted farm to reach urban homes.",
 };
 
+
 export default { description, Lifecycle };

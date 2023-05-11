@@ -1,0 +1,13 @@
+.feature_box:hover {
+  box-shadow: 0px 0px 1px 1px #11111165;
+  scale: 1.1;
+}
+.feature_box {
+  transition: 0.5s ease all;
+  background-color: #ffffff;
+  /* width: 300px; */
+  height: 250px;
+}
+.feature_box p {
+  font-size: 14px;
+}
