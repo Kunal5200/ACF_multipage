@@ -21,7 +21,7 @@ import {
 import { FaAngleDown, FaAngleUp, FaMinus, FaPlus } from "react-icons/fa";
 import data from "../../assests/data/data";
 const Home = () => {
-  Aos.init({ disable: "mobile" });
+  Aos.init();
 
   const Images = [
     {

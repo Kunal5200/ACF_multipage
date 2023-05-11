@@ -9,7 +9,7 @@ import team from "../../assests/data/team";
 import prashant from "../../assests/images/prashantgyan.jpg";
 import Aos from "aos";
 const About = () => {
-  Aos.init({ disable: "phone" });
+  Aos.init();
   return (
     <div>
       <div className="bg-about">
