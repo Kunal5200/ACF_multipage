@@ -63,7 +63,7 @@ const Home = () => {
           </div>
           <div className="row align-items-center">
             <div
-              className="col-sm-5 col-md-6"
+              className="col-sm-5 col-md-6 col-lg-5"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
