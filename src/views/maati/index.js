@@ -94,7 +94,7 @@ const Marketplace = () => {
           </div>
         </div>
         <div className="row my-7 align-items-center">
-          <div className="col-sm-6">
+          <div className="col-sm-6 col-md-7 col-lg-6">
             <h4
               data-aos="fade-left"
               data-aos-offset="20"
@@ -109,15 +109,15 @@ const Marketplace = () => {
             </h4>
             <div className="row my-3">
               <div
-                className="col-sm-6"
-                data-aos="fade-right"
-                data-aos-offset="20"
-                data-aos-delay="50"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
-                data-aos-anchor-placement="top-center"
+                className="col-sm-6 col-md-6 col-lg-6"
+                // data-aos="fade-right"
+                // data-aos-offset="20"
+                // data-aos-delay="50"
+                // data-aos-duration="1000"
+                // data-aos-easing="ease-in-out"
+                // data-aos-mirror="true"
+                // data-aos-once="false"
+                // data-aos-anchor-placement="top-center"
               >
                 <Featurebox
                   heading={maati.heading1}
@@ -126,15 +126,15 @@ const Marketplace = () => {
                 />
               </div>
               <div
-                className="col-sm-6"
-                data-aos="fade-left"
-                data-aos-offset="20"
-                data-aos-delay="50"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
-                data-aos-anchor-placement="top-center"
+                className="col-sm-6 col-lg-6 col-md-6"
+                // data-aos="fade-left"
+                // data-aos-offset="20"
+                // data-aos-delay="50"
+                // data-aos-duration="1000"
+                // data-aos-easing="ease-in-out"
+                // data-aos-mirror="true"
+                // data-aos-once="false"
+                // data-aos-anchor-placement="top-center"
               >
                 <Featurebox
                   heading={maati.heading2}
@@ -145,15 +145,15 @@ const Marketplace = () => {
             </div>
             <div className="row my-3">
               <div
-                className="col-sm-6"
-                data-aos="fade-right"
-                data-aos-offset="20"
-                data-aos-delay="50"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
-                data-aos-anchor-placement="top-center"
+                className="col-sm-6 col-md-6 col-lg-6"
+                // data-aos="fade-right"
+                // data-aos-offset="20"
+                // data-aos-delay="50"
+                // data-aos-duration="1000"
+                // data-aos-easing="ease-in-out"
+                // data-aos-mirror="true"
+                // data-aos-once="false"
+                // data-aos-anchor-placement="top-center"
               >
                 <Featurebox
                   heading={maati.heading3}
@@ -162,15 +162,15 @@ const Marketplace = () => {
                 />
               </div>
               <div
-                className="col-sm-6"
-                data-aos="fade-left"
-                data-aos-offset="20"
-                data-aos-delay="50"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
-                data-aos-anchor-placement="top-center"
+                className="col-sm-6 col-md-6 col-lg-6"
+                // data-aos="fade-left"
+                // data-aos-offset="20"
+                // data-aos-delay="50"
+                // data-aos-duration="1000"
+                // data-aos-easing="ease-in-out"
+                // data-aos-mirror="true"
+                // data-aos-once="false"
+                // data-aos-anchor-placement="top-center"
               >
                 <Featurebox
                   heading={maati.heading4}
@@ -181,20 +181,21 @@ const Marketplace = () => {
             </div>
           </div>
           <div
-            className="col-sm-6"
-            data-aos="fade-up"
-            data-aos-offset="20"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+            className="col-sm-6 col-md-5 col-lg-6"
+            // data-aos="fade-up"
+            // data-aos-offset="20"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="false"
+            // data-aos-anchor-placement="top-center"
           >
             <div className="upper_div rounded">
               <img
                 src={marketplace}
                 height="100%"
+                width="100%"
                 className="rounded process_hover"
               />
             </div>

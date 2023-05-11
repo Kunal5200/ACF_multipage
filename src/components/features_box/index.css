@@ -11,3 +11,8 @@
 .feature_box p {
   font-size: 14px;
 }
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .feature_box {
+    height: 325px;
+  }
+}

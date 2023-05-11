@@ -9,7 +9,7 @@ import team from "../../assests/data/team";
 import prashant from "../../assests/images/prashantgyan.jpg";
 import Aos from "aos";
 const About = () => {
-  Aos.init();
+  Aos.init({ disable: "phone" });
   return (
     <div>
       <div className="bg-about">
@@ -24,8 +24,8 @@ const About = () => {
           <div className=" col-sm-11 p-4">
             <h4
               data-aos="fade-right"
-              data-aos-offset="20"
-              data-aos-delay="50"
+              data-aos-offset="2"
+              data-aos-delay="20"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
@@ -37,8 +37,8 @@ const About = () => {
             <p
               className="text-justify"
               data-aos="fade-right"
-              data-aos-offset="20"
-              data-aos-delay="50"
+              data-aos-offset="2"
+              data-aos-delay="20"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
@@ -62,14 +62,14 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container mobile_hidden">
         <h4 className="mb-5 text-center">Lifecycle </h4>
         <div className="m-auto ">
-          <div className=" arrow_up text-center">
+          {/* <div className=" arrow_up text-center">
             <p className="mb-0 f-13">Farmer Onboarding</p>
             <img src={arrow} width={100} />
             <p className="f-13">Farm Onboarding</p>
-          </div>
+          </div> */}
           <div className="cycle__div">
             <Rotate
               aos="fade-right"
@@ -84,6 +84,11 @@ const About = () => {
               heading={Lifecycle.Lifecycle.heading1}
               desc={Lifecycle.Lifecycle.desc1}
             />
+            <div>
+              <p className="mb-0 f-13">Farmer Onboarding</p>
+              <img src={arrow} width={100} />
+              <p className="f-13">Farm Onboarding</p>
+            </div>
             <Rotate
               aos="fade-left"
               offset="20"
@@ -98,13 +103,24 @@ const About = () => {
               desc={Lifecycle.Lifecycle.desc2}
             />
           </div>
+          <div className="d-flex align-items-center justify-content-between">
+            <div className="arrow_1">
+              <p className="mb-0 f-13">Technology-backed marketplace</p>
+              <img src={arrow} width={100} />
+              <p className="mb-0 f-13">Revenue generation</p>
+            </div>
+            <div className="arrow_2">
+              <p className="mb-0 f-13">Farm Adoption </p>
+              <img src={arrow} width={100} />
+              <p className="mb-0 f-13">Yield Processing</p>
+            </div>
+          </div>
 
           <div className="cycle__div my-7">
             <Rotate
               className="circle_bottom_right text-white"
               heading={Lifecycle.Lifecycle.heading3}
               desc={Lifecycle.Lifecycle.desc3}
-              para="pt-4"
               aos="fade-right"
               offset="20"
               delay="50"
@@ -114,6 +130,13 @@ const About = () => {
               once="false"
               anchor-placement="top-center"
             />
+            <div className="mx-3 text-center">
+              <p className="mb-0 f-13">Food Packaging</p>
+              <img src={arrow} className="rotate_img" width={100} />
+              <p className="mb-0 f-13">
+                ISO-certified and FSSAI-compliant yield
+              </p>
+            </div>
             <Rotate
               aos="fade-left"
               offset="20"
@@ -128,30 +151,30 @@ const About = () => {
               desc={Lifecycle.Lifecycle.desc4}
             />
           </div>
-          <div className="arrow_down text-center my-5">
+          {/* <div className="arrow_down text-center my-5">
             <p className="mb-0 f-13">Food Packaging</p>
             <img src={arrow} className="rotate_img" width={100} />
-            <p className="mb-0 f-13" >ISO-certified and FSSAI-compliant yield</p>
-          </div>
-          <div className="arrow_rotate text-center">
+            <p className="mb-0 f-13">ISO-certified and FSSAI-compliant yield</p>
+          </div> */}
+          {/* <div className="arrow_rotate text-center">
             <p className="mb-0 f-13">Farm Adoption </p>
             <img src={arrow} width={100} />
             <p className="mb-0 f-13">Yield Processing</p>
-          </div>
-          <div className="arrow_left">
+          </div> */}
+          {/* <div className="arrow_left">
             <p className="mb-0 f-13">Technology-backed marketplace</p>
             <img src={arrow} width={100} />
             <p className="mb-0 f-13">Revenue generation</p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="container mb-4">
         <div className="row align-items-center">
           <div
-            className="col-sm-6"
+            className="col-sm-6 col-md-7 col-lg-6"
             data-aos="fade-right"
-            data-aos-offset="20"
-            data-aos-delay="50"
+            data-aos-offset="2"
+            data-aos-delay="20"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -168,13 +191,13 @@ const About = () => {
               commitment to excellence.
             </p>
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm-6 col-md-5 col-lg-6">
             <div className="row">
               <div
                 className="col-sm-6"
                 data-aos="fade-up"
-                data-aos-offset="20"
-                data-aos-delay="50"
+                data-aos-offset="2"
+                data-aos-delay="20"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
@@ -192,8 +215,8 @@ const About = () => {
               <div
                 className="col-sm-6"
                 data-aos="fade-down"
-                data-aos-offset="20"
-                data-aos-delay="50"
+                data-aos-offset="2"
+                data-aos-delay="20"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"

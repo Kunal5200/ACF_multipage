@@ -1,6 +1,6 @@
 .circle {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   position: relative;
 }
 .circle .border {
@@ -10,9 +10,9 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #36BA24;
+  background: #36ba24;
   border-radius: 50%;
-  border:10px dashed #fff !important;
+  border: 10px dashed #fff !important;
   animation-name: Rotate;
   animation-duration: 2s;
   animation-timing-function: linear;
@@ -30,7 +30,7 @@
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
 }
-.circle .border:hover{
+.circle .border:hover {
   animation-play-state: paused;
 }
 
@@ -39,7 +39,13 @@
   top: 40px;
   padding: 30px;
   text-align: center;
-  
+}
+.stop h4{
+  font-size: 20px;
+}
+.main_border {
+  border: 2px dashed #36ba24;
+  width: 500px;
 }
 @keyframes Rotate {
   from {

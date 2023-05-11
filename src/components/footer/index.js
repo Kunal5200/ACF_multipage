@@ -6,14 +6,20 @@ import {
   FaTwitter,
   FaLinkedinIn,
   FaInstagram,
+  FaGooglePlay,
 } from "react-icons/fa";
+import {GrAppleAppStore} from 'react-icons/gr'
 import { AiFillAndroid } from "react-icons/ai";
 import Button from "../button";
 import { NavLink } from "react-router-dom";
 const Footer = () => {
   let links = [
     {
-      name: "About",
+      name: "HOME",
+      url: "/",
+    },
+    {
+      name: "ABOUT",
       url: "/about",
     },
     {
@@ -24,10 +30,7 @@ const Footer = () => {
       name: "MAATI",
       url: "/maati ",
     },
-    {
-      name: "FAQ",
-      url: "/faq",
-    },
+
     {
       name: "CONTACT",
       url: "/contact",
@@ -38,57 +41,58 @@ const Footer = () => {
       <div className="footer">
         <div className="bg-footer p-5">
           <div className="row align-items-center">
-            <div className="col-sm-3 ">
+            <div className="col-sm-11 m-auto  text-center">
               <img src={logo} />
-              <p className="text-left text-white">
+              {/* <p className="text-left text-white">
                 AllCanFarm empowers farmers to achieve higher yields, increase
                 profitability, and embrace sustainable farming practices.
-              </p>
-              {/* <div className="d-flex align-items-center justify-content-between my-3">
-              <div className="icons">
-                <FaFacebookF />
+              </p> */}
+              <div className="footer__links my-3">
+                {links.map((val) => (
+                  <NavLink to={val.url} className="mx-3 links_footer">
+                    {val.name}
+                  </NavLink>
+                ))}
               </div>
-              <div className="icons">
-                <FaTwitter />
-              </div>
-              <div className="icons">
-                <FaLinkedinIn />
-              </div>
-              <div className="icons">
-                <FaInstagram />
-              </div>
-            </div> */}
-              <div className="text-start">
+
+              <div className="d-flex align-items-center justify-content-center">
                 <a href="https://play.google.com/store/apps/details?id=com.allcanfarmapp.avigna">
                   <Button
-                    border="1px solid #222"
-                    bg="#222"
-                    rounded="50px"
+                    bg="#36BA24"
+                    border="2px solid #36BA24"
                     color="#ffffff"
-                    width="250px"
-                    height="60px"
+                    padding="2px"
+                    rounded="50px"
+                    width="175px"
                   >
                     <div className="d-flex align-items-center justify-content-center">
-                      <AiFillAndroid size={30} />
-                      <div className="d-block">
+                      <FaGooglePlay className="me-2" />
+                      <div>
                         <p className="mb-0">Get it on</p>
-                        <span className="fs-5">Google Play</span>
+                        <span>Google Play</span>
+                      </div>
+                    </div>
+                  </Button>
+                </a>
+                <a href="#" className="mx-3">
+                  <Button
+                    bg="#36BA24"
+                    border="2px solid #36BA24"
+                    color="#ffffff"
+                    padding="2px"
+                    rounded="50px"
+                    width="175px"
+                  >
+                    <div className="d-flex align-items-center justify-content-center">
+                      <GrAppleAppStore className="me-2" />
+                      <div>
+                        <p className="mb-0">Get it on</p>
+                        <span>Apple Store</span>
                       </div>
                     </div>
                   </Button>
                 </a>
               </div>
-            </div>
-            <div className="col-sm-4"></div>
-            <div className="col-sm-4 text-white ">
-              <h4>Quick Links</h4>
-              {links.map((val) => (
-                <div className="footer_links   my-3">
-                  <NavLink className="links_footer" to={val.url}>
-                    {val.name}
-                  </NavLink>
-                </div>
-              ))}
             </div>
           </div>
         </div>

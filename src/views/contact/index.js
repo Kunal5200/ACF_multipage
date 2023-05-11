@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="contact">
         <div className="container-fluid bg-grey bg_contact">
           <div className="row">
-            <div className="col-sm-7 col-md-7 p-5">
+            <div className="col-sm-12 col-md-7 col-lg-7 p-5">
               <div className="bg-light shadow p-5">
                 <form>
                   <h5 className="text-primary my-4">HAVE QUESTIONS?</h5>

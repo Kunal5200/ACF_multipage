@@ -9,8 +9,8 @@
   color: #000 !important;
   text-decoration: none !important;
 }
-.link .active{
-    color: #36ba24 !important;
+.link .active {
+  color: #36ba24 !important;
 }
 .link:hover {
   color: #36ba24 !important;
@@ -67,12 +67,13 @@
     height: 100%;
     transform: translateX(-100%);
     transition: all 0.45s;
+    z-index: 999;
   }
   .Navbar > .nav-items > a {
     padding-left: 185px;
     margin: 18px;
     font-size: 20px;
-    color: #ffffff;
+    color: #ffffff !important;
   }
   .Navbar > .nav-items > a::before {
     background-color: transparent;

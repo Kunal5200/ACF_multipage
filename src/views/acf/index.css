@@ -45,12 +45,6 @@
   }
 }
 
-@property --border-anlge {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0turn;
-}
-
 .upper_div {
   position: relative;
   overflow: hidden;
@@ -60,4 +54,15 @@
 }
 .process_hover {
   transition: 1s ease all;
+}
+
+@media screen and (max-width: 600px) {
+  .ACf {
+    height: 30vh;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .ACf {
+    height: 30vh;
+  }
 }

@@ -21,7 +21,7 @@ import {
 import { FaAngleDown, FaAngleUp, FaMinus, FaPlus } from "react-icons/fa";
 import data from "../../assests/data/data";
 const Home = () => {
-  Aos.init();
+  Aos.init({ disable: "mobile" });
 
   const Images = [
     {
@@ -63,14 +63,14 @@ const Home = () => {
           </div>
           <div className="row align-items-center">
             <div
-              className="col-sm-5"
+              className="col-sm-5 col-md-6"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
               <p className="text-primary mb-0 ms-3">Lorem</p>
@@ -98,7 +98,7 @@ const Home = () => {
                 </Button>
               </Link>
             </div>
-            <div className="col-sm-7 ">
+            <div className="col-sm-7 col-md-6 col-lg-7 ">
               <div className="row">
                 <div
                   className="col-sm-6 p-0  "
@@ -107,8 +107,8 @@ const Home = () => {
                   data-aos-delay="50"
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
-                  data-aos-once="false"
+                  data-aos-mirror="false"
+                  data-aos-once="true"
                   data-aos-anchor-placement="top-center"
                 >
                   <div
@@ -132,8 +132,8 @@ const Home = () => {
                       data-aos-delay="50"
                       data-aos-duration="1000"
                       data-aos-easing="ease-in-out"
-                      data-aos-mirror="true"
-                      data-aos-once="false"
+                      data-aos-mirror="false"
+                      data-aos-once="true"
                       data-aos-anchor-placement="top-center"
                     >
                       <div
@@ -156,8 +156,8 @@ const Home = () => {
                       data-aos-delay="50"
                       data-aos-duration="1000"
                       data-aos-easing="ease-in-out"
-                      data-aos-mirror="true"
-                      data-aos-once="false"
+                      data-aos-mirror="false"
+                      data-aos-once="true"
                       data-aos-anchor-placement="top-center"
                     >
                       <div
@@ -180,7 +180,7 @@ const Home = () => {
 
         <div className="container my-7">
           <div className="row align-items-center my-4">
-            <div className="col-sm-7">
+            <div className="col-sm-7 col-md-6 col-lg-7">
               <div className="row">
                 <div
                   className="col-sm-6 p-0  "
@@ -189,8 +189,8 @@ const Home = () => {
                   data-aos-delay="50"
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
-                  data-aos-once="false"
+                  data-aos-mirror="false"
+                  data-aos-once="true"
                   data-aos-anchor-placement="top-center"
                 >
                   <div
@@ -214,8 +214,8 @@ const Home = () => {
                       data-aos-delay="50"
                       data-aos-duration="1000"
                       data-aos-easing="ease-in-out"
-                      data-aos-mirror="true"
-                      data-aos-once="false"
+                      data-aos-mirror="false"
+                      data-aos-once="true"
                       data-aos-anchor-placement="top-center"
                     >
                       <div
@@ -238,8 +238,8 @@ const Home = () => {
                       data-aos-delay="50"
                       data-aos-duration="1000"
                       data-aos-easing="ease-in-out"
-                      data-aos-mirror="true"
-                      data-aos-once="false"
+                      data-aos-mirror="false"
+                      data-aos-once="true"
                       data-aos-anchor-placement="top-center"
                     >
                       <div
@@ -258,14 +258,14 @@ const Home = () => {
               </div>
             </div>
             <div
-              className="col-sm-5"
+              className="col-sm-5 col-md-6 col-lg-5"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-delay="50"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
               <p className="text-primary mb-0 ms-3">Lorem</p>
@@ -306,8 +306,8 @@ const Home = () => {
               data-aos-delay="50"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
               <div className="col-sm-12 m-auto mb-4">
@@ -326,8 +326,8 @@ const Home = () => {
               data-aos-delay="50"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
               <div className="col-sm-6 border p-3">
@@ -380,8 +380,8 @@ const Home = () => {
               data-aos-delay="50"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
               <div className="farmer p-3">
@@ -413,8 +413,8 @@ const Home = () => {
               data-aos-delay="50"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
               <div className="angel_farmer p-3">
@@ -569,8 +569,8 @@ const Home = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
+            data-aos-mirror="false"
+            data-aos-once="true"
             data-aos-anchor-placement="top-center"
           >
             <img src={organic} width="100%" />
@@ -582,8 +582,8 @@ const Home = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
+            data-aos-mirror="false"
+            data-aos-once="true"
             data-aos-anchor-placement="top-center"
           >
             <Accordion transition={{ duration: "1000ms" }}>
