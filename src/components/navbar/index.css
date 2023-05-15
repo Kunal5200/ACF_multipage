@@ -9,7 +9,7 @@
   color: #000 !important;
   text-decoration: none !important;
 }
-.link .active {
+.link.active {
   color: #36ba24 !important;
 }
 .link:hover {
@@ -51,6 +51,9 @@
 
 .Navbar > .nav-toggle {
   display: none;
+}
+.Navbar > .nav-items > a.active{
+  color: #36ba24;
 }
 
 @media (max-width: 700px) {
