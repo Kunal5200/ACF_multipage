@@ -10,6 +10,7 @@ import About from "../views/about";
 import Marketplace from "../views/maati";
 import Contact from "../views/contact";
 import Whatsapp from "../components/whatsapp";
+import Productview from "../views/product";
 
 const Router = () => {
   return (
@@ -23,6 +24,7 @@ const Router = () => {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/allcanfarm" element={<ACF />} />
         <Route exact path="/maati" element={<Marketplace />} />
+        <Route exact path="/productview" element={<Productview />} />
         <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
