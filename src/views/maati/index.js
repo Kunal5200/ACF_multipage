@@ -3,9 +3,44 @@ import "./index.css";
 import image from "../../assests/images/banner/green_field.webp";
 import Featurebox from "../../components/features_box";
 import maati from "../../assests/data/maati";
+
 import marketplace from "../../assests/images/banner/marketplace.webp";
 import Aos from "aos";
 const Marketplace = () => {
+  let data = [
+    {
+      img: maati.img1,
+      heading: maati.heading1,
+      desc: maati.desc1,
+    },
+    {
+      img: maati.img2,
+      heading: maati.heading2,
+      desc: maati.desc2,
+    },
+    {
+      img: maati.img3,
+      heading: maati.heading3,
+      desc: maati.desc3,
+    },
+  ];
+  let data2 = [
+    {
+      img: maati.img4,
+      heading: maati.heading4,
+      desc: maati.desc4,
+    },
+    {
+      img: maati.img5,
+      heading: maati.heading5,
+      desc: maati.desc5,
+    },
+    {
+      img: maati.img6,
+      heading: maati.heading6,
+      desc: maati.desc6,
+    },
+  ];
   Aos.init();
   return (
     <div>
@@ -21,10 +56,10 @@ const Marketplace = () => {
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
-              data-aos-duration="1000"
+              data-aos-duration="600"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
               Dhur Maati-Farm to Table
@@ -34,34 +69,22 @@ const Marketplace = () => {
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-delay="50"
-              data-aos-duration="1000"
+              data-aos-duration="600"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
-              Maati is a vertical of AllCanFarm, which allows the angel farmer
-              to list the crops and fruits produced on the adopted farm to reach
-              urban homes. The concept of Maati is straightforward: deliver pure
-              and unprocessed food directly to consumers' tables. This model
-              works best as it bypasses intermediaries like wholesalers,
-              distributors, and retailers. Maati allows to earn reasonable
-              profit without splitting the same with middlemen. Additionally,
-              consumers can enjoy farm- fresh produce and have a better
-              connection to the source of their food. With Maati, farmers can be
-              stress-free as the crop and fruit yields will be taken care of by
-              the angel farmer from AllCanFarm, along with the transportation,
-              logistics, sales, distribution, high-tech equipment for storage,
-              and expert guidance.
+              {maati.para}
             </p>
             <p
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
-              data-aos-duration="1000"
+              data-aos-duration="600"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
               This form of farm to table is profitable in many ways. Maati
@@ -81,10 +104,10 @@ const Marketplace = () => {
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
-              data-aos-duration="1000"
+              data-aos-duration="600"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
               {" "}
@@ -93,113 +116,45 @@ const Marketplace = () => {
             </p>
           </div>
         </div>
-        <div className="row my-7 align-items-center">
-          <div className="col-sm-6 col-md-7 col-lg-6">
-            <h4
+
+        <div>
+          <h4 className="animate_animated animate__zoomInRight ">
+            How Dhur Maati Works?
+          </h4>
+        </div>
+        <div className="row my-5">
+          {data.map((val) => (
+            <div
+              className="col-sm-4"
+              data-aos="fade-right"
+              data-aos-offset="20"
+              data-aos-delay="50"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="false"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center"
+            >
+              <Featurebox img={val.img} heading={val.heading} desc={val.desc} />
+            </div>
+          ))}
+        </div>
+        <div className="row my-5">
+          {data2.map((val) => (
+            <div
+              className="col-sm-4"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-delay="50"
-              data-aos-duration="1000"
+              data-aos-duration="600"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-mirror="false"
+              data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
-              How does Dhur Maati Work?
-            </h4>
-            <div className="row my-3">
-              <div
-                className="col-sm-6 col-md-6 col-lg-6"
-                // data-aos="fade-right"
-                // data-aos-offset="20"
-                // data-aos-delay="50"
-                // data-aos-duration="1000"
-                // data-aos-easing="ease-in-out"
-                // data-aos-mirror="true"
-                // data-aos-once="false"
-                // data-aos-anchor-placement="top-center"
-              >
-                <Featurebox
-                  heading={maati.heading1}
-                  desc={maati.desc1}
-                  img={maati.img1}
-                />
-              </div>
-              <div
-                className="col-sm-6 col-lg-6 col-md-6"
-                // data-aos="fade-left"
-                // data-aos-offset="20"
-                // data-aos-delay="50"
-                // data-aos-duration="1000"
-                // data-aos-easing="ease-in-out"
-                // data-aos-mirror="true"
-                // data-aos-once="false"
-                // data-aos-anchor-placement="top-center"
-              >
-                <Featurebox
-                  heading={maati.heading2}
-                  desc={maati.desc2}
-                  img={maati.img2}
-                />
-              </div>
+              <Featurebox img={val.img} heading={val.heading} desc={val.desc} />
             </div>
-            <div className="row my-3">
-              <div
-                className="col-sm-6 col-md-6 col-lg-6"
-                // data-aos="fade-right"
-                // data-aos-offset="20"
-                // data-aos-delay="50"
-                // data-aos-duration="1000"
-                // data-aos-easing="ease-in-out"
-                // data-aos-mirror="true"
-                // data-aos-once="false"
-                // data-aos-anchor-placement="top-center"
-              >
-                <Featurebox
-                  heading={maati.heading3}
-                  desc={maati.desc3}
-                  img={maati.img3}
-                />
-              </div>
-              <div
-                className="col-sm-6 col-md-6 col-lg-6"
-                // data-aos="fade-left"
-                // data-aos-offset="20"
-                // data-aos-delay="50"
-                // data-aos-duration="1000"
-                // data-aos-easing="ease-in-out"
-                // data-aos-mirror="true"
-                // data-aos-once="false"
-                // data-aos-anchor-placement="top-center"
-              >
-                <Featurebox
-                  heading={maati.heading4}
-                  desc={maati.desc4}
-                  img={maati.img4}
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-sm-6 col-md-5 col-lg-6"
-            // data-aos="fade-up"
-            // data-aos-offset="20"
-            // data-aos-delay="50"
-            // data-aos-duration="1000"
-            // data-aos-easing="ease-in-out"
-            // data-aos-mirror="true"
-            // data-aos-once="false"
-            // data-aos-anchor-placement="top-center"
-          >
-            <div className="upper_div rounded">
-              <img
-                src={marketplace}
-                height="100%"
-                width="100%"
-                className="rounded process_hover"
-              />
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>

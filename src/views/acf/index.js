@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
-import farm from "../../assests/images/banner/field.webp";
 import farmstead from "../../assests/images/green_field.jpg";
-import Button from "../../components/button";
 import description from "../../assests/data/constant";
 import transportation from "../../assests/images/banner/transportation.webp";
 import corporate from "../../assests/images/banner/corporate.webp";
@@ -36,17 +34,17 @@ const ACF = () => {
             >
               <h4>What is AllCanFarm?</h4>
               <p className="text-grey text-justify">
-                The best way to secure your money is to create an asset in the
-                form of farmland with the highest-quality crops or fruits.
-                AllCanFarm is a platform for farmers and angel farmers to build
-                a collaborative relationship in the form of scalable farming
-                practices. The platform gives the angel farmer the opportunity
-                to adopt and invest in farmland.As an angel farmer, you will be
-                in regular communication with the farmer to understand the
-                yield, quality of crops and fruits, and harvesting time. For
-                example, some crops, such as soybeans or corn, are in high
-                demand and can be profitable, while others, like fruits, may
-                require more specialised knowledge and management.
+                The best way to secure your money is to create an asset by
+                adopting farms and harvesting the highest-quality crops or
+                fruits. AllCanFarm is a platform for farmers and angel farmers
+                to build a collaborative relationship in the form of scalable
+                farming practices. The platform gives the angel farmer the
+                opportunity to adopt farms. As, an angel farmer, you will be in
+                regular communication with the farmer to understand the yield,
+                quality of crops and fruits, and harvesting time. For example,
+                some crops, such as soybeans or corn, are in high demand and can
+                be profitable, while others, like fruits, may require more
+                specialised knowledge and management.
               </p>
             </div>
           </div>
@@ -70,7 +68,7 @@ const ACF = () => {
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h5>Living at the farmstead</h5>
+            <h5>AllCanFarm Living</h5>
             <p className="text-justify">{description.description.message1}</p>
           </div>
           <div
@@ -89,6 +87,7 @@ const ACF = () => {
                 src={farmstead}
                 width="100%"
                 className="rounded process_hover"
+                alt=""
               />
             </div>
             {/* <div className="border_div"></div> */}
@@ -111,6 +110,7 @@ const ACF = () => {
                 src={transportation}
                 width="100%"
                 className="rounded process_hover"
+                alt=""
               />
             </div>
           </div>
@@ -125,7 +125,7 @@ const ACF = () => {
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h5>Logistics and transportation</h5>
+            <h5>AllCanFarm Logistics</h5>
             <p className="text-justify">{description.description.message2}</p>
           </div>
         </div>
@@ -211,7 +211,7 @@ const ACF = () => {
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h5>Marketplace for produce</h5>
+            <h5>AllCanFarm Marketplace</h5>
             <p className="text-justify">{description.description.message5}</p>
           </div>
           <div
@@ -230,6 +230,7 @@ const ACF = () => {
                 src={marketplace}
                 width="100%"
                 className="rounded process_hover"
+                alt=""
               />
             </div>
           </div>
