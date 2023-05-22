@@ -32,7 +32,7 @@ const About = () => {
               data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
-            AllCanFarm: cultivating connection, Nourishing Communities{" "}
+            AllCanFarm: Cultivating Connection, Nourishing Communities{" "}
             </h4>
             <p
               className="text-justify"
