@@ -34,17 +34,9 @@ const ACF = () => {
             >
               <h4>What is AllCanFarm?</h4>
               <p className="text-grey text-justify">
-                The best way to secure your money is to create an asset by
-                adopting farms and harvesting the highest-quality crops or
-                fruits. AllCanFarm is a platform for farmers and angel farmers
-                to build a collaborative relationship in the form of scalable
-                farming practices. The platform gives the angel farmer the
-                opportunity to adopt farms. As, an angel farmer, you will be in
-                regular communication with the farmer to understand the yield,
-                quality of crops and fruits, and harvesting time. For example,
-                some crops, such as soybeans or corn, are in high demand and can
-                be profitable, while others, like fruits, may require more
-                specialised knowledge and management.
+              platform is a testament to the power of direct connection. Here, consumers and farmers come together, forging a bond that transcends the impersonal walls of the marketplace. When you engage with our platform, you gain more than just a transaction; you become a part of a movement, a force that uplifts farmers and celebrates the purest produce.
+By facilitating this direct interaction, we unlock a world of possibilities. The path from farm to table becomes a shorter journey, eliminating unnecessary middlemen and ensuring fair compensation for the diligent hands that cultivate the land. When the consumer meets the farmer, a ripple of positive change is felt. Farmers' incomes grow, allowing them to invest in their craft, their families, and their communities. And you, dear consumer, benefit from this connection as well. You receive produce untouched by hidden hands, untainted by unnecessary processes, and enriched by the care and dedication of those who lovingly grew it.
+In the tapestry of our story, each thread weaves a tale of empowerment, sustainability, and trust. We invite you to join us on this journey, where the farmer's toil becomes an investment in a brighter future, and the consumer's choice becomes a vote for purity and authenticity. Together, we can change the way we nourish ourselves, create a sustainable ecosystem, and embrace the profound beauty of our connection to the earth and each other.
               </p>
             </div>
           </div>

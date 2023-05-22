@@ -4,9 +4,9 @@ import Aos from "aos";
 import image1 from "../../assests/images/banner/indian_farmer_1.webp";
 import image2 from "../../assests/images/banner/indian_farmer_plowing_files_1.webp";
 import image3 from "../../assests/images/banner/young_farmer.webp";
-import angel1 from "../../assests/images/banner/angel_farmer1.webp";
-import angel2 from "../../assests/images/banner/angel_farmer2.webp";
-import angel3 from "../../assests/images/banner/angel_farmer3.webp";
+import angel1 from "../../assests/images/banner/angel_farmer1.jpg";
+import angel2 from "../../assests/images/banner/angel_farmer2.jpg"
+import angel3 from "../../assests/images/banner/angel_farmer3.jpg";
 import farmer from "../../assests/images/banner/farmer.png";
 import angelfarmer from "../../assests/images/banner/farmer01.png";
 import Button from "../../components/button";
@@ -357,12 +357,12 @@ const Home = () => {
                     <li className="benefits_list my-2 text-justify ">
                       Angel Farmers can reduce their carbon footprints.
                     </li>
+                    <li className="benefits_list my-2  text-justify">
+                      Angel Farmers can find a marketplace for produce.
+                    </li>
                     <li className="benefits_list my-2 text-justify ">
                       Angel Farmers will have a proper living facility at the
                       farms with all the required amenities, including Wi-Fi.
-                    </li>
-                    <li className="benefits_list my-2  text-justify">
-                      Angel Farmers can find a marketplace for produce.
                     </li>
                   </ul>
                 </div>
@@ -373,9 +373,9 @@ const Home = () => {
       </div>
       <div className="container-fluid my-7">
         <h3 className="text-center my-4">Common Questions</h3>
-        <div className="row">
+        <div className="row align-items-center">
           <div
-            className="col-sm-5"
+            className="col-sm-5 img-fluid"
             data-aos="fade-right"
             data-aos-offset="20"
             data-aos-delay="50"

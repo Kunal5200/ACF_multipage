@@ -1,5 +1,5 @@
 .product:hover {
-    box-shadow: 0px 0px 1px 1px #11111165;
+    /* box-shadow: 0px 0px 1px 1px #11111165; */
     scale: 1.1;
   }
   .product {
@@ -16,6 +16,10 @@
 
   .button{
     align-items: center;
+  }
+  .benefits_list::before {
+    content: "🌿";
+    margin-right: 5px;
   }
   /* .heaad{
   text-align: center;

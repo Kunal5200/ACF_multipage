@@ -9,17 +9,35 @@ import Aos from "aos";
 import Productcard from "../../components/products";
 import product from "../../assests/data/product";
 import { useNavigate } from "react-router-dom";
+import Multislider from "../../components/multicarousel";
 
 const Marketplace = () => {
-  let navigate =  useNavigate();
-  let clickHandler=(val)=>{
-    navigate('/productview',{state:{data:val}})
-  }
+  // let navigate = useNavigate();
+
+  const productresponsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+
   let data = [
     {
       img: maati.img1,
       heading: maati.heading1,
-      // desc: maati.desc1,
+      desc: maati.desc1,
     },
     {
       img: maati.img2,
@@ -49,43 +67,63 @@ const Marketplace = () => {
       desc: maati.desc6,
     },
   ];
- 
 
   let data3 = [
     {
       img: product.img1,
       heading: product.heading1,
-      
+      data: {
+        features: product.feature1,
+      },
     },
     {
       img: product.img2,
       heading: product.heading2,
-      
+      data: {
+        features: product.feature2,
+      },
     },
     {
       img: product.img3,
       heading: product.heading3,
-  
+      data: {
+        features: product.feature3,
+      },
     },
-  ];
-  let data4 = [
     {
       img: product.img4,
-      
+
       heading: product.heading4,
+      data: {
+        features: product.feature4,
+      },
     },
     {
       img: product.img5,
-      
+      data: {
+        features: product.feature5,
+      },
+
       heading: product.heading5,
     },
     {
       img: product.img6,
-      
       heading: product.heading6,
+
+      data: {
+        features: product.feature6,
+      },
+    },
+    {
+      img: product.img7,
+      heading: product.heading7,
+
+      data: {
+        features: product.feature7,
+      },
     },
   ];
-
+  let data4 = [];
 
   Aos.init();
   return (
@@ -205,47 +243,12 @@ const Marketplace = () => {
 
         <div>
           <h4 className="animate_animated animate__zoomInRight ">
-          PRODUCT LIST FOR MAATI
+            PRODUCT LIST
           </h4>
         </div>
-        <div className="row my-5">
-          {data3.map((val) => (
-            <div
-            onClick={()=>{clickHandler(val.data)}}
-              className="col-sm-4"
-              data-aos="fade-right"
-              data-aos-offset="20"
-              data-aos-delay="50"
-              data-aos-duration="600"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="false"
-              data-aos-once="true"
-              data-aos-anchor-placement="top-center"
-            >
-              <Productcard img={val.img} heading={val.heading}/>
-            </div>
-          ))}
+        <div>
+          <Multislider data={data3} responsive={productresponsive} />
         </div>
-       
-        <div className="row my-5">
-          {data4.map((val) => (
-            <div
-            onClick={()=>{clickHandler(val.data)}}
-              className="col-sm-4"
-              data-aos="fade-right"
-              data-aos-offset="20"
-              data-aos-delay="50"
-              data-aos-duration="600"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="false"
-              data-aos-once="true"
-              data-aos-anchor-placement="top-center"
-            >
-              <Productcard img={val.img} heading={val.heading}/>
-            </div>
-          ))}
-        </div>
-
       </div>
     </div>
   );

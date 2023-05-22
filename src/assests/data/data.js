@@ -1,3 +1,4 @@
+import mustard from '../images/1.jpg'
 let data = {
   faq: [
     {
@@ -80,5 +81,11 @@ let data = {
         "AllCanFarm can provide corporates with several benefits, including supporting sustainable farming, accessing fresh and local produce, potential cost savings, opportunities for corporate social responsibility, access to investment opportunities, and potentially diversifying their portfolios.",
     },
   ],
+  product: [
+    {
+      img1: mustard,
+      heading1: "COLD PRESSED MUSTARD OIL",
+    }
+  ]
 };
 export default data;

@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style/custom.css";
+import "react-multi-carousel/lib/styles.css";
 import "animate.css";
 import "aos/dist/aos.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));

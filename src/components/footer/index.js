@@ -75,7 +75,7 @@ const Footer = () => {
                   </Button>
                 </a>
                 <a href="#" className="mx-3">
-                  <Button
+                  {/* <Button
                     bg="#36BA24"
                     border="2px solid #36BA24"
                     color="#ffffff"
@@ -90,7 +90,7 @@ const Footer = () => {
                         <span>Apple Store</span>
                       </div>
                     </div>
-                  </Button>
+                  </Button> */}
                 </a>
               </div>
             </div>

@@ -32,7 +32,7 @@ const About = () => {
               data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
-              Evolutionary Path{" "}
+            AllCanFarm: cultivating connection, Nourishing Communities{" "}
             </h4>
             <p
               className="text-justify"
@@ -45,19 +45,9 @@ const About = () => {
               data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
-              AllCanFarm is a unique ecosystem that connects farmers with angel
-              farmers to create a sustainable and efficient agricultural
-              process. The platform is designed to bring value addition to every
-              step of the farming lifecycle, from seed to harvest. With a focus
-              on organic and regenerative farming, AllCanFarm empowers farmers
-              to grow healthy crops while minimizing the impact on the
-              environment. The platform also integrates with Maati Marketplace,
-              an online marketplace that allows farmers to sell their produce
-              directly to consumers, cutting out intermediaries and providing a
-              fair price for both parties. Through this comprehensive approach,
-              AllCanFarm is revolutionizing the way we think about agriculture
-              and creating a more equitable and sustainable future for farmers
-              and consumers alike.
+              In the verdant lands where nature's bounty thrives, a tale unfolds—a story of connection, nourishment, and empowerment. At the heart of this narrative lies a platform, a bridge that unites farmers and consumers in a symbiotic bond. Welcome to our world, where we weave together the threads of agriculture and community.
+On our platform, we embrace the profound importance of the farmer's role in cultivating the food we savour. We have gathered a network of dedicated farmers, each with their patch of fertile soil, tending to their crops with unwavering passion. Through our platform, these farmers diligently grow and nurture the crops destined to become part of your table, your sustenance.
+But our purpose goes beyond the seeds planted in the earth. We believe in supporting our farmers, ensuring they have access to the tools and resources necessary to bring you the purest and finest food produce. We provide them with state-of-the-art processing units, where the harvest is carefully transformed into pristine, untainted goodness. By empowering our farmers with these processing facilities, we ensure that their toil bears fruit—a bountiful harvest that reaches you, the discerning consumer, in its most unadulterated form.
             </p>
           </div>
         </div>
