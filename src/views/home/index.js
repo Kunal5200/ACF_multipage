@@ -374,7 +374,7 @@ const Home = () => {
         </div>
       </div>
 
-
+      <div className="background_farmer__angel  p-3">
       <div className="container mt-5 pt-5">
 
       <h5 className=" text-uppercase text-primary fw-bold">
@@ -386,7 +386,7 @@ const Home = () => {
 
 
           <div className="row mt-5" >
-            <div className="col-sm-6  text-center"
+            <div className="col-sm-6 text-center"
             data-aos="fade-right"
             data-aos-offset="150"
             data-aos-delay="20"
@@ -395,7 +395,10 @@ const Home = () => {
             data-aos-mirror="true"
             data-aos-once="true"
             data-aos-anchor-placement="top-center">
-              <img src={green_field} width="100%" height="80%" />
+              
+              <div className="upper_div rounded shadow">
+              <img src={green_field}  width="100%" height="80%"   className="rounded process_hover" />
+            </div>
             </div>
             <div className="col-sm-6 ">
               <div className="row">
@@ -457,7 +460,7 @@ const Home = () => {
  </div>
  </div>
               </div>
-              <div className="col-sm-6  text-center"
+              <div className="col-sm-6  text-center "
               data-aos="fade-left"
               data-aos-offset="150"
               data-aos-delay="20"
@@ -466,7 +469,10 @@ const Home = () => {
               data-aos-mirror="true"
               data-aos-once="true"
               data-aos-anchor-placement="top-center">
-               <img src={farm_field} width="100%" height="80%" />
+              
+              <div className="upper_div rounded shadow">
+               <img src={farm_field} width="100%" height="80%"   className="rounded process_hover"/>
+              </div>
               </div>
             </div>
           </div>
@@ -484,7 +490,9 @@ const Home = () => {
             data-aos-mirror="true"
             data-aos-once="true"
             data-aos-anchor-placement="top-center">
-              <img src={green_field} width="100%" height="80%" />
+                <div className="upper_div rounded shadow">
+              <img src={green_field} width="100%" height="80%"   className="rounded process_hover" />
+            </div>
             </div>
             <div className="col-sm-6 ">
               <div className="row">
@@ -553,9 +561,12 @@ const Home = () => {
               data-aos-mirror="true"
               data-aos-once="true"
               data-aos-anchor-placement="top-center">
-               <img src={farm_field} width="100%" height="80%" />
+                  <div className="upper_div rounded shadow">
+               <img src={farm_field} width="100%" height="80%"   className="rounded process_hover" />
+              </div>
               </div>
             </div>
+          </div>
           </div>
 
 

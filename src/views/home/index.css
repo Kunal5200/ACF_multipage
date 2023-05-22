@@ -42,6 +42,17 @@
   content: "-";
   margin-right: 5px;
 }
+.upper_div {
+  position: relative;
+  overflow: hidden;
+}
+.process_hover:hover {
+  scale: 1.2;
+}
+.process_hover {
+  transition: 1s ease all;
+}
+
 .benefits_farmer {
   background-image: url("../../assests/images/banner/field.webp");
   background-repeat: no-repeat;
@@ -126,6 +137,8 @@
   padding: 5px;
   color: grey;
 }
+
+
 @media screen and (max-width: 600px) {
   .height_farmer {
     height: 100%;
