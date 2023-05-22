@@ -19,7 +19,7 @@ const Marketplace = () => {
     {
       img: maati.img1,
       heading: maati.heading1,
-      desc: maati.desc1,
+      // desc: maati.desc1,
     },
     {
       img: maati.img2,
@@ -55,33 +55,33 @@ const Marketplace = () => {
     {
       img: product.img1,
       heading: product.heading1,
-      data:"COLD PRESSED MUSTARD OIL",
+      
     },
     {
       img: product.img2,
       heading: product.heading2,
-      data:"CUMIN (JEERA) WHOLE",
+      
     },
     {
       img: product.img3,
       heading: product.heading3,
-      data:"CUMIN (JEERA) POWDER",
+  
     },
   ];
   let data4 = [
     {
       img: product.img4,
-      data: "CORIANDER (DHANIA) WHOLE",
+      
       heading: product.heading4,
     },
     {
       img: product.img5,
-      data:"CORIANDER (DHANIA) POWDER",
+      
       heading: product.heading5,
     },
     {
       img: product.img6,
-      data:"TURMERIC (HALDI) POWDER",
+      
       heading: product.heading6,
     },
   ];
