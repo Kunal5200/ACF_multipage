@@ -12,6 +12,8 @@ import angelfarmer from "../../assests/images/banner/farmer01.png";
 import Button from "../../components/button";
 import { Link } from "react-router-dom";
 import organic from "../../assests/images/organic.jpg";
+import green_field from "../../assests/images/green_field.jpg";
+import farm_field from "../../assests/images/farm_field.jpg";
 import {
   Accordion,
   AccordionBody,
@@ -371,7 +373,194 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid my-7">
+
+
+      <div className="container mt-5 pt-5">
+
+      <h5 className=" text-uppercase text-primary fw-bold">
+                     Why work with AllCanFarm?
+                    </h5>
+                    <p className="text-justify"> 
+                    AllCanFarm is a collaborative relationship between farmers and angel farmers, which provides many reasons to work with us.
+                   </p>
+
+
+          <div className="row mt-5" >
+            <div className="col-sm-6  text-center"
+            data-aos="fade-right"
+            data-aos-offset="150"
+            data-aos-delay="20"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center">
+              <img src={green_field} width="100%" height="80%" />
+            </div>
+            <div className="col-sm-6 ">
+              <div className="row">
+                <div className="col-sm-10 m-auto">
+                  <div className="mt-4"
+                  data-aos="fade-left"
+                  data-aos-offset="150"
+                  data-aos-delay="20"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center">
+                    
+                   <ul className="list-unstyled">
+                    <li className="benefits_list my-2" >Adopt farms, trees, and crops.</li>
+                    <li className="benefits_list my-2 ">Use of technology and online methods to see farm progress.</li>
+                    <li className="benefits_list my-2">Option to stay at the farm.</li>
+                    <li className="benefits_list my-2">Produce can be listed on marketplaces such as Maati.</li>
+                    <li className="benefits_list my-2">From logistics to packaging to distribution, everything is under one roof.</li>
+                    <li className="benefits_list my-2">We have technology-backed processing facilities for final consumables such as cold-pressed mustard oil, turmeric powder, cumin powder, and much more.</li></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+          <div className="container mt-5 pt-5" >
+            <div className="row">
+              <div className="col-sm-6">
+              <div className="col-sm-10 m-auto">
+                <div className="mt-4"
+                data-aos="fade-right"
+                data-aos-offset="150"
+                data-aos-delay="20"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center">
+                  <p className=" text-uppercase text-primary fw-bold f-18 ls-6">
+                  Farm adoption plans
+                    </p>
+                  <p className="text-justify">  We have curated farm adoption plans for angel farmers.
+              </p>
+              <h4 className="text-justify my-3 ">
+                    Short Term Plan (2-3 Years)
+                    </h4>
+              <ul className="list-unstyled">
+                    <li className="benefits_list my-2" >2 crops or plants</li>
+                    <li className="benefits_list my-2 "> 1-3 YOY Returns</li>
+                    <li className="benefits_list my-2"> 15% YOY Returns</li>
+                    <li className="benefits_list my-2">Investment Protection</li>
+                    <li className="benefits_list my-2">Low Risk Investment</li>
+                    </ul>
+                
+ </div>
+ </div>
+              </div>
+              <div className="col-sm-6  text-center"
+              data-aos="fade-left"
+              data-aos-offset="150"
+              data-aos-delay="20"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center">
+               <img src={farm_field} width="100%" height="80%" />
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className="container mt-5 pt-5">
+          <div className="row" >
+            <div className="col-sm-6  text-center"
+            data-aos="fade-right"
+            data-aos-offset="150"
+            data-aos-delay="20"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center">
+              <img src={green_field} width="100%" height="80%" />
+            </div>
+            <div className="col-sm-6 ">
+              <div className="row">
+                <div className="col-sm-10 m-auto">
+                  <div className="mt-4"
+                  data-aos="fade-left"
+                  data-aos-offset="150"
+                  data-aos-delay="20"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center">
+                   
+                    <h4 className="text-justify my-3"> 
+                    Mid Term Plan (4-7 Years)
+                   </h4>
+                   <ul className="list-unstyled">
+                    <li className="benefits_list my-2" >3 crops or plants</li>
+                    <li className="benefits_list my-2 ">1-7 YOY Returns</li>
+                    <li className="benefits_list my-2">25% YOY Returns</li>
+                    <li className="benefits_list my-2">Investment Protection</li>
+                    <li className="benefits_list my-2">Low Risk Investment</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div className="container mt-5 pt-5" >
+            <div className="row">
+              <div className="col-sm-6">
+              <div className="col-sm-10 m-auto">
+                <div className="mt-4"
+                data-aos="fade-right"
+                data-aos-offset="150"
+                data-aos-delay="20"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center">
+                
+              <h4 className="text-justify my-3 ">
+                    Long Term Plan (8-15 Years)
+                    </h4>
+              <ul className="list-unstyled">
+                    <li className="benefits_list my-2" >4 crops or plants</li>
+                    <li className="benefits_list my-2 ">1-15 YOY Returns</li>
+                    <li className="benefits_list my-2">35% YOY Returns </li>
+                    <li className="benefits_list my-2">Investment Protection</li>
+                    <li className="benefits_list my-2">Low Risk Investment</li>
+                    </ul>
+                
+ </div>
+ </div>
+              </div>
+              <div className="col-sm-6  text-center"
+              data-aos="fade-left"
+              data-aos-offset="150"
+              data-aos-delay="20"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center">
+               <img src={farm_field} width="100%" height="80%" />
+              </div>
+            </div>
+          </div>
+
+
+
+      <div className="container-fluid my-5">
         <h3 className="text-center my-4">Common Questions</h3>
         <div className="row align-items-center">
           <div
