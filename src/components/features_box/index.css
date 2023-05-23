@@ -16,3 +16,8 @@
     height: 325px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .bbb{height: 10%;
+  margin-top: 32px;}
+}

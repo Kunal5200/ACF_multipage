@@ -136,7 +136,8 @@ const Marketplace = () => {
       <div className="container p-3">
         <div className="row my-5">
           <div className="col-sm-12">
-            <h4
+          
+            <h4 className="dhurr"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
@@ -149,7 +150,7 @@ const Marketplace = () => {
               Dhur Maati-Farm to Table
             </h4>
             <p
-              className="text-justify"
+              className="text-justify our"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-delay="50"
@@ -161,7 +162,8 @@ const Marketplace = () => {
             >
               {maati.para}
             </p>
-            <p
+           
+            <p className="our text-justify"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
@@ -184,7 +186,7 @@ const Marketplace = () => {
               their customers and provide high-quality, sustainably produced
               produce.
             </p>
-            <p
+            <p className="our"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
@@ -202,7 +204,7 @@ const Marketplace = () => {
         </div>
 
         <div>
-          <h4 className="animate_animated animate__zoomInRight ">
+          <h4 className="animate_animated animate__zoomInRight howd">
             How Dhur Maati Works?
           </h4>
         </div>
@@ -235,6 +237,7 @@ const Marketplace = () => {
               data-aos-mirror="false"
               data-aos-once="true"
               data-aos-anchor-placement="top-center"
+              
             >
               <Featurebox img={val.img} heading={val.heading} desc={val.desc} />
             </div>
@@ -242,7 +245,7 @@ const Marketplace = () => {
         </div>
 
         <div>
-          <h4 className="animate_animated animate__zoomInRight ">
+          <h4 className="animate_animated animate__zoomInRight ind ">
             PRODUCT LIST
           </h4>
         </div>

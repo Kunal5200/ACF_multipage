@@ -32,8 +32,8 @@ const ACF = () => {
               data-aos-once="false"
               data-aos-anchor-placement="top-center"
             >
-              <h4>What is AllCanFarm?</h4>
-              <p className="text-grey text-justify">
+              <h4 className="ourr">What is AllCanFarm?</h4>
+              <p className="text-grey text-justify our">
              Our platform is a testament to the power of direct connection. Here, consumers and farmers come together, forging a bond that transcends the impersonal walls of the marketplace. When you engage with our platform, you gain more than just a transaction; you become a part of a movement, a force that uplifts farmers and celebrates the purest produce.
 By facilitating this direct interaction, we unlock a world of possibilities. The path from farm to table becomes a shorter journey, eliminating unnecessary middlemen and ensuring fair compensation for the diligent hands that cultivate the land. When the consumer meets the farmer, a ripple of positive change is felt. Farmers' incomes grow, allowing them to invest in their craft, their families, and their communities. And you, dear consumer, benefit from this connection as well. You receive produce untouched by hidden hands, untainted by unnecessary processes, and enriched by the care and dedication of those who lovingly grew it.
 In the tapestry of our story, each thread weaves a tale of empowerment, sustainability, and trust. We invite you to join us on this journey, where the farmer's toil becomes an investment in a brighter future, and the consumer's choice becomes a vote for purity and authenticity. Together, we can change the way we nourish ourselves, create a sustainable ecosystem, and embrace the profound beauty of our connection to the earth and each other.
@@ -47,7 +47,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         </div>
       </div>
       <div className="container">
-        <h2 className="my-5">How AllCanFarm Works? </h2>
+        <h2 className="my-5 ourr">How AllCanFarm Works? </h2>
         <div className="row align-items-center my-7">
           <div
             className="col-sm-6"
@@ -60,8 +60,8 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h5>AllCanFarm Living</h5>
-            <p className="text-justify">{description.description.message1}</p>
+            <h5 className="ourrr ">AllCanFarm Living</h5>
+            <p className="text-justify our ">{description.description.message1}</p>
           </div>
           <div
             className="col-sm-6"
@@ -97,7 +97,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <div className="upper_div rounded shadow">
+            <div className="upper_div rounded shadow trans">
               <img
                 src={transportation}
                 width="100%"
@@ -117,8 +117,8 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h5>AllCanFarm Logistics</h5>
-            <p className="text-justify">{description.description.message2}</p>
+            <h5 className="allfa">AllCanFarm Logistics</h5>
+            <p className="text-justify our ">{description.description.message2}</p>
           </div>
         </div>
         <div className="row align-items-center my-7">
@@ -133,8 +133,8 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h5>Corporate Social Responsibility</h5>
-            <p className="text-justify">{description.description.message3}</p>
+            <h5 className="ourrr">Corporate Social Responsibility</h5>
+            <p className="text-justify our">{description.description.message3}</p>
           </div>
           <div
             className="col-sm-6"
@@ -168,7 +168,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <div className="rounded upper_div shadow">
+            <div className="rounded upper_div shadow trans">
               <img
                 src={carbon}
                 width="100%"
@@ -187,8 +187,8 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h5>Carbon Credits</h5>
-            <p className="text-justify">{description.description.message4}</p>
+            <h5 className="allfa">Carbon Credits</h5>
+            <p className="text-justify our ">{description.description.message4}</p>
           </div>
         </div>
         <div className="row align-items-center my-7">
@@ -203,8 +203,8 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h5>AllCanFarm Marketplace</h5>
-            <p className="text-justify">{description.description.message5}</p>
+            <h5 className="ourrr">AllCanFarm Marketplace</h5>
+            <p className="text-justify our">{description.description.message5}</p>
           </div>
           <div
             className="col-sm-6"

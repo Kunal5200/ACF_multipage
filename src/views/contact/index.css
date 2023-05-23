@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+    .have{
+        font-size: 16px !important;}
+        .name{
+            margin-bottom: -12px !important;
+        }
+        .send{font-size: 17px !important;}
+        .number{margin-top: 2px !important;}
+        .mail{margin-bottom: 10px !important;}
+        .buttonn{width: 154px !important;}
+        .styles-module_whatsappButton__tVits{
+            width: 50px !important;
+            height: 48px !important;
+        }      
+        .contaaact{font-size: 15px !important;
+        }
+    .paragraph{    font-size: 14px !important;}
+    .number{font-size: 14px !important;}
+    .cll{    height: 45px !important;
+        width: 45px !important;
+        margin-top: 12px !important;
+    }
+} 

@@ -11,7 +11,7 @@ const Productview = (props) => {
     <div>
       <div className="pro">
         <div className="bg-ACF">
-          <h2 className="text-white animate__animated animate__bounceInDown">
+          <h2 className="text-white animate__animated animate__bounceInDown ind">
           {location.state.heading}
           </h2>
         </div>
@@ -33,13 +33,13 @@ const Productview = (props) => {
                 data-aos-once="true"
                 data-aos-anchor-placement="top-center"
               >
-                <p className="text-primary fw-bold f-18 ls-6">
+                <p className="text-primary fw-bold f-18 ls-6 emp  ">
                 {location.state.heading}
                 </p>
                 <h3 className="text-justify mt-3">Features:</h3>
                 <ul className="list-unstyled">
                   {location.state.data.features.map((val,id)=>{
-                    return(<li className="benefits_list mt-2">{val.feature}</li>);
+                    return(<li className="benefits_list mt-2 our">{val.feature}</li>);
                   })}
                 </ul>
               </div>

@@ -66,3 +66,12 @@
     height: 30vh;
   }
 }
+@media screen and (max-width: 768px) {
+  .our{font-size: 12px !important;}
+  .ourr{font-size: 18px !important;
+  margin-top: -22px;}
+  .ourrr{font-size: 18px !important;
+  margin-top: -72px;}
+  .trans{ margin-top: -72px !important;}
+  .allfa{margin-top: 22px;}
+}

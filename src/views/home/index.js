@@ -56,8 +56,8 @@ const Home = () => {
       <div className="background_farmer__angel  p-3">
         <div className="container my-5">
           <div className="row">
-            <div className="col-sm-10 m-auto">
-              <h5 className="my-4 ">
+            <div className="col-sm-10 m-auto ">
+              <h5 className="my-4  ind">
                 In India, 70% of the population depends on agriculture, and
                 AllCanFarm is working with the farmers and for the farmers
               </h5>
@@ -76,8 +76,8 @@ const Home = () => {
               data-aos-anchor-placement="top-center"
             >
               <p className="text-primary mb-0 ms-3">Backbone of the economy</p>
-              <h4 className="f-30 ms-3">Farmers</h4>
-              <p className="text-justify p-3 text-grey">
+              <h4 className="f-30 ms-3 farmm ">Farmers</h4>
+              <p className="text-justify p-3 text-grey paar ">
                 Farmers are the unsung heroes of our society, working tirelessly
                 to feed the nation's population. From sunrise to sunset, they
                 toil away in fields and pastures, tending to crops and livestock
@@ -94,7 +94,7 @@ const Home = () => {
                   color="#ffffff"
                   padding="8px"
                   rounded="8px"
-                  className="ms-3"
+                  className="ms-3 but"
                 >
                   Know More
                 </Button>
@@ -115,7 +115,7 @@ const Home = () => {
                 >
                   <div
                     style={{ overflow: "hidden", position: "relative" }}
-                    className="rounded h-100"
+                    className="rounded h-100 picturrr"
                   >
                     <img
                       src={image1}
@@ -270,9 +270,9 @@ const Home = () => {
               data-aos-once="true"
               data-aos-anchor-placement="top-center"
             >
-              <p className="text-primary mb-0 ms-3">Adopting farms</p>
-              <h4 className="f-30 ms-3">Angel Farmers</h4>
-              <p className="text-justify p-3 text-grey">
+              <p className="text-primary mb-0 ms-3 ado">Adopting farms</p>
+              <h4 className="f-30 ms-3 farmm">Angel Farmers</h4>
+              <p className="text-justify p-3 text-grey paar">
                 When an angel investor turns their attention to farming, magic
                 can happen. Thus, they are known as Angel Farmers. These
                 visionary investors see the potential in the agricultural
@@ -289,7 +289,7 @@ const Home = () => {
                   color="#ffffff"
                   padding="8px"
                   rounded="8px"
-                  className="ms-3"
+                  className="ms-3 but"
                 >
                   Know More
                 </Button>
@@ -302,7 +302,7 @@ const Home = () => {
       <div className="farmer_angelfarmer ">
         <div className="container my-7">
           <div className="row">
-            <h4 className="mb-4 text-center">
+            <h4 className="mb-4 text-center emp">
               Empowering sustainable agriculture for a greener tomorrow
             </h4>
             <div
@@ -321,16 +321,16 @@ const Home = () => {
                   <div className="text-center mb-3">
                     <img src={farmer} width={100} height={100} />
                   </div>
-                  <h4 className="my-4">Benefits For Farmers</h4>
+                  <h4 className="my-4 emp">Benefits For Farmers</h4>
                   <ul className="list-unstyled">
-                    <li className="benefits_list my-2 text-justify ">
+                    <li className="benefits_list my-2 text-justify our">
                       Farmers get financial, technological, and efficient market
                       support.
                     </li>
-                    <li className="benefits_list my-2 text-justify ">
+                    <li className="benefits_list my-2 text-justify our">
                       Farmers can earn additional income.
                     </li>
-                    <li className="benefits_list my-2 text-justify ">
+                    <li className="benefits_list my-2 text-justify our ">
                       For better yield and crop production, farmers will have
                       standard processes and guidance from AllCanFarm.
                     </li>
@@ -354,15 +354,15 @@ const Home = () => {
                   <div className="text-center mb-3">
                     <img src={angelfarmer} width={100} height={100} />
                   </div>
-                  <h4 className="my-4">Benefits For Angel Farmers</h4>
+                  <h4 className="my-4 emp">Benefits For Angel Farmers</h4>
                   <ul className="list-unstyled">
-                    <li className="benefits_list my-2 text-justify ">
+                    <li className="benefits_list my-2 text-justify our">
                       Angel Farmers can reduce their carbon footprints.
                     </li>
-                    <li className="benefits_list my-2  text-justify">
+                    <li className="benefits_list my-2  text-justify our">
                       Angel Farmers can find a marketplace for produce.
                     </li>
-                    <li className="benefits_list my-2 text-justify ">
+                    <li className="benefits_list my-2 text-justify our ">
                       Angel Farmers will have a proper living facility at the
                       farms with all the required amenities, including Wi-Fi.
                     </li>
@@ -377,10 +377,10 @@ const Home = () => {
       <div className="background_farmer__angel  p-3">
       <div className="container mt-5 pt-5">
 
-      <h5 className=" text-uppercase text-primary fw-bold">
+      <h5 className=" text-uppercase text-primary fw-bold emp">
                      Why work with AllCanFarm?
                     </h5>
-                    <p className="text-justify"> 
+                    <p className="text-justify ind"> 
                     AllCanFarm is a collaborative relationship between farmers and angel farmers, which provides many reasons to work with us.
                    </p>
 
@@ -413,7 +413,7 @@ const Home = () => {
                   data-aos-once="true"
                   data-aos-anchor-placement="top-center">
                     
-                   <ul className="list-unstyled">
+                   <ul className="list-unstyled our">
                     <li className="benefits_list my-2" >Adopt farms, trees, and crops.</li>
                     <li className="benefits_list my-2 ">Use of technology and online methods to see farm progress.</li>
                     <li className="benefits_list my-2">Option to stay at the farm.</li>
@@ -441,15 +441,15 @@ const Home = () => {
                 data-aos-mirror="true"
                 data-aos-once="true"
                 data-aos-anchor-placement="top-center">
-                  <p className=" text-uppercase text-primary fw-bold f-18 ls-6">
+                  <p className=" text-uppercase text-primary fw-bold f-18 ls-6 emp">
                   Farm adoption plans
                     </p>
-                  <p className="text-justify">  We have curated farm adoption plans for angel farmers.
+                  <p className="text-justify ind">  We have curated farm adoption plans for angel farmers.
               </p>
-              <h4 className="text-justify my-3 ">
+              <h4 className="text-justify my-3 our ">
                     Short Term Plan (2-3 Years)
                     </h4>
-              <ul className="list-unstyled">
+              <ul className="list-unstyled our">
                     <li className="benefits_list my-2" >2 crops or plants</li>
                     <li className="benefits_list my-2 "> 1-3 YOY Returns</li>
                     <li className="benefits_list my-2"> 15% YOY Returns</li>
@@ -507,10 +507,10 @@ const Home = () => {
                   data-aos-once="true"
                   data-aos-anchor-placement="top-center">
                    
-                    <h4 className="text-justify my-3"> 
+                    <h4 className="text-justify my-3 our"> 
                     Mid Term Plan (4-7 Years)
                    </h4>
-                   <ul className="list-unstyled">
+                   <ul className="list-unstyled our">
                     <li className="benefits_list my-2" >3 crops or plants</li>
                     <li className="benefits_list my-2 ">1-7 YOY Returns</li>
                     <li className="benefits_list my-2">25% YOY Returns</li>
@@ -527,7 +527,7 @@ const Home = () => {
           <div className="container mt-5 pt-5" >
             <div className="row">
               <div className="col-sm-6">
-              <div className="col-sm-10 m-auto">
+              <div className="col-sm-10 m-auto ">
                 <div className="mt-4"
                 data-aos="fade-right"
                 data-aos-offset="150"
@@ -538,10 +538,10 @@ const Home = () => {
                 data-aos-once="true"
                 data-aos-anchor-placement="top-center">
                 
-              <h4 className="text-justify my-3 ">
+              <h4 className="text-justify my-3 longg">
                     Long Term Plan (8-15 Years)
                     </h4>
-              <ul className="list-unstyled">
+              <ul className="list-unstyled our">
                     <li className="benefits_list my-2" >4 crops or plants</li>
                     <li className="benefits_list my-2 ">1-15 YOY Returns</li>
                     <li className="benefits_list my-2">35% YOY Returns </li>
@@ -585,10 +585,10 @@ const Home = () => {
             data-aos-once="true"
             data-aos-anchor-placement="top-center"
           >
-            <img src={organic} width="100%" />
+            <img src={organic} width="100%" className="org" />
           </div>
           <div
-            className="col-sm-7"
+            className="col-sm-7 ind"
             data-aos="fade-left"
             data-aos-offset="20"
             data-aos-delay="50"

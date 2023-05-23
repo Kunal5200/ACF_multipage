@@ -24,3 +24,10 @@
     height: 32vh;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .dhurr{font-size: 17px;
+  margin-top: -42px;}
+  .howd{margin-top: -22px;}
+}

@@ -22,7 +22,7 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className=" col-sm-11 p-4">
-            <h4
+            <h4 className="ind"
               data-aos="fade-right"
               data-aos-offset="2"
               data-aos-delay="20"
@@ -35,7 +35,7 @@ const About = () => {
             AllCanFarm: Cultivating Connection, Nourishing Communities{" "}
             </h4>
             <p
-              className="text-justify"
+              className="text-justify our"
               data-aos="fade-right"
               data-aos-offset="2"
               data-aos-delay="20"
@@ -171,8 +171,8 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h4>Our Team</h4>
-            <p className="text-justify">
+            <h4 className="">Our Team</h4>
+            <p className="text-justify our ">
               Meet our dedicated team of professionals who are behind the scenes
               of AllCanFarm’s work and success. With years of experience and
               expertise in their respective fields, they work enthusiastically

@@ -67,7 +67,7 @@ const Footer = () => {
                   >
                     <div className="d-flex align-items-center justify-content-center">
                       <FaGooglePlay className="me-2" />
-                      <div>
+                      <div className="googlebut">
                         <p className="mb-0">Get it on</p>
                         <span>Google Play</span>
                       </div>
