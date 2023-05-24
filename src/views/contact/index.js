@@ -8,6 +8,13 @@ import { AiFillMail } from "react-icons/ai";
 const Contact = () => {
   return (
     <div className="request_query">
+      <div className="proo">
+        <div className="bg-cont">
+          <h2 className="text-white animate__animated animate__bounceInDown ">
+        CONTACT
+          </h2>
+        </div>
+      </div>
       <div className="contact">
         <div className="container-fluid bg-grey bg_contact">
           <div className="row ">
@@ -77,7 +84,7 @@ const Contact = () => {
                         padding="8px"
                         color="#ffffff"
                         width="200px"
-                        className="buttonn"
+                        className="buttonnn"
                       >
                         Submit
                         <BsFillSendFill className="ms-2" />

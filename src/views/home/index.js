@@ -115,7 +115,7 @@ const Home = () => {
                 >
                   <div
                     style={{ overflow: "hidden", position: "relative" }}
-                    className="rounded h-100 picturrr"
+                    className="rounded h-100 picturrr mx-1"
                   >
                     <img
                       src={image1}
@@ -140,7 +140,7 @@ const Home = () => {
                     >
                       <div
                         style={{ position: "relative", overflow: "hidden" }}
-                        className="rounded"
+                        className="rounded my-1"
                       >
                         <img
                           src={image2}
@@ -164,7 +164,7 @@ const Home = () => {
                     >
                       <div
                         style={{ position: "relative", overflow: "hidden" }}
-                        className="rounded"
+                        className="rounded "
                       >
                         <img
                           src={image3}
@@ -197,7 +197,7 @@ const Home = () => {
                 >
                   <div
                     style={{ position: "relative", overflow: "hidden" }}
-                    className="rounded h-100"
+                    className="rounded h-100 mx-1"
                   >
                     <img
                       src={angel1}
@@ -222,7 +222,7 @@ const Home = () => {
                     >
                       <div
                         style={{ position: "relative", overflow: "hidden" }}
-                        className="rounded"
+                        className="rounded my-1"
                       >
                         <img
                           src={angel2}

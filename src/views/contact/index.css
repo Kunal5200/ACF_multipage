@@ -1,13 +1,37 @@
+.proo{
+    background-image: url("../../assests/images/banner/contact.jpg");
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    /* background-attachment: fixed; */
+  }
+  .bg-cont {
+    /* background-color: rgba(0, 0, 0, 0.203); */
+    height: 100%;
+    color: white;
+    display: grid;
+    place-items: center;
+    align-items: center;
+  }
+
+
 @media screen and (max-width: 768px) {
     .have{
-        font-size: 16px !important;}
+        font-size: 14px !important;
+    font-weight: bold;}
         .name{
             margin-bottom: -12px !important;
         }
-        .send{font-size: 17px !important;}
+        .send{font-size: 14px !important;
+            font-weight: 500px;}
         .number{margin-top: 2px !important;}
         .mail{margin-bottom: 10px !important;}
-        .buttonn{width: 154px !important;}
+        .buttonnn{width: 124px !important;}
         .styles-module_whatsappButton__tVits{
             width: 50px !important;
             height: 48px !important;
@@ -20,4 +44,5 @@
         width: 45px !important;
         margin-top: 12px !important;
     }
+    /* .proo{height:20vh;}  */
 } 

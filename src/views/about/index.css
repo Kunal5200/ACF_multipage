@@ -97,4 +97,12 @@
   .bg-about {
     height: 32vh;
   }
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+.styles-module_whatsappButton__tVits{
+  margin-left: 62px;
+}
 }
