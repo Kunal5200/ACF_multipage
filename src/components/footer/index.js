@@ -21,7 +21,7 @@ const Footer = () => {
     {
       name: "ABOUT",
       url: "/about",
-    },
+    },  
     {
       name: "ALLCANFARM",
       url: "/allcanfarm",

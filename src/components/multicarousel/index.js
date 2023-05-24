@@ -8,6 +8,7 @@ const Multislider = (props) => {
     let clickHandler = (val) => {
         console.log("fwfwefewf",val);
         navigate('/productview', { state: val })
+        window.scrollTo(0,0);
       }
     return (
         <div >

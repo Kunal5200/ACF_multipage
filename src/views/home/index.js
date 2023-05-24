@@ -451,8 +451,8 @@ const Home = () => {
                     </h4>
               <ul className="list-unstyled our">
                     <li className="benefits_list my-2" >2 crops or plants</li>
-                    <li className="benefits_list my-2 "> 1-3 YOY Returns</li>
-                    <li className="benefits_list my-2"> 15% YOY Returns</li>
+                    <li className="benefits_list my-2 ">1-3 YOY Returns</li>
+                    <li className="benefits_list my-2">15% YOY Returns</li>
                     <li className="benefits_list my-2">Investment Protection</li>
                     <li className="benefits_list my-2">Low Risk Investment</li>
                     </ul>
@@ -542,8 +542,8 @@ const Home = () => {
                     Long Term Plan (8-15 Years)
                     </h4>
               <ul className="list-unstyled our">
-                    <li className="benefits_list my-2" >4 crops or plants</li>
-                    <li className="benefits_list my-2 ">1-15 YOY Returns</li>
+                    <li className="benefits_list my-2">4 crops or plants</li>
+                    <li className="benefits_list my-2">1-15 YOY Returns</li>
                     <li className="benefits_list my-2">35% YOY Returns </li>
                     <li className="benefits_list my-2">Investment Protection</li>
                     <li className="benefits_list my-2">Low Risk Investment</li>
