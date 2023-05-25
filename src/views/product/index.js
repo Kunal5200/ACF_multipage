@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import Aos from "aos";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation, useParams} from "react-router-dom";
 import {FaGooglePlay,} from "react-icons/fa";
 import Button from "../../components/button";
 import Multislider from "../../components/multicarousel";
@@ -9,6 +9,8 @@ import product from "../../assests/data/product";
 
 
 const Productview = (props) => {
+  //   const params=useParams()
+  // const productview=params.Productview
 
   const productresponsive = {
     superLargeDesktop: {
@@ -126,7 +128,7 @@ const Productview = (props) => {
 
                 
               </div>
-             <div className="d-flex">
+             <div className="d-flex store">
                 <a href="https://play.google.com/store/apps/details?id=com.avigna.maati">
                   <Button
                     bg="#36BA24"
@@ -141,7 +143,7 @@ const Productview = (props) => {
                     <div className="d-flex align-items-center justify-content-center">
                       <FaGooglePlay className="me-2" />
                       <div className="googlebut">
-                        <p className="mb-0">Get it on</p>
+                        <p className="mb-0 get">Get it on</p>
                         {/* <span>Google Play</span> */}
                       </div>
                     </div>

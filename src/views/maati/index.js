@@ -14,6 +14,8 @@ import Multislider from "../../components/multicarousel";
 const Marketplace = () => {
   // let navigate = useNavigate();
 
+
+
   const productresponsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },

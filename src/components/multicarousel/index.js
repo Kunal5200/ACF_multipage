@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 const Multislider = (props) => {
     let navigate = useNavigate();
     let clickHandler = (val) => {
-        console.log("fwfwefewf",val);
-        navigate('/productview', { state: val })
+        console.log("product",val);
+        navigate(`/productview/${val.heading}`, { state: val })
         window.scrollTo(0,0);
       }
     return (
@@ -24,12 +24,16 @@ const Multislider = (props) => {
 
             >
                 {props.data.map((val) => (
-                    <div onClick={()=>{clickHandler(val)}}>
+                  
+               
+                  <a href={
+                        `/productview/${val.heading}`} className="anchor" onClick={()=>{clickHandler(val)}}>
 
                     <Productcard img={val.img} heading={val.heading}
 
 desc={val.description}  />
-</div>
+</a>
+
                 ))}
 
             </Carousel>

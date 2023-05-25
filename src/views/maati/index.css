@@ -33,4 +33,12 @@
   .styles-module_whatsappButton__tVits{
   margin-left: 2px;
 } 
+.playstore{
+height: 50px !important;
+width: 120px !important;
+margin-top: -1px !important;
+}
+.store{height: 82px;}
+.get{margin-top: 7px;
+font-size: 14px;}
 }
