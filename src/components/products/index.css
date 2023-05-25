@@ -6,7 +6,8 @@
     transition: 0.5s ease all;
     background-color: #ffffff;
     width: 95%;
-    height: 345px;
+    height: 355px;
+    margin-left: 12px;
   }
 
   .img{
