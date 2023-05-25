@@ -8,12 +8,13 @@ import marketplace from "../../assests/images/banner/marketplace.webp";
 import Aos from "aos";
 import Productcard from "../../components/products";
 import product from "../../assests/data/product";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Multislider from "../../components/multicarousel";
 
 const Marketplace = () => {
   // let navigate = useNavigate();
-
+  // const params=useParams()
+  // const product=params.product
 
 
   const productresponsive = {

@@ -177,7 +177,7 @@ const Productview = (props) => {
             PRODUCT LIST
           </h4>
         </div>
-        <div className="my-3">
+        <div className="my-5 ">
           <Multislider data={data3} responsive={productresponsive} />
         </div>
 
