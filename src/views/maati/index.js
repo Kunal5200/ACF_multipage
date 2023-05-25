@@ -247,12 +247,12 @@ const Marketplace = () => {
           ))}
         </div>
 
+        
         <div>
-          <h4 className="animate_animated animate__zoomInRight ind ">
+          <h4 className="animate_animated animate__zoomInRight  productt">
             PRODUCT LIST
           </h4>
-        </div>
-        <div>
+        
           <Multislider data={data3} responsive={productresponsive} />
         </div>
       </div>

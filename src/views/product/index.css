@@ -19,6 +19,9 @@
   align-items: center;
   justify-content: center;
 }
+.resss{
+  margin-bottom: 19px !important;
+}
 .anchor{
   text-decoration: none !important;
   color: rgba(0, 0, 0, 0.83);

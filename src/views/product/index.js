@@ -168,20 +168,20 @@ const Productview = (props) => {
             data-aos-once="true"
             data-aos-anchor-placement="top-center"
           >
-            <img src={ location.state.img} width="100%" height="70%" />
+            <img src={ location.state.img} width="100%" height="90%" />
             
           </div>
           
-          <div>
-          <h4 className="animate_animated animate__zoomInRight ind ">
+          
+          <h4 className="animate_animated animate__zoomInRight">
             PRODUCT LIST
           </h4>
-        </div>
-        <div className="my-5 ">
+        
+        <div className="my-2 mb-5">
           <Multislider data={data3} responsive={productresponsive} />
         </div>
-
         </div>
+
       </div>
 
         </div>

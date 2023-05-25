@@ -14,7 +14,7 @@
   justify-content: center;
   color: #ffffff;
 }
-
+.productt{margin-left: 8px !important;}
 
 @media screen  and (max-width:600px) {
   .bg_maati {
@@ -43,4 +43,5 @@ margin-top: -1px !important;
 .store{height: 82px;}
 .get{margin-top: 7px;
 font-size: 14px;}
+.pro{height: 146px !important;}
 }

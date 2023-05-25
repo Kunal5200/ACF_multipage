@@ -5,8 +5,8 @@
   .product {
     transition: 0.5s ease all;
     background-color: #ffffff;
-    /* width: 300px; */
-    height: 365px;
+    width: 95%;
+    height: 345px;
   }
 
   .img{
