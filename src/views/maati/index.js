@@ -143,7 +143,7 @@ const Marketplace = () => {
             <h4 className="dhurr"
               data-aos="fade-right"
               data-aos-offset="20"
-              data-aos-delay="50"
+              data-aos-delay="50" 
               data-aos-duration="600"
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
