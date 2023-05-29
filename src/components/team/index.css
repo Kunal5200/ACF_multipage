@@ -100,3 +100,14 @@
 .f-13 {
   font-size: 12px;
 }
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+
+ .teamimg{height: 26vh !important;}
+ .desc {
+  font-size: 10px !important;
+  text-align: justify !important;}
+  .position {
+    font-size: 13px;}
+    .name {font-size: 20px;}
+}

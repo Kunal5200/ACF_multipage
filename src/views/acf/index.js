@@ -47,11 +47,11 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         </div>
       </div>
       <div className="container">
-        <h2 className="my-5 ourr">How AllCanFarm Works? </h2>
+        <h2 className=" my-5 ourr">How AllCanFarm Works? </h2>
         <div className="row align-items-center my-7">
           <div
             className="col-sm-6"
-            data-aos="fade-right"
+            data-aos="fade-left"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -65,7 +65,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
           </div>
           <div
             className="col-sm-6"
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -88,7 +88,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         <div className="row align-items-center my-7">
           <div
             className="col-sm-6"
-            data-aos="fade-right"
+            data-aos="fade-left"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -108,7 +108,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
           </div>
           <div
             className="col-sm-6"
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -124,7 +124,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         <div className="row align-items-center my-7">
           <div
             className="col-sm-6"
-            data-aos="fade-right"
+            data-aos="fade-left"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -138,7 +138,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
           </div>
           <div
             className="col-sm-6"
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -159,7 +159,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         <div className="row align-items-center my-7">
           <div
             className="col-sm-6"
-            data-aos="fade-right"
+            data-aos="fade-left"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -178,7 +178,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
           </div>
           <div
             className="col-sm-6"
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -191,21 +191,8 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             <p className="text-justify our ">{description.description.message4}</p>
           </div>
         </div>
+      
         <div className="row align-items-center my-7">
-          <div
-            className="col-sm-6"
-            data-aos="fade-right"
-            data-aos-offset="20"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
-            data-aos-anchor-placement="top-center"
-          >
-            <h5 className="ourrr">AllCanFarm Marketplace</h5>
-            <p className="text-justify our">{description.description.message5}</p>
-          </div>
           <div
             className="col-sm-6"
             data-aos="fade-left"
@@ -214,9 +201,24 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="false"
+            data- aos-once="false"
             data-aos-anchor-placement="top-center"
           >
+            <h5 className="ourrr">AllCanFarm Marketplace</h5>
+            <p className="text-justify our">{description.description.message5}</p>
+          </div>
+          <div
+            className="col-sm-6"
+            // data-aos="fade-right"
+            // data-aos-offset="150"
+            // data-aos-delay="20"
+            // data-aos-duration="600"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="true"
+            // data-aos-anchor-placement="top-center"
+            >
+          
             <div className="upper_div rounded shadow">
               <img
                 src={marketplace}
@@ -227,6 +229,10 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             </div>
           </div>
         </div>
+
+
+
+
       </div>
     </div>
   );

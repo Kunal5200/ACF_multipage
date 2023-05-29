@@ -30,3 +30,6 @@
   color: black;
 }
   
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .pro{height: 25vh;}
+}

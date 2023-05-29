@@ -106,3 +106,12 @@
   margin-left: 62px;
 }
 }
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .bg-about{
+    height: 25vh;
+  }
+  .lands{font-size: 18px !important;
+    width: 105% !important;
+  }  
+}

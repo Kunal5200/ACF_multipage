@@ -75,6 +75,13 @@
   .trans{ margin-top: -72px !important;}
   .allfa{margin-top: 22px;}
   .styles-module_whatsappButton__tVits{
-    margin-left: 42px;
+    margin-left: 42px !important;
   } 
 }
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .ACf {
+    height: 25vh;}
+    /* .styles-module_whatsappButton__tVits{
+      margin-left: 55px !important;} */
+  }

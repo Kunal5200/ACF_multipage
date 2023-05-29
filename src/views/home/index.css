@@ -138,7 +138,6 @@
   color: grey;
 }
 
-
 @media screen and (max-width: 600px) {
   .height_farmer {
     height: 100%;
@@ -164,22 +163,46 @@
 }
 
 @media screen and (max-width: 768px) {
-  .farmm{font-size: 20px !important;
-  margin-top: 14px !important ;}
-  .paar{font-size: 12px;
-  margin-top: -12px;}
-  .but{height: 43px !important;
-  font-size:  12px;}
-  .picturrr{margin-top: 22px;}
-  .ado{margin-top: 22px;
-  font-size: 18px;}
-  .emp{font-size: 15px;
-  margin-top: -82px !important;}
-  .ind{font-size: 13px;}
-  .longg{font-size: 15px;}
-.org{margin-bottom: 15px;}  
-.styles-module_whatsappButton__tVits{
-  margin-left: 62px;
+  .farmm {
+    font-size: 20px !important;
+    margin-top: 14px !important ;
+  }
+  .paar {
+    font-size: 12px;
+    margin-top: -12px;
+  }
+  .but {
+    height: 43px !important;
+    font-size: 12px;
+  }
+  .picturrr {
+    margin-top: 22px;
+  }
+  .ado {
+    margin-top: 22px;
+    font-size: 18px;
+  }
+  .emp {
+    font-size: 15px;
+    margin-top: -82px !important;
+  }
+  .ind {
+    font-size: 13px;
+  }
+  .longg {
+    font-size: 15px;
+  }
+  .org {
+    margin-bottom: 15px;
+  }
+  .styles-module_whatsappButton__tVits {
+    margin-left: 62px;
+  }
 }
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .banner {
+    height:25vh;
+  }
 
 }

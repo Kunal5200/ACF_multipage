@@ -58,3 +58,9 @@
     }
     /* .proo{height:20vh;}  */
 } 
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .proo{height: 25vh;}
+  .contaaact{font-size: 30px;
+  margin-top: 25px;}
+}

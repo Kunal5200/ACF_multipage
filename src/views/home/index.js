@@ -66,7 +66,7 @@ const Home = () => {
           <div className="row align-items-center">
             <div
               className="col-sm-5 col-md-6 col-lg-5"
-              data-aos="fade-right"
+              data-aos="fade-left"
               data-aos-offset="20"
               data-aos-delay="50"
               data-aos-duration="1000"
@@ -261,7 +261,7 @@ const Home = () => {
             </div>
             <div
               className="col-sm-5 col-md-6 col-lg-5"
-              data-aos="fade-left"
+              data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
               data-aos-duration="1000"
@@ -561,14 +561,14 @@ const Home = () => {
               data-aos-mirror="true"
               data-aos-once="true"
               data-aos-anchor-placement="top-center">
-                  <div className="upper_div rounded shadow">
+                  <div className="upper_div rounded shadow mb-5">
                <img src={farm_field} width="100%" height="80%"   className="rounded process_hover" />
               </div>
               </div>
             </div>
           </div>
           </div>
-
+         
 
 
       <div className="container-fluid my-5">

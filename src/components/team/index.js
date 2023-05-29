@@ -5,9 +5,9 @@ const Team = (props) => {
     <div>
       <div class="demo">
         <figure class="imghvr-zoom-out-flip-vert rounded ">
-          <img src={props.img} alt="example-image" height={400} />
+          <img src={props.img} alt="example-image" height={400} className="teamimg" />
           <figcaption>
-            <h3 className="text-center lh-base">{props.name}</h3>
+            <h3 className="name text-center lh-base">{props.name}</h3>
             <p className="text-center position lh-base fw-semibold mb-3">
               {props.position}
             </p>

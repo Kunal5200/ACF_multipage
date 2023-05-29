@@ -35,7 +35,7 @@ const About = () => {
             AllCanFarm: Cultivating Connection, Nourishing Communities{" "}
             </h4>
             <p
-              className="text-justify our"
+              className="text-justify our lands"
               data-aos="fade-right"
               data-aos-offset="2"
               data-aos-delay="20"
@@ -161,15 +161,15 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
       <div className="container mb-4">
         <div className="row align-items-center">
           <div
-            className="col-sm-6 col-md-7 col-lg-6"
-            data-aos="fade-right"
-            data-aos-offset="2"
-            data-aos-delay="20"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+            className="col-sm-6 col-md-5 col-lg-6"
+            // data-aos="fade-right"
+            // data-aos-offset="150"
+            // data-aos-delay="20"
+            // data-aos-duration="600"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="false"
+            // data-aos-anchor-placement="top-center"
           >
             <h4 className="">Our Team</h4>
             <p className="text-justify our ">
@@ -185,7 +185,7 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
             <div className="row">
               <div
                 className="col-sm-6"
-                data-aos="fade-up"
+                data-aos="fade-left"
                 data-aos-offset="2"
                 data-aos-delay="20"
                 data-aos-duration="1000"
@@ -204,7 +204,7 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
               </div>
               <div
                 className="col-sm-6"
-                data-aos="fade-down"
+                data-aos="fade-right"
                 data-aos-offset="2"
                 data-aos-delay="20"
                 data-aos-duration="1000"

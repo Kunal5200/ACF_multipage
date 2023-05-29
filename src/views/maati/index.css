@@ -45,3 +45,8 @@ margin-top: -1px !important;
 font-size: 14px;}
 .pro{height: 146px !important;}
 }
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .bg_maati{height: 25vh;}
+
+}

@@ -32,3 +32,8 @@
     }
   }
   
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .bbb{ height: 1%;}
+  .img{height: 10%;}
+  .heaad{font-size: 18px;}
+}
