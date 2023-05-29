@@ -561,7 +561,7 @@ const Home = () => {
               data-aos-mirror="true"
               data-aos-once="true"
               data-aos-anchor-placement="top-center">
-                  <div className="upper_div rounded shadow mb-5">
+                  <div className="upper_div rounded shadow">
                <img src={farm_field} width="100%" height="80%"   className="rounded process_hover" />
               </div>
               </div>
