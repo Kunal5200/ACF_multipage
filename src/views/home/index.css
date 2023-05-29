@@ -137,6 +137,7 @@
   padding: 5px;
   color: grey;
 }
+.india{margin-left: 17px !important;}
 
 @media screen and (max-width: 600px) {
   .height_farmer {
@@ -198,6 +199,7 @@
   .styles-module_whatsappButton__tVits {
     margin-left: 62px;
   }
+  .india{font-size: 14px;}
 }
 
 @media screen and (min-width: 991px) and (max-width: 1030px) {

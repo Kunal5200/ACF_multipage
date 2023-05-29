@@ -56,11 +56,11 @@ const Home = () => {
       <div className="background_farmer__angel  p-3">
         <div className="container my-5">
           <div className="row">
-            <div className="col-sm-10 m-auto ">
-              <h5 className="my-4  ind">
+            <div className="col-sm-12 m-auto ">
+              <h4 className="india my-4">
                 In India, 70% of the population depends on agriculture, and
                 AllCanFarm is working with the farmers and for the farmers
-              </h5>
+              </h4>
             </div>
           </div>
           <div className="row align-items-center">
