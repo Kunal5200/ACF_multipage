@@ -307,7 +307,7 @@ const Home = () => {
             </h4>
             <div
               className="col-sm-6"
-              data-aos="fade-right"
+              data-aos="fade-up-right"
               data-aos-offset="20"
               data-aos-delay="50"
               data-aos-duration="1000"
@@ -340,7 +340,7 @@ const Home = () => {
             </div>
             <div
               className="col-sm-6"
-              data-aos="fade-left"
+              data-aos="fade-up-left"
               data-aos-offset="20"
               data-aos-delay="50"
               data-aos-duration="1000"

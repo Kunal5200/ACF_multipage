@@ -51,7 +51,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         <div className="row align-items-center my-7">
           <div
             className="col-sm-6"
-            data-aos="fade-left"
+            data-aos="fade-up-left"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -65,7 +65,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
           </div>
           <div
             className="col-sm-6"
-            data-aos="fade-right"
+            data-aos="fade-up-right"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -88,7 +88,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         <div className="row align-items-center my-7">
           <div
             className="col-sm-6"
-            data-aos="fade-left"
+            data-aos="fade-up-left"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -108,7 +108,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
           </div>
           <div
             className="col-sm-6"
-            data-aos="fade-right"
+            data-aos="fade-up-right"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -124,7 +124,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         <div className="row align-items-center my-7">
           <div
             className="col-sm-6"
-            data-aos="fade-left"
+            data-aos="fade-up-left"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -138,7 +138,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
           </div>
           <div
             className="col-sm-6"
-            data-aos="fade-right"
+            data-aos="fade-up-right"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -159,7 +159,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         <div className="row align-items-center my-7">
           <div
             className="col-sm-6"
-            data-aos="fade-left"
+            data-aos="fade-up-left"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -178,7 +178,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
           </div>
           <div
             className="col-sm-6"
-            data-aos="fade-right"
+            data-aos="fade-up-right"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -195,7 +195,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         <div className="row align-items-center my-7">
           <div
             className="col-sm-6"
-            data-aos="fade-left"
+            data-aos="fade-up-left"
             data-aos-offset="20"
             data-aos-delay="50"
             data-aos-duration="1000"

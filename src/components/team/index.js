@@ -8,7 +8,7 @@ const Team = (props) => {
           <img src={props.img} alt="example-image" height={400} className="teamimg" />
           <figcaption>
             <h3 className="name text-center lh-base">{props.name}</h3>
-            <p className="text-center position lh-base fw-semibold mb-3">
+            <p className=" position text-center lh-base fw-semibold mb-3">
               {props.position}
             </p>
             <p className="desc text-justify f-13">{props.desc}</p>

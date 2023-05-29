@@ -1,6 +1,6 @@
 .banner {
   background-image: url("../../assests/images/banner/bannerhome.jpg");
-  height: 90vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -202,7 +202,10 @@
 
 @media screen and (min-width: 991px) and (max-width: 1030px) {
   .banner {
-    height:25vh;
+    height: 25vh;
   }
-
 }
+
+
+
+
