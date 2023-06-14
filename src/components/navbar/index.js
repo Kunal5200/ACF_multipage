@@ -42,7 +42,7 @@ function Navbar() {
           </NavLink>
           <div className={`nav-items ${isOpen && "open"}`}>
             {links.map((val) => (
-              <NavLink className="link text-uppercase" to={val.url}>
+              <NavLink onClick={()=>setIsOpen(false)} className="link text-uppercase" to={val.url}>
                 {val.name}
               </NavLink>
             ))}
