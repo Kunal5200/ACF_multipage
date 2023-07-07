@@ -11,7 +11,7 @@ const Team = (props) => {
             <p className=" position text-center lh-base fw-semibold mb-3">
               {props.position}
             </p>
-            <p className="desc text-justify f-13">{props.desc}</p>
+            <p className="desc text-justify">{props.desc}</p>
           </figcaption>
           <a href="javascript:;"></a>
         </figure>

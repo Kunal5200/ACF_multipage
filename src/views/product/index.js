@@ -114,7 +114,7 @@ const Productview = (props) => {
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 data-aos-once="true"
-                data-aos-anchor-placement="top-center"
+                data-aos-anchor-placement="top"
               >
                 <p className="text-primary fw-bold f-18 ls-6 emp  ">
                 {location.state.heading}
@@ -166,7 +166,7 @@ const Productview = (props) => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <img src={ location.state.img} width="100%" height="90%" />
             

@@ -30,9 +30,9 @@ const About = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
-            AllCanFarm: Cultivating Connection, Nourishing Communities{" "}
+         AllCanFarm: Cultivating Connection, Nourishing Communities{" "}
             </h4>
             <p
               className="text-justify our lands"
@@ -43,11 +43,9 @@ const About = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
-              In the verdant lands where nature's bounty thrives, a tale unfolds—a story of connection, nourishment, and empowerment. At the heart of this narrative lies a platform, a bridge that unites farmers and consumers in a symbiotic bond. Welcome to our world, where we weave together the threads of agriculture and community.
-On our platform, we embrace the profound importance of the farmer's role in cultivating the food we savour. We have gathered a network of dedicated farmers, each with their patch of fertile soil, tending to their crops with unwavering passion. Through our platform, these farmers diligently grow and nurture the crops destined to become part of your table, your sustenance.
-But our purpose goes beyond the seeds planted in the earth. We believe in supporting our farmers, ensuring they have access to the tools and resources necessary to bring you the purest and finest food produce. We provide them with state-of-the-art processing units, where the harvest is carefully transformed into pristine, untainted goodness. By empowering our farmers with these processing facilities, we ensure that their toil bears fruit—a bountiful harvest that reaches you, the discerning consumer, in its most unadulterated form.
+             In the verdant lands where nature's bounty thrives, a tale unfolds—a story of connection, nourishment, and empowerment. At the heart of this narrative lies a platform, a bridge that unites farmers and consumers in a symbiotic bond. Welcome to our world, where we weave together the threads of agriculture and community. On our platform, we embrace the profound importance of the farmer's role in cultivating the food we savour. We have gathered a network of dedicated farmers, each with their own patch of fertile soil, tending to their crops with unwavering passion. Through our platform, these farmers diligently grow and nurture the crops destined to become part of your table and your sustenance. But our purpose goes beyond the seeds planted in the earth. We believe in supporting our farmers by ensuring they have access to the tools and resources necessary to bring you the purest and finest food products. We provide them with localised processing units where the harvest is carefully transformed into pristine, untainted goodness. This entails involving as few people and as many hands as possible. By empowering our farmers with these processing facilities, we ensure that their toil bears fruit—a bountiful harvest that reaches you, the discerning consumer, in its most unadulterated form.
             </p>
           </div>
         </div>
@@ -69,7 +67,7 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
               easing="ease-in-out"
               mirror="false"
               once="false"
-              anchor-placement="top-center"
+              anchor-placement="top"
               className="circle_top_left text-white"
               heading={Lifecycle.Lifecycle.heading1}
               desc={Lifecycle.Lifecycle.desc1}
@@ -87,7 +85,7 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
               easing="ease-in-out"
               mirror="false"
               once="false"
-              anchor-placement="top-center"
+              anchor-placement="top"
               className="circle_top_right text-white"
               heading={Lifecycle.Lifecycle.heading2}
               desc={Lifecycle.Lifecycle.desc2}
@@ -118,7 +116,7 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
               easing="ease-in-out"
               mirror="true"
               once="false"
-              anchor-placement="top-center"
+              anchor-placement="top"
             />
             <div className="mx-3 text-center">
               <p className="mb-0 f-13">Food Packaging</p>
@@ -135,7 +133,7 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
               easing="ease-in-out"
               mirror="true"
               once="false"
-              anchor-placement="top-center"
+              anchor-placement="top"
               className="circle_bottom_left text-white"
               heading={Lifecycle.Lifecycle.heading4}
               desc={Lifecycle.Lifecycle.desc4}
@@ -169,7 +167,7 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
             // data-aos-easing="ease-in-out"
             // data-aos-mirror="true"
             // data-aos-once="false"
-            // data-aos-anchor-placement="top-center"
+            // data-aos-anchor-placement="top"
           >
             <h4 className="">Our Team</h4>
             <p className="text-justify our ">
@@ -192,7 +190,7 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 data-aos-once="false"
-                data-aos-anchor-placement="top-center"
+                data-aos-anchor-placement="top"
               >
                 <Team
                   img={prashant}
@@ -211,13 +209,14 @@ But our purpose goes beyond the seeds planted in the earth. We believe in suppor
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 data-aos-once="false"
-                data-aos-anchor-placement="top-center"
+                data-aos-anchor-placement="top"
               >
                 <Team
                   img={piyush}
                   name="Piyush Kumar"
                   desc={team.team1}
                   position=" Co-Founder"
+                 
                 />
               </div>
             </div>

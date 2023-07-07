@@ -148,7 +148,7 @@ const Marketplace = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
               Dhur Maati-Farm to Table
             </h4>
@@ -161,7 +161,7 @@ const Marketplace = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
               {maati.para}
             </p>
@@ -174,7 +174,7 @@ const Marketplace = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
               This form of farm to table is profitable in many ways. Maati
               focuses on farm scalability and meeting urban demands. It is a
@@ -197,7 +197,7 @@ const Marketplace = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
               {" "}
               As an angel farmer, you can list the farm's produce on Maati after
@@ -222,7 +222,7 @@ const Marketplace = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
               <Featurebox img={val.img} heading={val.heading} desc={val.desc} />
             </div>
@@ -239,7 +239,7 @@ const Marketplace = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
               
             >
               <Featurebox img={val.img} heading={val.heading} desc={val.desc} />
