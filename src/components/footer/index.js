@@ -42,7 +42,9 @@ const Footer = () => {
         <div className="bg-footer p-5">
           <div className="row align-items-center">
             <div className="col-sm-11 m-auto  text-center">
+            <NavLink to="/">
               <img src={logo} />
+              </NavLink>
               {/* <p className="text-left text-white">
                 AllCanFarm empowers farmers to achieve higher yields, increase
                 profitability, and embrace sustainable farming practices.

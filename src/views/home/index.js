@@ -73,7 +73,7 @@ const Home = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
               <p className="text-primary mb-0 ms-3">Backbone of the economy</p>
               <h4 className="f-30 ms-3 farmm ">Farmers</h4>
@@ -103,7 +103,7 @@ const Home = () => {
             <div className="col-sm-7 col-md-6 col-lg-7 ">
               <div className="row">
                 <div
-                  className="col-sm-6 p-0  "
+                  className="col-sm-6 p-0"
                   data-aos="fade-up"
                   data-aos-offset="20"
                   data-aos-delay="50"
@@ -111,7 +111,7 @@ const Home = () => {
                   data-aos-easing="ease-in-out"
                   data-aos-mirror="false"
                   data-aos-once="true"
-                  data-aos-anchor-placement="top-center"
+                  data-aos-anchor-placement="top"
                 >
                   <div
                     style={{ overflow: "hidden", position: "relative" }}
@@ -136,7 +136,7 @@ const Home = () => {
                       data-aos-easing="ease-in-out"
                       data-aos-mirror="false"
                       data-aos-once="true"
-                      data-aos-anchor-placement="top-center"
+                      data-aos-anchor-placement="top"
                     >
                       <div
                         style={{ position: "relative", overflow: "hidden" }}
@@ -160,7 +160,7 @@ const Home = () => {
                       data-aos-easing="ease-in-out"
                       data-aos-mirror="false"
                       data-aos-once="true"
-                      data-aos-anchor-placement="top-center"
+                      data-aos-anchor-placement="top"
                     >
                       <div
                         style={{ position: "relative", overflow: "hidden" }}
@@ -193,7 +193,7 @@ const Home = () => {
                   data-aos-easing="ease-in-out"
                   data-aos-mirror="false"
                   data-aos-once="true"
-                  data-aos-anchor-placement="top-center"
+                  data-aos-anchor-placement="top"
                 >
                   <div
                     style={{ position: "relative", overflow: "hidden" }}
@@ -218,7 +218,7 @@ const Home = () => {
                       data-aos-easing="ease-in-out"
                       data-aos-mirror="false"
                       data-aos-once="true"
-                      data-aos-anchor-placement="top-center"
+                      data-aos-anchor-placement="top"
                     >
                       <div
                         style={{ position: "relative", overflow: "hidden" }}
@@ -242,7 +242,7 @@ const Home = () => {
                       data-aos-easing="ease-in-out"
                       data-aos-mirror="false"
                       data-aos-once="true"
-                      data-aos-anchor-placement="top-center"
+                      data-aos-anchor-placement="top"
                     >
                       <div
                         style={{ position: "relative", overflow: "hidden" }}
@@ -268,19 +268,12 @@ const Home = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
               <p className="text-primary mb-0 ms-3 ado">Adopting farms</p>
               <h4 className="f-30 ms-3 farmm">Angel Farmers</h4>
               <p className="text-justify p-3 text-grey paar">
-                When an angel investor turns their attention to farming, magic
-                can happen. Thus, they are known as Angel Farmers. These
-                visionary investors see the potential in the agricultural
-                industry to not only feed the world but also to shape the future
-                of sustainable food production. With their financial support and
-                expertise, they can help farmers scale up their operations,
-                adopt cutting-edge technologies, and find new ways to reduce
-                waste and improve yields and crop production.
+              When an educated urban individual turns their attention to farming, magic can happen. Thus, they are known as Angel Farmers. These visionary individuals see the potential in the agricultural industry to not only feed the world but also to shape the future of sustainable food production. With their financial support and expertise, they can help farmers scale up their operations, adopt cutting-edge technologies, and find new ways to reduce waste and improve yields and crop production.
               </p>
               <Link to="/about">
                 <Button
@@ -314,7 +307,7 @@ const Home = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
               <div className="farmer p-3">
                 <div className="shadow rounded height_farmer p-5">
@@ -347,7 +340,7 @@ const Home = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
               <div className="angel_farmer p-3">
                 <div className="shadow rounded height_farmer p-5">
@@ -375,7 +368,7 @@ const Home = () => {
       </div>
 
       <div className="background_farmer__angel  p-3">
-      <div className="container mt-5 pt-5">
+      <div className="container mt-3 pt-5">
 
       <h5 className=" text-uppercase text-primary fw-bold emp">
                      Why work with AllCanFarm?
@@ -394,7 +387,7 @@ const Home = () => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            data-aos-anchor-placement="top-center">
+            data-aos-anchor-placement="top">
               
               <div className="upper_div rounded shadow">
               <img src={green_field}  width="100%" height="80%"   className="rounded process_hover" />
@@ -411,7 +404,7 @@ const Home = () => {
                   data-aos-easing="ease-in-out"
                   data-aos-mirror="true"
                   data-aos-once="true"
-                  data-aos-anchor-placement="top-center">
+                  data-aos-anchor-placement="top">
                     
                    <ul className="list-unstyled our">
                     <li className="benefits_list my-2" >Adopt farms, trees, and crops.</li>
@@ -440,7 +433,7 @@ const Home = () => {
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 data-aos-once="true"
-                data-aos-anchor-placement="top-center">
+                data-aos-anchor-placement="top">
                   <p className=" text-uppercase text-primary fw-bold f-18 ls-6 emp">
                   Farm adoption plans
                     </p>
@@ -468,7 +461,7 @@ const Home = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center">
+              data-aos-anchor-placement="top">
               
               <div className="upper_div rounded shadow">
                <img src={farm_field} width="100%" height="80%"   className="rounded process_hover"/>
@@ -489,7 +482,7 @@ const Home = () => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            data-aos-anchor-placement="top-center">
+            data-aos-anchor-placement="top">
                 <div className="upper_div rounded shadow">
               <img src={green_field} width="100%" height="80%"   className="rounded process_hover" />
             </div>
@@ -505,7 +498,7 @@ const Home = () => {
                   data-aos-easing="ease-in-out"
                   data-aos-mirror="true"
                   data-aos-once="true"
-                  data-aos-anchor-placement="top-center">
+                  data-aos-anchor-placement="top">
                    
                     <h4 className="text-justify my-3 our"> 
                     Mid Term Plan (4-7 Years)
@@ -536,7 +529,7 @@ const Home = () => {
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 data-aos-once="true"
-                data-aos-anchor-placement="top-center">
+                data-aos-anchor-placement="top">
                 
               <h4 className="text-justify my-3 longg">
                     Long Term Plan (8-15 Years)
@@ -560,13 +553,14 @@ const Home = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               data-aos-once="true"
-              data-aos-anchor-placement="top-center">
+              data-aos-anchor-placement="top">
                   <div className="upper_div rounded shadow">
                <img src={farm_field} width="100%" height="80%"   className="rounded process_hover" />
               </div>
               </div>
             </div>
           </div>
+          <div className="mb-5"></div>
           </div>
          
 
@@ -583,7 +577,7 @@ const Home = () => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="false"
             data-aos-once="true"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <img src={organic} width="100%" className="org" />
           </div>
@@ -596,7 +590,7 @@ const Home = () => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="false"
             data-aos-once="true"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <Accordion transition={{ duration: "1000ms" }}>
               {data.faq.map((val, i) => (

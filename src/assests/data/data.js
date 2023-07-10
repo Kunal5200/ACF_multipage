@@ -19,7 +19,7 @@ let data = {
     {
       title: "4.	Who is an angel farmer?",
       message:
-        "An investor who adopts a farm and collaborates with conventional farmers to create conventional produce is known as an angel farmer. An angel farmer benefits from having access to farm-fresh products while also supporting the farmer. Additionally, an angel farmer might work with the farmer on a particular crop or produce.",
+        "An educated urban individual who adopts a farm and collaborates with conventional farmers to create conventional produce is known as an angel farmer. An angel farmer benefits from having access to farm-fresh products while also supporting the farmer. Additionally, an angel farmer might work with the farmer on a particular crop or produce.",
     },
     {
       title: "5.	What social interactions happen on AllCanFarm?",
