@@ -48,7 +48,19 @@
   flex-direction: row;
   justify-content: center;
 }
-
+.playgoo{
+  font-size: 16px !important;
+  text-align:left !important;
+  margin-left: 8px;
+}
+.getin{
+  text-align: center;
+  margin-left: -22px;
+  font-size: 11px;
+}
+.playbut{
+height: 30px;
+}
 @media screen and (max-width: 600px) {
   .footer__links {
     font-size: 9px !important;

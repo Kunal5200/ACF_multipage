@@ -6,6 +6,7 @@ import {FaGooglePlay,} from "react-icons/fa";
 import Button from "../../components/button";
 import Multislider from "../../components/multicarousel";
 import product from "../../assests/data/product";
+import playstore from "../../assests/images/playstore.png";
 
 
 const Productview = (props) => {
@@ -134,16 +135,18 @@ const Productview = (props) => {
                     bg="#36BA24"
                     border="2px solid #36BA24"
                     color="#ffffff"
-                    padding="2px"
-                    rounded="40px"
-                    width="150px"
-                    height="50px"
+                    padding="1px"
+                    rounded="20px"
+                    width="155px"
+                    height="
+                    55px"
                     className="playstore"
                     >
                     <div className="d-flex align-items-center justify-content-center">
-                      <FaGooglePlay className="me-2" />
-                      <div className="googlebut">
-                        <p className="mb-0 get">Get it on</p>
+                    <img src={playstore} className="playbutt"/>
+
+<div className="googlebut">
+  <p className=" geet mb-0 mx-2">GET IN ON </p>
                         {/* <span>Google Play</span> */}
                       </div>
                     </div>
