@@ -30,7 +30,7 @@ const ACF = () => {
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               data-aos-once="false"
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top"
             >
               <h4 className="ourr">What is AllCanFarm?</h4>
               <p className="text-grey text-justify our">
@@ -58,7 +58,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <h5 className="ourrr ">AllCanFarm Living</h5>
             <p className="text-justify our ">{description.description.message1}</p>
@@ -72,7 +72,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <div className="upper_div rounded shadow">
               <img
@@ -95,7 +95,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <div className="upper_div rounded shadow trans">
               <img
@@ -115,7 +115,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <h5 className="allfa">AllCanFarm Logistics</h5>
             <p className="text-justify our ">{description.description.message2}</p>
@@ -131,7 +131,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <h5 className="ourrr">Corporate Social Responsibility</h5>
             <p className="text-justify our">{description.description.message3}</p>
@@ -145,7 +145,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <div className="upper_div rounded shadow">
               <img
@@ -166,7 +166,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <div className="rounded upper_div shadow trans">
               <img
@@ -185,7 +185,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <h5 className="allfa">Carbon Credits</h5>
             <p className="text-justify our ">{description.description.message4}</p>
@@ -202,7 +202,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data- aos-once="false"
-            data-aos-anchor-placement="top-center"
+            data-aos-anchor-placement="top"
           >
             <h5 className="ourrr">AllCanFarm Marketplace</h5>
             <p className="text-justify our">{description.description.message5}</p>
@@ -216,7 +216,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             // data-aos-easing="ease-in-out"
             // data-aos-mirror="true"
             // data-aos-once="true"
-            // data-aos-anchor-placement="top-center"
+            // data-aos-anchor-placement="top"
             >
           
             <div className="upper_div rounded shadow">
