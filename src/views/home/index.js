@@ -121,8 +121,7 @@ const Home = () => {
                       src={image1}
                       width="100%"
                       height="100%"
-                      className="rounded image_hover"
-                    />
+                      className="rounded image_hover"/>
                   </div>
                 </div>
                 <div className="col-sm-6 ">
@@ -342,6 +341,8 @@ const Home = () => {
               data-aos-once="true"
               data-aos-anchor-placement="top"
             >
+
+
               <div className="angel_farmer p-3">
                 <div className="shadow rounded height_farmer p-5">
                   <div className="text-center mb-3">
@@ -437,7 +438,7 @@ const Home = () => {
                   <p className=" text-uppercase text-primary fw-bold f-18 ls-6 emp">
                   Farm adoption plans
                     </p>
-                  <p className="text-justify ind">  We have curated farm adoption plans for angel farmers.
+                  <p className="text-justify ind">We have curated farm adoption plans for angel farmers.
               </p>
               <h4 className="text-justify my-3 our ">
                     Short Term Plan (2-3 Years)
@@ -464,7 +465,7 @@ const Home = () => {
               data-aos-anchor-placement="top">
               
               <div className="upper_div rounded shadow">
-               <img src={farm_field} width="100%" height="80%"   className="rounded process_hover"/>
+               <img src={farm_field} width="100%" height="80%" className="rounded process_hover"/>
               </div>
               </div>
             </div>
@@ -563,8 +564,6 @@ const Home = () => {
           <div className="mb-5"></div>
           </div>
          
-
-
       <div className="container-fluid my-5">
         <h3 className="text-center my-4">Common Questions</h3>
         <div className="row align-items-center">
