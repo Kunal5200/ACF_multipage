@@ -29,6 +29,14 @@
 .anchor:hover{
   color: black;
 }
+
+.playbutt{
+height: 30px;
+}
+.geet{
+  font-size: 12px;
+  
+}
   
 @media screen and (min-width: 991px) and (max-width: 1030px) {
   .pro{height: 25vh;}
