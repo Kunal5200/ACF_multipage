@@ -27,14 +27,15 @@ const Scrollup = () => {
         {show ? (
           <div
             style={{
-              width: "50px",
-              height: "50px",
+              width: "58px",
+              height: "58px",
               background: "#36BA24",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               color: "#ffffff",
-              fontSize: "25px",
+              fontSize: "29px",
+              marginLeft:"-61px",
               borderRadius: "50%",
             }}
           >

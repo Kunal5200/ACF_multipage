@@ -20,7 +20,7 @@ const Rotate = (props) => {
         </div>
       </div>
       <div className="">
-        <p className="text-justify px-4">{props.desc}</p>
+        <p className="text-justify text-grey px-4">{props.desc}</p>
       </div>
     </div>
   );

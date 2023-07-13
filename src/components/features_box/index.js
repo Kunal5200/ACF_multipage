@@ -6,8 +6,8 @@ const Featurebox = (props) => {
     <div>
       <div className="bbb border p-3 rounded feature_box">
         <img src={props.img} width={50} height={50}  className="animate__animated  animate__pulse"/>
-        <h6 className="mt-2 emp">{props.heading}</h6>
-        <p className="text-justify our">
+        <h6 className="mt-2 emp text-primary">{props.heading}</h6>
+        <p className="text-justify text-grey">
           {props.desc}
         </p>
       </div>

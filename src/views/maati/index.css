@@ -3,8 +3,8 @@
   background-size: cover;
   background-position: center;
   height: 75vh;
-  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .overlay {
   background-color: #22222242;
@@ -49,4 +49,10 @@ font-size: 14px;}
 @media screen and (min-width: 991px) and (max-width: 1030px) {
   .bg_maati{height: 25vh;}
 
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  .bg_maati{
+    height: 50vh;
+  }
 }
