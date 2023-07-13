@@ -4,7 +4,7 @@ import Aos from "aos";
 import image1 from "../../assests/images/banner/indian_farmer_1.webp";
 import image2 from "../../assests/images/banner/indian_farmer_plowing_files_1.webp";
 import image3 from "../../assests/images/banner/young_farmer.webp";
-import angel1 from "../../assests/images/banner/angel_farmer1.jpg";
+import angel1 from "../../assests/images/banner/angel_farmer1.webp";
 import angel2 from "../../assests/images/banner/angel_farmer2.jpg";
 import angel3 from "../../assests/images/banner/angel_farmer3.jpg";
 import farmer from "../../assests/images/banner/farmer.png";
@@ -22,6 +22,7 @@ import {
 } from "react-headless-accordion";
 import { FaAngleDown, FaAngleUp, FaMinus, FaPlus } from "react-icons/fa";
 import data from "../../assests/data/data";
+
 const Home = () => {
   Aos.init();
 
@@ -57,6 +58,7 @@ const Home = () => {
                       border="2px solid #36BA24"
                       color="#ffffff"
                       padding="8px"
+                      width="150px"
                       // rounded="8px"
                       className="butto my-3"
                     >
@@ -70,10 +72,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="background_farmer__angel  p-3">
-        <div className="container my-4">
+
+      <div className="background_farmer__angel  p-4">
+        <div className="container my-3">
           <div className="row"></div>
-          <div className="row align-items-center mt-4">
+          <div className="row align-items-center mt-5">
             <div
               className="col-sm-5 col-md-6 col-lg-5 p-5"
               data-aos="fade-left"
@@ -103,6 +106,7 @@ const Home = () => {
                   border="2px solid #36BA24"
                   color="#ffffff"
                   padding="8px"
+                  width="150px"
                   // rounded="8px"
                   className=""
                 >
@@ -298,6 +302,7 @@ const Home = () => {
                   border="2px solid #36BA24"
                   color="#ffffff"
                   padding="8px"
+                  width="150px"
                   // rounded="8px"
                   className=""
                 >
@@ -310,7 +315,7 @@ const Home = () => {
       </div>
 
       <div className="farmer_angelfarmer ">
-        <div className="container my-4 p-5">
+        <div className="container my-2 p-4">
           <div className="row">
             <h6 className=" backbone text-center">
               {" "}
@@ -331,12 +336,12 @@ const Home = () => {
               data-aos-once="true"
               data-aos-anchor-placement="top"
             >
-              <div className="farmer p-3">
+              <div className="farmer">
                 <div className="shadow rounded height_farmer p-5">
                   <div className="text-center mb-3">
                     <img src={farmer} width={100} height={100} />
                   </div>
-                  <h4 className="my-4 emp text-center">Benefits For Farmers</h4>
+                  <h4 className="my-4 empp text-center">Benefits For Farmers</h4>
                   <ul className="list-unstyled">
                     <li className="benefits_list my-2 our text-grey">
                       Farmers get financial, technological, and efficient market
@@ -364,7 +369,7 @@ const Home = () => {
               data-aos-once="true"
               data-aos-anchor-placement="top"
             >
-              <div className="angel_farmer p-3">
+              <div className="angel_farmer ">
                 <div className="shadow rounded height_farmer p-5">
                   <div className="text-center mb-3">
                     <img src={angelfarmer} width={100} height={100} />
@@ -428,12 +433,14 @@ const Home = () => {
                     data-aos-once="true"
                     data-aos-anchor-placement="top"
                   >
-                    <h6 className=" backbone"> Why work with AllCanFarm?</h6>
-                    <h3 className="text-justify ind text-primary mt-3">
+                    <h6 className=" backbone"> Why work with 
+                    </h6>
+                    <h3 className="text-primary farmm"> AllCanFarm?</h3>
+                    <p className="text-justify text-grey mt-3">
                       AllCanFarm is a collaborative relationship between farmers
                       and angel farmers, which provides many reasons to work
                       with us.
-                    </h3>
+                    </p>
                     <p className="text-justify  text-grey farmmer">
                       <ul className="list-unstyled mt-3">
                         <li className="benefits_list my-2 our text-grey">
@@ -466,14 +473,18 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="container ms-3">
+          <div className="container ms-3 ">
             <div className="row mt-5 p-2">
-              <p className=" backbone">
-                Farm adoption plans
-              </p>
-              <p className="text-justify text-primary inds">
+              <h6 className=" backbone text-center mt-4">
+                Farm 
+              </h6>
+                <h3 className="text-primary farmm text-center">
+                  Adoption Plans
+                  </h3>
+              <p className="text-justify text-center text-grey mt-3">
                 We have curated farm adoption plans for angel farmers.
               </p>
+             
               <div className="col-sm-4">
                 <div
                   className="mt-4 "
@@ -487,6 +498,7 @@ const Home = () => {
                   data-aos-anchor-placement="top"
                 >
                   <div className="footertext">
+               
                     <h4 className="text-justify my-3 backbone ">
                       Short Term Plan (2-3 Years)
                     </h4>

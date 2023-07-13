@@ -5,6 +5,7 @@
   height: 75vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .overlay {
   background-color: #22222242;
@@ -13,6 +14,9 @@
   align-items: center;
   justify-content: center;
   color: #ffffff;
+}
+.maati{
+  font-size: 35px;
 }
 .productt{margin-left: 8px !important;}
 

@@ -17,13 +17,14 @@
 }
 
 .Navbar > .nav-items > a {
-  color: #222 !important;
+  color: #000 !important;
   font-size: 18px;
   text-decoration: none;
   margin: 15px;
+  font-weight: 500;
   padding: 10px 0;
   position: relative;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .Navbar > .nav-items > a:hover {

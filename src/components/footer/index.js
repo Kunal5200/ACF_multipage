@@ -9,7 +9,7 @@ import {
   FaInstagram,
   FaGooglePlay,
 } from "react-icons/fa";
-import {GrAppleAppStore} from 'react-icons/gr'
+import { GrAppleAppStore } from "react-icons/gr";
 import { AiFillAndroid } from "react-icons/ai";
 import Button from "../button";
 import { NavLink } from "react-router-dom";
@@ -22,7 +22,7 @@ const Footer = () => {
     {
       name: "ABOUT",
       url: "/about",
-    },  
+    },
     {
       name: "ALLCANFARM",
       url: "/allcanfarm",
@@ -38,31 +38,33 @@ const Footer = () => {
     },
   ];
   return (
-    <div>
-      <div className="footer">
-        <div className="bg-footer p-3">
-          <div className="row align-items-center mb-2">
-            <div className="col-sm-11 m-auto  text-center">
-            <NavLink to="/">
-              <img src={logo} />
+    <>
+      <div className="footer p-0">
+        <div className="bg-footer p-5">
+          <div className="row align-items-center mb-4">
+            <div className="col-sm-12 m-auto  text-center">
+              <NavLink to="/">
+                <img src={logo} />
               </NavLink>
               {/* <p className="text-left text-white">
                 AllCanFarm empowers farmers to achieve higher yields, increase
                 profitability, and embrace sustainable farming practices.
               </p> */}
-              <div className="footer__links ">
+              </div>
+                </div>
+              <div className="footer__links">
                 {links.map((val) => (
-                  <NavLink to={val.url} className="mx-3 links_footer">
+                  <NavLink to={val.url} className="mx-3 links_footer mb-3">
                     {val.name}
                   </NavLink>
                 ))}
               </div>
 
-              <div className="d-flex align-items-center justify-content-center mt-4">
+              <div className="d-flex align-items-center justify-content-center mt-5">
                 <a href="https://play.google.com/store/apps/details?id=com.allcanfarmapp.avigna">
                   <Button
-                    bg="#36BA24"
-                    border="2px solid #36BA24"
+                    bg="#ffff"
+                    border="transparent"
                     color="#ffffff"
                     padding="1px"
                     rounded="10px"
@@ -73,7 +75,7 @@ const Footer = () => {
                   >
                     <div className="d-flex align-items-center justify-content-center">
                       {/* <FaGooglePlay className="playbut me-3" /> */}
-                      <img src={playstore} className="playbut"/>
+                      <img src={playstore} className="playbut" />
 
                       <div className="googlebut">
                         <p className="getin mb-0">GET IN ON </p>
@@ -101,11 +103,9 @@ const Footer = () => {
                   </Button> */}
                 </a>
               </div>
-            </div>
           </div>
-        </div>
       </div>
-    </div>
+    </>
   );
 };
 

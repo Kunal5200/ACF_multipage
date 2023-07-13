@@ -14,7 +14,7 @@ const ACF = () => {
     <div>
       <div className="ACf">
         <div className="bg-ACF">
-          <h2 className="text-white animate__animated animate__bounceInDown">
+          <h2 className="text-white animate__animated animate__bounceInDown maati">
             AllCanFarm
           </h2>
         </div>

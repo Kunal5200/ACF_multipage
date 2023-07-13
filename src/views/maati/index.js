@@ -133,7 +133,7 @@ const Marketplace = () => {
     <div>
       <div className="bg_maati">
         <div className="overlay">
-          <h2 className="animate__animated animate__zoomInLeft ">Dhur Maati</h2>
+          <h2 className="animate__animated animate__zoomInLeft maati">Dhur Maati</h2>
         </div>
       </div>
       <div className="container p-3">
@@ -150,8 +150,11 @@ const Marketplace = () => {
               data-aos-once="true"
               data-aos-anchor-placement="top"
             >
-              Dhur Maati-Farm to Table
+              Dhur Maati-
             </h4>
+              <h3 className="farmm text-primary">
+                Farm to Table
+                </h3>
             <p
               className="text-justify text-grey"
               data-aos="fade-left"
