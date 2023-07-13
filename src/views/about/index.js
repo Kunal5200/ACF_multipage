@@ -14,14 +14,14 @@ const About = () => {
     <div>
       <div className="bg-about">
         <div className="bg__about">
-          <h4 className="text-white animate__animated animate__lightSpeedInLeft ">
+          <h4 className="text-white animate__animated animate__lightSpeedInLeft maati">
             About
           </h4>
         </div>
       </div>
       <div className="container">
         <div className="row">
-          <div className=" col-sm-11 p-4">
+          <div className=" col-sm-11 p-5">
             <h4 className="backbone"
               data-aos="fade-right"
               data-aos-offset="2"
@@ -33,8 +33,11 @@ const About = () => {
               data-aos-anchor-placement="top"
               
               >
-         AllCanFarm: Cultivating Connection, Nourishing Communities{" "}
+         AllCanFarm: 
             </h4>
+         <h3 className="farmm text-primary">
+          Cultivating Connection, Nourishing Communities{" "}
+          </h3>
             <p
               className="text-justify text-grey lands"
               data-aos="fade-right"
@@ -170,7 +173,7 @@ const About = () => {
             // data-aos-once="false"
             // data-aos-anchor-placement="top"
           >
-            <h4 className="backbone">Our Team</h4>
+            <h4 className="tee">Our Team</h4>
             <p className="text-justify text-grey ">
               Meet our dedicated team of professionals who are behind the scenes
               of AllCanFarm’s work and success. With years of experience and

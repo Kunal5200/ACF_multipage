@@ -17,7 +17,7 @@
   font-size: 45px;
 }
 .heading {
-  font-size: 30px;
+  font-size: 35px;
   text-align: left;
   margin-left: 4px;
 }
@@ -30,7 +30,7 @@
 }
 .farmm{
   font-size: 32px;
-  font-weight:500;
+  font-weight:700;
 }
 .backbone{
   font-size: 14px;
@@ -121,6 +121,12 @@ font-weight:500;
 .angel_farmer {
   border: 2px dashed #933a33;
   border-radius: 10px;
+}
+.emp{
+ color:  #933a33;
+}
+.empp{
+  color: #36ba24;
 }
 .benefits_list::before {
   content: "🌿";
