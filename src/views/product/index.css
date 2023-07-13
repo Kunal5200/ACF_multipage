@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
   .bg-ACF {
     background-color: rgba(0, 0, 0, 0.203);
@@ -40,4 +40,9 @@ height: 30px;
   
 @media screen and (min-width: 991px) and (max-width: 1030px) {
   .pro{height: 25vh;}
+}
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+.pro{
+  height: 50vh;
+}
 }

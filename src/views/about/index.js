@@ -22,7 +22,7 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className=" col-sm-11 p-4">
-            <h4 className="ind"
+            <h4 className="backbone"
               data-aos="fade-right"
               data-aos-offset="2"
               data-aos-delay="20"
@@ -31,11 +31,12 @@ const About = () => {
               data-aos-mirror="true"
               data-aos-once="true"
               data-aos-anchor-placement="top"
-            >
+              
+              >
          AllCanFarm: Cultivating Connection, Nourishing Communities{" "}
             </h4>
             <p
-              className="text-justify our lands"
+              className="text-justify text-grey lands"
               data-aos="fade-right"
               data-aos-offset="2"
               data-aos-delay="20"
@@ -51,7 +52,7 @@ const About = () => {
         </div>
       </div>
       <div className="container mobile_hidden">
-        <h4 className="mb-5 text-center">Lifecycle </h4>
+        <h4 className="mb-5 text-center backbone">Lifecycle </h4>
         <div className="m-auto ">
           {/* <div className=" arrow_up text-center">
             <p className="mb-0 f-13">Farmer Onboarding</p>
@@ -73,9 +74,9 @@ const About = () => {
               desc={Lifecycle.Lifecycle.desc1}
             />
             <div>
-              <p className="mb-0 f-13">Farmer Onboarding</p>
+              <p className="mb-0 f-13 backbone">Farmer Onboarding</p>
               <img src={arrow} width={100} />
-              <p className="f-13">Farm Onboarding</p>
+              <p className="f-13 backbone">Farm Onboarding</p>
             </div>
             <Rotate
               aos="fade-left"
@@ -93,14 +94,14 @@ const About = () => {
           </div>
           <div className="d-flex align-items-center justify-content-between">
             <div className="arrow_1">
-              <p className="mb-0 f-13">Technology-backed marketplace</p>
+              <p className="mb-0 f-13 backbone">Technology-backed marketplace</p>
               <img src={arrow} width={100} />
-              <p className="mb-0 f-13">Revenue generation</p>
+              <p className="mb-0 f-13 backbone">Revenue generation</p>
             </div>
             <div className="arrow_2">
-              <p className="mb-0 f-13">Farm Adoption </p>
+              <p className="mb-0 f-13 backbone">Farm Adoption </p>
               <img src={arrow} width={100} />
-              <p className="mb-0 f-13">Yield Processing</p>
+              <p className="mb-0 f-13 backbone">Yield Processing</p>
             </div>
           </div>
 
@@ -119,9 +120,9 @@ const About = () => {
               anchor-placement="top"
             />
             <div className="mx-3 text-center">
-              <p className="mb-0 f-13">Food Packaging</p>
+              <p className="mb-0 f-13 backbone">Food Packaging</p>
               <img src={arrow} className="rotate_img" width={100} />
-              <p className="mb-0 f-13">
+              <p className="mb-0 f-13 backbone">
                 ISO-certified and FSSAI-compliant yield
               </p>
             </div>
@@ -169,8 +170,8 @@ const About = () => {
             // data-aos-once="false"
             // data-aos-anchor-placement="top"
           >
-            <h4 className="">Our Team</h4>
-            <p className="text-justify our ">
+            <h4 className="backbone">Our Team</h4>
+            <p className="text-justify text-grey ">
               Meet our dedicated team of professionals who are behind the scenes
               of AllCanFarm’s work and success. With years of experience and
               expertise in their respective fields, they work enthusiastically

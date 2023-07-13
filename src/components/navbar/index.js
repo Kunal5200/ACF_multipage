@@ -34,7 +34,7 @@ function Navbar() {
     },
   ];
   return (
-    <div className="home shadow p-2" id="Home">
+    <div className="container home p-2" id="Home">
       <div className="home__bg">
         <div className="header Navbar">
           <NavLink to="/">

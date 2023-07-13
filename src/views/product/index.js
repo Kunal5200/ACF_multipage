@@ -95,7 +95,7 @@ const Productview = (props) => {
     <div>
       <div className="pro">
         <div className="bg-ACF">
-          <h2 className="text-white animate__animated animate__bounceInDown ind">
+          <h2 className="text-white animate__animated animate__bounceInDown ">
           {location.state.heading}
           </h2>
         </div>
@@ -117,10 +117,10 @@ const Productview = (props) => {
                 data-aos-once="true"
                 data-aos-anchor-placement="top"
               >
-                <p className="text-primary fw-bold f-18 ls-6 emp  ">
+                <p className=" fw-bold f-18 ls-6 backbone ">
                 {location.state.heading}
                 </p>
-                <h3 className="text-justify mt-3">Features:</h3>
+                <h3 className="text-justify mt-3 text-primary">Features:</h3>
                 <ul className="list-unstyled">
                   {location.state.data.features.map((val,id)=>{
                     return(<li className="benefits_list mt-2 our">{val.feature}</li>);
@@ -136,7 +136,7 @@ const Productview = (props) => {
                     border="2px solid #36BA24"
                     color="#ffffff"
                     padding="1px"
-                    rounded="20px"
+                    rounded="12px"
                     width="155px"
                     height="
                     55px"
@@ -147,7 +147,8 @@ const Productview = (props) => {
 
 <div className="googlebut">
   <p className=" geet mb-0 mx-2">GET IN ON </p>
-                        {/* <span>Google Play</span> */}
+                        {
+                        /* <span>Google Play</span> */}
                       </div>
                     </div>
                   </Button>
@@ -176,7 +177,7 @@ const Productview = (props) => {
           </div>
           
           
-          <h4 className="animate_animated animate__zoomInRight">
+          <h4 className="animate_animated animate__zoomInRight backbone">
             PRODUCT LIST
           </h4>
         

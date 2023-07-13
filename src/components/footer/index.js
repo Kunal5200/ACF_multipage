@@ -40,8 +40,8 @@ const Footer = () => {
   return (
     <div>
       <div className="footer">
-        <div className="bg-footer p-5">
-          <div className="row align-items-center">
+        <div className="bg-footer p-3">
+          <div className="row align-items-center mb-2">
             <div className="col-sm-11 m-auto  text-center">
             <NavLink to="/">
               <img src={logo} />
@@ -50,7 +50,7 @@ const Footer = () => {
                 AllCanFarm empowers farmers to achieve higher yields, increase
                 profitability, and embrace sustainable farming practices.
               </p> */}
-              <div className="footer__links my-3">
+              <div className="footer__links ">
                 {links.map((val) => (
                   <NavLink to={val.url} className="mx-3 links_footer">
                     {val.name}
@@ -58,14 +58,14 @@ const Footer = () => {
                 ))}
               </div>
 
-              <div className="d-flex align-items-center justify-content-center">
+              <div className="d-flex align-items-center justify-content-center mt-4">
                 <a href="https://play.google.com/store/apps/details?id=com.allcanfarmapp.avigna">
                   <Button
                     bg="#36BA24"
                     border="2px solid #36BA24"
                     color="#ffffff"
                     padding="1px"
-                    rounded="12px"
+                    rounded="10px"
                     width="165px"
                     height="
                     55px"

@@ -1,10 +1,9 @@
 .banner {
   background-image: url("../../assests/images/banner//bannerhome.webp");
-  height: 60vh;
+  height: 80vh;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 .bg-overlay {
   background-color: #00000050;
@@ -19,6 +18,52 @@
 }
 .heading {
   font-size: 30px;
+  text-align: left;
+  margin-left: 4px;
+}
+.ina{
+  font-size: 16px;
+  margin-left: 7px !important;
+}
+.butto{
+  margin-left: 7px !important;
+}
+.farmm{
+  font-size: 32px;
+  font-weight:500;
+}
+.backbone{
+  font-size: 14px;
+  font-weight: bold;
+}
+.farmmer{
+  font-size: 15px;
+}
+.our{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.ind{
+font-size: 16px;
+font-weight:500;
+}
+.footertext {
+  text-align: left;
+  display: inline;
+  position: relative;
+}
+.footertext::after {
+  content: "";
+  width: 0.1px;
+  display: block;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  /* left: 0px !important; */
+  top: 52%;
+  height: 80%;
+  transform: translateY(-50%);
 }
 .image_grid {
   display: flex;
@@ -123,19 +168,30 @@
   transform: scale(1.1);
 }
 .accordion_head {
+border-bottom: 2px solid #36ba24 !important;
   border: none;
   width: 100%;
   text-align: left;
-  padding: 10px;
-  background: #36ba24;
-  color: #ffffff;
+  padding: 8px;
+  background-color: #fff;
+  /* background: #36ba24; */
+  color: #000;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .accordion_body {
-  padding: 5px;
-  color: grey;
+  padding: 2px;
+  color: #36ba24;
+  font-size: 15px;
+  display: flex;
+margin-left: 5px;
+  
+}
+.inds{
+  font-size: 18px;
+  font-weight: 700;
 }
 .india{margin-left: 17px !important;}
 
@@ -208,6 +264,10 @@
   }
 }
 
-
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  .banner{
+    height: 50vh;
+  }
+}
 
 

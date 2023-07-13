@@ -140,7 +140,7 @@ const Marketplace = () => {
         <div className="row my-5">
           <div className="col-sm-12">
           
-            <h4 className="dhurr"
+            <h4 className="backbone"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50" 
@@ -153,7 +153,7 @@ const Marketplace = () => {
               Dhur Maati-Farm to Table
             </h4>
             <p
-              className="text-justify our"
+              className="text-justify text-grey"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-delay="50"
@@ -166,7 +166,7 @@ const Marketplace = () => {
               {maati.para}
             </p>
            
-            <p className="our text-justify"
+            <p className="text-grey text-justify"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
@@ -189,7 +189,7 @@ const Marketplace = () => {
               their customers and provide high-quality, sustainably produced
               produce.
             </p>
-            <p className="our"
+            <p className="text-grey"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
@@ -207,7 +207,7 @@ const Marketplace = () => {
         </div>
 
         <div>
-          <h4 className="animate_animated animate__zoomInRight howd">
+          <h4 className="animate_animated animate__zoomInRight backbone">
             How Dhur Maati Works?
           </h4>
         </div>
@@ -248,7 +248,7 @@ const Marketplace = () => {
         </div>
 
         
-          <h4 className="animate_animated animate__zoomInRight  productt">
+          <h4 className="animate_animated animate__zoomInRight  backbone">
             PRODUCT LIST
           </h4>
         
