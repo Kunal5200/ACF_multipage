@@ -25,6 +25,7 @@
   transition: 0.5s ease all;
   cursor: pointer;
 }
+
 .icons:hover {
   scale: 1.1;
   background-color: #ffffff;
@@ -67,6 +68,10 @@
 .playbut{
 height: 30px;
 }
+.hover{
+  margin-left: 19px;
+  margin-top: -10px;
+}
 @media screen and (max-width: 600px) {
   .footer__links {
     font-size: 9px !important;
@@ -86,3 +91,4 @@ height: 30px;
 @media screen and (min-width: 991px) and (max-width: 1030px) {
   .footer{height: 25vh;}
 }
+
