@@ -1,6 +1,6 @@
 .circle {
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 140px;
   position: relative;
 }
 .circle .border {
@@ -41,11 +41,19 @@
   text-align: center;
 }
 .stop h4{
-  font-size: 20px;
+  font-size: 12px;
+  text-align: center;
+
 }
 .main_border {
   border: 2px dashed #36ba24;
-  width: 500px;
+  width: 320px;
+  height: 200px !important;
+}
+.dess{
+  font-size: 12px;
+  margin-top: -50px;
+  padding: 3px 3px;
 }
 @keyframes Rotate {
   from {

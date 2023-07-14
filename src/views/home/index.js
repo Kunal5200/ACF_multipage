@@ -73,7 +73,7 @@ const Home = () => {
       </div>
 
 
-      <div className="background_farmer__angel  p-4">
+      <div className="background_farmer__angel  p-3">
         <div className="container my-3">
           <div className="row"></div>
           <div className="row align-items-center mt-5">

@@ -14,6 +14,9 @@
   align-items: center;
   justify-content: center;
 }
+.faha{
+  font-size: 15px;
+}
 .lifecycle::after {
   content: "→";
   position: absolute;
@@ -62,11 +65,11 @@
 }
 .circle_bottom_right {
   /* right: 20px; */
-  bottom: 110px;
+  bottom: 90px;
 }
 .circle_bottom_left {
   /* left: 108px; */
-  bottom: 110px;
+  bottom: 90px;
 }
 .arrow_up {
   position: relative;
@@ -80,15 +83,26 @@
   height: 800px;
   margin: auto;
 }
+
 .arrow_1 {
   transform: rotate(270deg);
-  margin-top: 70px;
+  margin-top: 30px;
+  margin-left: 65px;
+  
 }
+/* .asa{
+  border-bottom: 2px dashed black;
+  width: 40%;
+} */
 .arrow_2 {
   transform: rotate(90deg);
-  margin-top: 70px;
+padding: 45px 107px;
+  margin-top: 30px;
 }
 
+/* .arrowray{
+  width: 25%;
+} */
 
 @media screen and (max-width: 600px) {
   .bg-about {
