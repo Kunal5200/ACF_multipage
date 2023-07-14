@@ -19,7 +19,7 @@ const ACF = () => {
           </h2>
         </div>
       </div>
-      <div className="container my-5">
+      <div className="container my-5 p-3">
         <div className="row align-items-center">
           <div className="col-sm-12">
             <div
@@ -47,8 +47,8 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
         </div>
       </div>
       <div className="container ">
-        <div className="row align-items-center my-7">
-          <h2 className="backbone">How AllCanFarm Works? </h2>
+        <div className="row align-items-center my-5">
+          {/* <h2 className="backbone">How AllCanFarm Works? </h2> */}
           <div
             className="col-sm-6"
             data-aos="fade-up-left"
@@ -60,6 +60,7 @@ In the tapestry of our story, each thread weaves a tale of empowerment, sustaina
             data-aos-once="false"
             data-aos-anchor-placement="top"
           >
+            <h2 className="backbone mb-4">How AllCanFarm Works? </h2>
             <h5 className="farmm text-primary ">AllCanFarm Living</h5>
             <p className="text-justify text-grey">{description.description.message1}</p>
           </div>

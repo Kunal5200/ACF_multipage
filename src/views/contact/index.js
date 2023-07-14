@@ -16,8 +16,8 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact">
-        <div className="container-fluid bg-grey bg_contact">
-          <div className="row ">
+        <div className="container-fluid bg-grey bg_contact p-3">
+          <div className="row container">
             <div className="col-sm-12 col-md-7 col-lg-7 p-5">
               <div className="bg-light shadow p-5">
                 <form>
