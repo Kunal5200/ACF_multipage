@@ -140,3 +140,16 @@ padding: 45px 107px;
     height: 50vh;
   }
 }
+
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .bg-about{
+    height: 55vh;
+  }
+    }
+
+    
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .bg-about{
+    height: 45vh;
+  }
+}

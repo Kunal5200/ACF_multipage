@@ -85,8 +85,23 @@
     /* .styles-module_whatsappButton__tVits{
       margin-left: 55px !important;} */
   }
+  
   @media screen and (min-width: 1920px) and (min-height: 1080px) {
     .ACF{
       height: 50vh;
+    }
+  }
+
+  /* mac */
+  @media screen and (min-width: 1280px) and (min-height: 800px) {
+.ACf{
+  height: 55vh;
+}
+  }
+
+  /* ipad pro landscape */
+  @media screen and (min-width: 1366px) and (min-height: 1024px) {
+    .ACf{
+      height: 45vh;
     }
   }

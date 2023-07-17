@@ -4,4 +4,5 @@ let team = {
   team2:
     "Prashant Gyan is an accomplished entrepreneur with over 14 years of experience in the IT and services industries. He is a visionary leader and a serial entrepreneur who has founded and scaled multiple successful businesses. Currently, Prashant is the founder and CEO of AllCanFarm, an innovative organisation that aims to transform the agriculture industry by investing in sustainable and scalable farming practises.",
 };
+
 export default team;

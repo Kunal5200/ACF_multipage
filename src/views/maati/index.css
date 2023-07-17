@@ -60,3 +60,14 @@ font-size: 14px;}
     height: 50vh;
   }
 }
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .bg_maati {
+    height: 55vh;
+  }
+
+}
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .bg_maati{
+    height: 45vh;
+  }
+}
