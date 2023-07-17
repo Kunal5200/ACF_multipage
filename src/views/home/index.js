@@ -396,7 +396,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>  
 
       <div className="background_farmer__angel ">
         <div className="container mt-3 pt-2">
@@ -474,7 +474,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="container ms-3 ">
+          <div className="container mx-1 px-5">
             <div className="row mt-5 p-2">
               <h6 className=" backbone text-center mt-4">Farm</h6>
               <h3 className="text-primary farmm text-center">Adoption Plans</h3>
@@ -498,8 +498,10 @@ const Home = () => {
               <div className="flip-card">
                 <div className="inner">
                   <div className="front">
-                 <div className="termbg">
-                 <div className="termbgov">
+
+                 <div className="termbg ">
+
+                 <div className="termbgov d-contents">
 
                  <h4 className="term ">Short Term Plan (2-3 Years)</h4>
                  </div>

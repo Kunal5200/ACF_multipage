@@ -1,6 +1,6 @@
 .circle {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   position: relative;
 }
 .circle .border {
@@ -36,8 +36,8 @@
 
 .stop {
   position: relative;
-  top: 48px;
-  padding: 30px;
+  top: 45px;
+  padding: 28px;
   /* text-align: center;
   align-items: center;
   justify-content: center; */

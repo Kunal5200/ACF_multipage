@@ -15,7 +15,7 @@ const Rotate = (props) => {
         data-aos-anchor-placement={props.placement}
       >
         <div class="border"></div>
-        <div class="stop">
+        <div class="stop text-center">
           <h4 className={props.para}>{props.heading}</h4>
         </div>
       </div>
