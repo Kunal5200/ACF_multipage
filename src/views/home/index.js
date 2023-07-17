@@ -14,6 +14,7 @@ import { Link } from "react-router-dom";
 import organic from "../../assests/images/organic.jpg";
 import green_field from "../../assests/images/green_field.jpg";
 import farm_field from "../../assests/images/farm_field.jpg";
+import field from "../../assests/images/banner/field.webp";
 import {
   Accordion,
   AccordionBody,
@@ -71,7 +72,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
 
       <div className="background_farmer__angel  p-3">
         <div className="container my-3">
@@ -341,7 +341,9 @@ const Home = () => {
                   <div className="text-center mb-3">
                     <img src={farmer} width={100} height={100} />
                   </div>
-                  <h4 className="my-4 empp text-center">Benefits For Farmers</h4>
+                  <h4 className="my-4 empp text-center">
+                    Benefits For Farmers
+                  </h4>
                   <ul className="list-unstyled">
                     <li className="benefits_list my-2 our text-grey">
                       Farmers get financial, technological, and efficient market
@@ -433,8 +435,7 @@ const Home = () => {
                     data-aos-once="true"
                     data-aos-anchor-placement="top"
                   >
-                    <h6 className=" backbone"> Why work with 
-                    </h6>
+                    <h6 className=" backbone"> Why work with</h6>
                     <h3 className="text-primary farmm"> AllCanFarm?</h3>
                     <p className="text-justify text-grey mt-3">
                       AllCanFarm is a collaborative relationship between farmers
@@ -475,77 +476,13 @@ const Home = () => {
 
           <div className="container ms-3 ">
             <div className="row mt-5 p-2">
-              <h6 className=" backbone text-center mt-4">
-                Farm 
-              </h6>
-                <h3 className="text-primary farmm text-center">
-                  Adoption Plans
-                  </h3>
+              <h6 className=" backbone text-center mt-4">Farm</h6>
+              <h3 className="text-primary farmm text-center">Adoption Plans</h3>
               <p className="text-justify text-center text-grey mt-3">
                 We have curated farm adoption plans for angel farmers.
               </p>
-             
-              <div className="col-sm-4">
-                <div
-                  className="mt-4 "
-                  data-aos="fade-right"
-                  data-aos-offset="150"
-                  data-aos-delay="20"
-                  data-aos-duration="600"
-                  data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
-                  data-aos-once="true"
-                  data-aos-anchor-placement="top"
-                >
-                  <div className="footertext">
-               
-                    <h4 className="text-justify my-3 backbone ">
-                      Short Term Plan (2-3 Years)
-                    </h4>
-                    <ul className="list-unstyled">
-                      <li className="benefits_list my-2 text-grey">2 crops or plants</li>
-                      <li className="benefits_list my-2 text-grey">1-3 YOY Returns</li>
-                      <li className="benefits_list my-2 text-grey">15% YOY Returns</li>
-                      <li className="benefits_list my-2 text-grey">
-                        Investment Protection
-                      </li>
-                      <li className="benefits_list my-2 text-grey">
-                        Low Risk Investment
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4">
-                <div
-                  className="mt-4 "
-                  data-aos="fade-left"
-                  data-aos-offset="20"
-                  data-aos-delay="50"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease-in-out"
-                  data-aos-mirror="false"
-                  data-aos-once="true"
-                  data-aos-anchor-placement="top"
-                >
-                  <div className="footertext">
-                    <h6 className=" backbone"> Mid Term Plan (4-7 Years)</h6>
 
-                    <ul className="list-unstyled">
-                      <li className="benefits_list my-2 text-grey ">3 crops or plants</li>
-                      <li className="benefits_list my-2 text-grey">1-7 YOY Returns</li>
-                      <li className="benefits_list my-2 text-grey">25% YOY Returns</li>
-                      <li className="benefits_list my-2 text-grey ">
-                        Investment Protection
-                      </li>
-                      <li className="benefits_list my-2 text-grey">
-                        Low Risk Investment
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4 ">
+<div className="col-sm-4">
                 <div
                   className="mt-4"
                   data-aos="fade-right"
@@ -557,21 +494,150 @@ const Home = () => {
                   data-aos-once="true"
                   data-aos-anchor-placement="top"
                 >
-                  <h4 className="text-justify my-3 backbone">
-                    Long Term Plan (8-15 Years)
-                  </h4>
-                  <ul className="list-unstyled ">
-                    <li className="benefits_list my-2 text-grey">4 crops or plants</li>
-                    <li className="benefits_list my-2 text-grey">1-15 YOY Returns</li>
-                    <li className="benefits_list my-2 text-grey">35% YOY Returns </li>
-                    <li className="benefits_list my-2 text-grey">
-                      Investment Protection
-                    </li>
-                    <li className="benefits_list my-2 text-grey">Low Risk Investment</li>
-                  </ul>
+
+              <div className="flip-card">
+                <div className="inner">
+                  <div className="front">
+                 <div className="termbg">
+                 <div className="termbgov">
+
+                 <h4 className="term ">Short Term Plan (2-3 Years)</h4>
+                 </div>
+                {/* <img
+                  src={field}
+                  width="100%"
+                  height="100%"
+                  className="rounded process_hover"
+                /> */}
+             
+
+                  
+                  </div>
+                  </div>
+
+                  <div className="back">
+                    <ul className="list-unstyled mt-5">
+                      <li className="short benefits_list my-2 text-white ">
+                        2 crops or plants
+                      </li>
+                      <li className="short benefits_list my-2 text-white ">
+                        1-3 YOY Returns
+                      </li>
+                      <li className="short benefits_list my-2 text-white ">
+                        15% YOY Returns
+                      </li>
+                      <li className="short benefits_list my-2 text-white ">
+                        Investment Protection
+                      </li>
+                      <li className="short benefits_list my-2 text-white ">
+                        Low Risk Investment
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-              <div className="mb-4"></div>
+              </div>
+              </div>
+
+              <div className="col-sm-4">
+                <div
+                  className="mt-4 "
+                  data-aos="fade-right"
+                  data-aos-offset="150"
+                  data-aos-delay="20"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top"
+                >
+              <div className="flip-card">
+                <div className="inner">
+                  <div className="front">
+                    <div className="termbg">
+                    <div className="termbgov">
+                      
+                    <h4 className="term">Mid Term Plan (4-7 Years)</h4>
+                    </div>
+                    </div>
+                
+                  </div>
+
+                  <div className="back">
+                    <ul className="list-unstyled mt-5">
+                      <li className="short benefits_list my-2 text-white">
+                        3 crops or plants
+                      </li>
+                      <li className="short benefits_list my-2 text-white">
+                        1-7 YOY Returns
+                      </li>
+                      <li className="short benefits_list my-2 text-white">
+                        25% YOY Returns
+                      </li>
+                      <li className="short benefits_list my-2 text-white">
+                        Investment Protection
+                      </li>
+                      <li className="short benefits_list my-2 text-white">
+                        Low Risk Investment
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+                </div>
+              </div>
+
+              <div className="col-sm-4">
+                <div
+                  className="mt-4 "
+                  data-aos="fade-right"
+                  data-aos-offset="150"
+                  data-aos-delay="20"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top"
+                >
+              <div className="flip-card">
+                <div className="inner">
+                  <div className="front">
+                  <div className="termbg">
+                  <div className="termbgov">
+                      
+                      
+                 
+                    <h4 className="term">Long Term Plan (8-15 Years)</h4>
+                  </div>
+                  </div>
+                  </div>
+
+                  <div className="back">
+                    <ul className="list-unstyled mt-5">
+                      <li className="short benefits_list my-2 text-white">
+                        4 crops or plants
+                      </li>
+                      <li className="short benefits_list my-2 text-white">
+                        1-15 YOY Returns
+                      </li>
+                      <li className="short benefits_list my-2 text-white">
+                        35% YOY Returns
+                      </li>
+                      <li className="short benefits_list my-2 text-white">
+                        Investment Protection
+                      </li>
+                      <li className="short benefits_list my-2 text-white">
+                        Low Risk Investment
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+
+            
+              <div className="mb-5"></div>
             </div>
           </div>
         </div>
@@ -591,7 +657,7 @@ const Home = () => {
             data-aos-once="true"
             data-aos-anchor-placement="top"
           >
-          {/* <h3 className="text-left farmm mb-2">Common Questions</h3> */}
+            {/* <h3 className="text-left farmm mb-2">Common Questions</h3> */}
             <img src={organic} width="100%" className="org" />
           </div>
           <div

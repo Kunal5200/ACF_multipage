@@ -69,3 +69,15 @@
   .bg-cont{
   height: 50vh;}
 }
+
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .proo {
+    height: 55vh;
+  }
+}
+    
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .proo{
+    height: 45vh;
+  }
+}

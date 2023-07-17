@@ -21,32 +21,32 @@
   text-align: left;
   margin-left: 4px;
 }
-.ina{
+.ina {
   font-size: 16px;
   margin-left: 7px !important;
 }
-.butto{
+.butto {
   margin-left: 7px !important;
 }
-.farmm{
+.farmm {
   font-size: 32px;
-  font-weight:700;
+  font-weight: 700;
 }
-.backbone{
+.backbone {
   font-size: 15px;
   font-weight: bold;
 }
-.farmmer{
+.farmmer {
   font-size: 15px;
 }
-.our{
+.our {
   display: flex;
   align-items: center;
   font-size: 15px;
 }
-.ind{
-font-size: 16px;
-font-weight:500;
+.ind {
+  font-size: 16px;
+  font-weight: 500;
 }
 .footertext {
   text-align: left;
@@ -119,13 +119,13 @@ font-weight:500;
   border-radius: 10px;
 }
 .angel_farmer {
-  border: 2px dashed #933a33;
+  border: 2px dashed #36ba24;
   border-radius: 10px;
 }
-.emp{
- color:   #36ba24;
+.emp {
+  color: #36ba24;
 }
-.empp{
+.empp {
   color: #36ba24;
 }
 .benefits_list::before {
@@ -174,7 +174,7 @@ font-weight:500;
   transform: scale(1.1);
 }
 .accordion_head {
-border-bottom: 2px solid #36ba24 !important;
+  border-bottom: 2px solid #36ba24 !important;
   border: none;
   width: 100%;
   text-align: left;
@@ -189,17 +189,93 @@ border-bottom: 2px solid #36ba24 !important;
 
 .accordion_body {
   padding: 2px;
-  color:#000;
-  font-size: 15px;
+  color: grey;
+  font-size: 13px;
   display: flex;
-margin-left: 5px;
-  
+  margin-left: 5px;
 }
-.inds{
+.inds {
   font-size: 18px;
   font-weight: 700;
 }
-.india{margin-left: 17px !important;}
+.india {
+  margin-left: 17px !important;
+}
+
+.term {
+  font-size: 25px;
+  color: #fff;
+  padding: 85px 15px;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+}
+.short {
+  font-size: 13px;
+  text-align: start;
+  padding: 1px 28px;
+  /* padding: 60px 0px; */
+}
+
+.termbg
+{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assests/images/green_field.jpg");
+  height: 100%;
+  width: 100%;
+}
+.termbgov{
+  background-color: #00000050;
+  height: 100%;
+  color: white;
+  display: grid;
+  place-items: start;
+  align-items: start;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 230px;
+  height: 230px;
+  perspective: 1000px;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .inner {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-color: #bbb;
+  color: black;
+}
+
+.back {
+  background-color: #36ba24;
+  color: #36ba24;
+
+  transform: rotateY(180deg);
+}
 
 @media screen and (max-width: 600px) {
   .height_farmer {
@@ -261,7 +337,9 @@ margin-left: 5px;
   .styles-module_whatsappButton__tVits {
     margin-left: 62px;
   }
-  .india{font-size: 14px;}
+  .india {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1030px) {
@@ -271,9 +349,19 @@ margin-left: 5px;
 }
 
 @media screen and (min-width: 1920px) and (min-height: 1080px) {
-  .banner{
+  .banner {
     height: 50vh;
   }
 }
 
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .banner {
+    height: 65vh;
+  }
+}
 
+
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .banner {
+    height: 50vh;}
+}
