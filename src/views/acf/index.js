@@ -3,7 +3,7 @@ import "./index.css";
 import farmstead from "../../assests/images/green_field.jpg";
 import description from "../../assests/data/constant";
 import transportation from "../../assests/images/banner/transportation.webp";
-import corporate from "../../assests/images/banner/corporate.webp";
+import corporate from "../../assests/images/social.webp";
 import carbon from "../../assests/images/banner/carbo.webp";
 import marketplace from "../../assests/images/banner/marketplace.webp";
 import Aos from "aos";

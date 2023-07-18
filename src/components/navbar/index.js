@@ -38,7 +38,7 @@ function Navbar() {
       <div className="home__bg">
         <div className="header Navbar">
           <NavLink to="/">
-            <img className="logo" src={logo} alt="logo" />
+            <img className="logo mt-2" src={logo} alt="logo" />
           </NavLink>
           <div className={`nav-items ${isOpen && "open"}`}>
             {links.map((val) => (

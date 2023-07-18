@@ -2,65 +2,66 @@ import React from "react";
 import "./index.css";
 import logo from "../../assests/images/AllCanFarmLogoWhite.svg";
 import playstore from "../../assests/images/playstore.png";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  FaInstagram,
-  FaGooglePlay,
-} from "react-icons/fa";
-import { GrAppleAppStore } from "react-icons/gr";
+import List from "../list";
+import data from "../../assests/data/data";
+import { AiFillApple } from "react-icons/ai";
 import { AiFillAndroid } from "react-icons/ai";
 import Button from "../button";
 import { NavLink } from "react-router-dom";
 const Footer = () => {
-  let links = [
-    {
-      name: "HOME",
-      url: "/",
-    },
-    {
-      name: "ABOUT",
-      url: "/about",
-    },
-    {
-      name: "ALLCANFARM",
-      url: "/allcanfarm",
-    },
-    {
-      name: "MAATI",
-      url: "/maati ",
-    },
+  // let links = [
+  // {
+  //   name: "HOME",
+  //   url: "/",
+  // },
+  //   {
+  //     name: "ABOUT",
+  //     url: "/about",
+  //   },
+  //   {
+  //     name: "ALLCANFARM",
+  //     url: "/allcanfarm",
+  //   },
+  //   {
+  //     name: "MAATI",
+  //     url: "/maati ",
+  //   },
 
-    {
-      name: "CONTACT",
-      url: "/contact",
-    },
-  ];
+  //   {
+  //     name: "CONTACT",
+  //     url: "/contact",
+  //   },
+  // ];
+
   return (
     <>
-      <div className="footer p-0">
-        <div className="bg-footer p-5">
-          <div className="row align-items-center mb-4">
-            <div className="col-sm-12 m-auto  text-center">
-              <NavLink to="/">
-                <img src={logo} />
-              </NavLink>
-              {/* <p className="text-left text-white">
-                AllCanFarm empowers farmers to achieve higher yields, increase
-                profitability, and embrace sustainable farming practices.
-              </p> */}
+      <div className="footer ">
+        <div className="bg-footer p-3">
+          <div className="container">
+            <div className="row mb-4">
+              <div className="col-sm-4">
+                <NavLink to="/">
+                  <img src={logo}  className="footerlogo mt-3"/>
+                </NavLink>
+                <p className="parag text-white mt-4">
+                  AllCanFarm empowers farmers to achieve higher yields, increase
+                  profitability, and embrace sustainable farming practices.
+                </p>
               </div>
-                </div>
-              <div className="footer__links">
+              <div className="col-sm-4 imp ">
+                <List heading="Important Links" data={data.footerLinks} />
+              </div>
+
+              {/* <div className="col-sm-4 footer__links">
                 {links.map((val) => (
                   <NavLink to={val.url} className="mx-3 links_footer mb-3">
                     {val.name}
                   </NavLink>
                 ))}
-              </div>
+              </div> */}
 
-              <div className="d-flex align-items-center justify-content-center mt-5">
+               <div className="col-sm-4 mt-4">
+               <h2 className="text-white ourapp mt-5 me-3">OUR APP</h2> 
                 <a href="https://play.google.com/store/apps/details?id=com.allcanfarmapp.avigna">
                   <Button
                     bg="#ffff"
@@ -71,10 +72,10 @@ const Footer = () => {
                     width="165px"
                     height="
                     55px"
-                    className="hover"
+                    className="hover mt-2"
                   >
                     <div className="d-flex align-items-center justify-content-center">
-                      {/* <FaGooglePlay className="playbut me-3" /> */}
+                   
                       <img src={playstore} className="playbut" />
 
                       <div className="googlebut">
@@ -85,25 +86,31 @@ const Footer = () => {
                   </Button>
                 </a>
                 <a href="#" className="mx-3">
-                  {/* <Button
-                    bg="#36BA24"
-                    border="2px solid #36BA24"
-                    color="#ffffff"
-                    padding="2px"
-                    rounded="50px"
-                    width="175px"
+                  <Button
+                     bg="#ffff"
+                     border="transparent"
+                     color="#ffffff"
+                     padding="1px"
+                     rounded="10px"
+                     width="165px"
+                     height="
+                     55px"
+                     className="hover"
                   >
                     <div className="d-flex align-items-center justify-content-center">
-                      <GrAppleAppStore className="me-2" />
+                      <AiFillApple className="apple me-3" />
                       <div>
-                        <p className="mb-0">Get it on</p>
-                        <span>Apple Store</span>
+                        <p className="getin mb-0">Download on</p>
+                        <span n className="playgoo">Apple Store</span>
                       </div>
                     </div>
-                  </Button> */}
+                  </Button>
                 </a>
               </div>
+             
+            </div>
           </div>
+        </div>
       </div>
     </>
   );

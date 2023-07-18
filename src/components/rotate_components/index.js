@@ -17,7 +17,9 @@ const Rotate = (props) => {
         <div class="border"></div>
         <div class="stop text-center">
           <h4 className={props.para}>{props.heading}</h4>
+         
         </div>
+      
       </div>
       <div className="dess">
         <p className="text-justify text-grey px-4">{props.desc}</p>

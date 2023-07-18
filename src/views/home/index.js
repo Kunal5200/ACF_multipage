@@ -10,6 +10,9 @@ import angel3 from "../../assests/images/banner/angel_farmer3.jpg";
 import farmer from "../../assests/images/banner/farmer.png";
 import angelfarmer from "../../assests/images/banner/farmer01.png";
 import Button from "../../components/button";
+import short from "../../assests/images/background/short term.png";
+import mid from "../../assests/images/background/mid term.png";
+import long from "../../assests/images/background/long term.png";
 import { Link } from "react-router-dom";
 import organic from "../../assests/images/organic.jpg";
 import green_field from "../../assests/images/green_field.jpg";
@@ -45,7 +48,7 @@ const Home = () => {
           <div className="container my-7">
             <div className="row ">
               <div className="col-sm-6 mt-5">
-                <div className="container mt-2">
+                <div className="container mt-5">
                   <h1 className="heading animate__animated animate__bounceInLeft">
                     Growing together, sustainably with AllCanFarm
                   </h1>
@@ -321,7 +324,7 @@ const Home = () => {
               {" "}
               Empowering sustainable agriculture for
             </h6>
-            <h1 className=" text-primary farmm text-center ms-3 ">
+            <h1 className=" text-primary farmm text-center ">
               {" "}
               A Greener Tomorrow
             </h1>
@@ -396,12 +399,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>  
+      </div>
 
       <div className="background_farmer__angel ">
         <div className="container mt-3 pt-2">
           <div className="row mt-5">
-            <div
+            {/* <div
               className="col-sm-6 ms-4 text-center"
               data-aos="fade-right"
               data-aos-offset="150"
@@ -416,12 +419,12 @@ const Home = () => {
                 <img
                   src={green_field}
                   width="100%"
-                  height="80%"
-                  className="rounded process_hover"
+                  height="100%"
+                  className="rounded process_hover "
                 />
               </div>
-            </div>
-            <div className="col-sm">
+            </div> */}
+            {/* <div className="col-sm">
               <div className="row">
                 <div className="col-sm-10 m-auto">
                   <div
@@ -471,10 +474,83 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+            </div> */}
+          </div>
+
+          <div className="container my-2">
+            <div className="row align-items-center">
+              <div className="row">
+                <div
+                  className="col-sm-6 "
+                  data-aos="fade-up"
+                  data-aos-offset="20"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="false"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top"
+                >
+                  <div className="upper_div rounded shadow">
+                    <img
+                      src={green_field}
+                      width="100%"
+                      height="100%"
+                      className="rounded process_hover "
+                    />
+                  </div>
+                </div>
+
+                <div
+                  className="col-sm-6 px-5"
+                  data-aos="fade-right"
+                  data-aos-offset="20"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="false"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top"
+                >
+                  <h6 className=" backbone"> Why work with</h6>
+                  <h3 className="text-primary farmm"> AllCanFarm?</h3>
+                  <p className="text-justify text-grey mt-3">
+                    AllCanFarm is a collaborative relationship between farmers
+                    and angel farmers, which provides many reasons to work with
+                    us.
+                  </p>
+                  <p className="text-justify  text-grey farmmer">
+                    <ul className="list-unstyled mt-3">
+                      <li className="benefits_list my-2 our text-grey">
+                        Adopt farms, trees, and crops.
+                      </li>
+                      <li className="benefits_list my-2 our text-grey">
+                        Use of technology and online methods to see farm
+                        progress.
+                      </li>
+                      <li className="benefits_list my-2 our text-grey">
+                        Option to stay at the farm.
+                      </li>
+                      <li className="benefits_list my-2 our text-grey">
+                        Produce can be listed on marketplaces such as Maati.
+                      </li>
+                      <li className="benefits_list my-2 our text-grey">
+                        From logistics to packaging to distribution, everything
+                        is under one roof.
+                      </li>
+                      <li className="benefits_list my-2 our text-grey">
+                        We have technology-backed processing facilities for
+                        final consumables such as cold-pressed mustard oil,
+                        turmeric powder, cumin powder, and much more.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="container mx-1 px-5">
+          <div className="container">
             <div className="row mt-5 p-2">
               <h6 className=" backbone text-center mt-4">Farm</h6>
               <h3 className="text-primary farmm text-center">Adoption Plans</h3>
@@ -482,9 +558,9 @@ const Home = () => {
                 We have curated farm adoption plans for angel farmers.
               </p>
 
-<div className="col-sm-4">
+              <div className="col-sm-4">
                 <div
-                  className="mt-4"
+                  className="mt-4 mx-5"
                   data-aos="fade-right"
                   data-aos-offset="150"
                   data-aos-delay="20"
@@ -494,56 +570,51 @@ const Home = () => {
                   data-aos-once="true"
                   data-aos-anchor-placement="top"
                 >
-
-              <div className="flip-card">
-                <div className="inner">
-                  <div className="front">
-
-                 <div className="termbg ">
-
-                 <div className="termbgov d-contents">
-
-                 <h4 className="term ">Short Term Plan (2-3 Years)</h4>
-                 </div>
-                {/* <img
+                  <div className="flip-card ">
+                    <div className="inner">
+                      <div className="front">
+                        <div className="termbg">
+                          <div className="termbgov ">
+                            <img src={short} />
+                            <h4 className="term mt-4 ">Short Term Plan</h4>
+                            <p className="years mt-3 ">(2-3 Years)</p>
+                          </div>
+                          {/* <img
                   src={field}
                   width="100%"
                   height="100%"
                   className="rounded process_hover"
                 /> */}
-             
+                        </div>
+                      </div>
 
-                  
-                  </div>
-                  </div>
-
-                  <div className="back">
-                    <ul className="list-unstyled mt-5">
-                      <li className="short benefits_list my-2 text-white ">
-                        2 crops or plants
-                      </li>
-                      <li className="short benefits_list my-2 text-white ">
-                        1-3 YOY Returns
-                      </li>
-                      <li className="short benefits_list my-2 text-white ">
-                        15% YOY Returns
-                      </li>
-                      <li className="short benefits_list my-2 text-white ">
-                        Investment Protection
-                      </li>
-                      <li className="short benefits_list my-2 text-white ">
-                        Low Risk Investment
-                      </li>
-                    </ul>
+                      <div className="back">
+                        <ul className="list-unstyled mt-5">
+                          <li className="short benefits_list my-2 text-white ">
+                            2 crops or plants
+                          </li>
+                          <li className="short benefits_list my-2 text-white ">
+                            1-3 YOY Returns
+                          </li>
+                          <li className="short benefits_list my-2 text-white ">
+                            15% YOY Returns
+                          </li>
+                          <li className="short benefits_list my-2 text-white ">
+                            Investment Protection
+                          </li>
+                          <li className="short benefits_list my-2 text-white ">
+                            Low Risk Investment
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              </div>
               </div>
 
               <div className="col-sm-4">
                 <div
-                  className="mt-4 "
+                  className="mt-4 mx-5"
                   data-aos="fade-right"
                   data-aos-offset="150"
                   data-aos-delay="20"
@@ -553,45 +624,47 @@ const Home = () => {
                   data-aos-once="true"
                   data-aos-anchor-placement="top"
                 >
-              <div className="flip-card">
-                <div className="inner">
-                  <div className="front">
-                    <div className="termbg">
-                    <div className="termbgov">
-                      
-                    <h4 className="term">Mid Term Plan (4-7 Years)</h4>
-                    </div>
-                    </div>
-                
-                  </div>
+                  <div className="flip-card">
+                    <div className="inner">
+                      <div className="front">
+                        <div className="termbg">
+                          <div className="termbgov">
+                            <img src={mid} />
+                            <h4 className="term mt-4 ms-2">
+                              Mid Term Plan
+                              <p className="years mt-3">(4-7 Years)</p>
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
 
-                  <div className="back">
-                    <ul className="list-unstyled mt-5">
-                      <li className="short benefits_list my-2 text-white">
-                        3 crops or plants
-                      </li>
-                      <li className="short benefits_list my-2 text-white">
-                        1-7 YOY Returns
-                      </li>
-                      <li className="short benefits_list my-2 text-white">
-                        25% YOY Returns
-                      </li>
-                      <li className="short benefits_list my-2 text-white">
-                        Investment Protection
-                      </li>
-                      <li className="short benefits_list my-2 text-white">
-                        Low Risk Investment
-                      </li>
-                    </ul>
+                      <div className="back">
+                        <ul className="list-unstyled mt-5">
+                          <li className="short benefits_list my-2 text-white">
+                            3 crops or plants
+                          </li>
+                          <li className="short benefits_list my-2 text-white">
+                            1-7 YOY Returns
+                          </li>
+                          <li className="short benefits_list my-2 text-white">
+                            25% YOY Returns
+                          </li>
+                          <li className="short benefits_list my-2 text-white">
+                            Investment Protection
+                          </li>
+                          <li className="short benefits_list my-2 text-white">
+                            Low Risk Investment
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                </div>
                 </div>
               </div>
 
               <div className="col-sm-4">
                 <div
-                  className="mt-4 "
+                  className="mt-4 mx-5"
                   data-aos="fade-right"
                   data-aos-offset="150"
                   data-aos-delay="20"
@@ -601,44 +674,44 @@ const Home = () => {
                   data-aos-once="true"
                   data-aos-anchor-placement="top"
                 >
-              <div className="flip-card">
-                <div className="inner">
-                  <div className="front">
-                  <div className="termbg">
-                  <div className="termbgov">
-                      
-                      
-                 
-                    <h4 className="term">Long Term Plan (8-15 Years)</h4>
-                  </div>
-                  </div>
-                  </div>
+                  <div className="flip-card">
+                    <div className="inner">
+                      <div className="front">
+                        <div className="termbg">
+                          <div className="termbgov">
+                            <img src={long} />
+                            <h4 className="term mt-4 ms-1">
+                              Long Term Plan
+                              <p className="years mt-3">(8-15 Years)</p>
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
 
-                  <div className="back">
-                    <ul className="list-unstyled mt-5">
-                      <li className="short benefits_list my-2 text-white">
-                        4 crops or plants
-                      </li>
-                      <li className="short benefits_list my-2 text-white">
-                        1-15 YOY Returns
-                      </li>
-                      <li className="short benefits_list my-2 text-white">
-                        35% YOY Returns
-                      </li>
-                      <li className="short benefits_list my-2 text-white">
-                        Investment Protection
-                      </li>
-                      <li className="short benefits_list my-2 text-white">
-                        Low Risk Investment
-                      </li>
-                    </ul>
+                      <div className="back">
+                        <ul className="list-unstyled mt-5">
+                          <li className="short benefits_list my-2 text-white">
+                            4 crops or plants
+                          </li>
+                          <li className="short benefits_list my-2 text-white">
+                            1-15 YOY Returns
+                          </li>
+                          <li className="short benefits_list my-2 text-white">
+                            35% YOY Returns
+                          </li>
+                          <li className="short benefits_list my-2 text-white">
+                            Investment Protection
+                          </li>
+                          <li className="short benefits_list my-2 text-white">
+                            Low Risk Investment
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              </div>
-              </div>
 
-            
               <div className="mb-5"></div>
             </div>
           </div>

@@ -86,6 +86,27 @@ let data = {
       img1: mustard,
       heading1: "COLD PRESSED MUSTARD OIL",
     }
-  ]
+  ],
+
+  footerLinks: [
+  {
+    name: "ABOUT",
+    url: "/about",
+  },
+  {
+    name: "ALLCANFARM",
+    url: "/allcanfarm",
+  },
+  {
+    name: "MAATI",
+    url: "/maati ",
+  },
+
+  {
+    name: "CONTACT",
+    url: "/contact",
+  },
+],
+
 };
 export default data;

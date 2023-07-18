@@ -2,6 +2,9 @@
   width: 150px;
   height: 150px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .circle .border {
   /* content: ''; */
@@ -36,26 +39,26 @@
 
 .stop {
   position: relative;
-  top: 45px;
-  padding: 28px;
+  /* top: 45px; */
+  /* padding: 28px; */
   /* text-align: center;
   align-items: center;
   justify-content: center; */
 }
-.stop h4{
-  font-size: 12px;
+.stop h4 {
+  font-size: 15px;
+  padding: 25px;
   text-align: center;
-
 }
 .main_border {
   border: 2px dashed #36ba24;
-  width: 320px;
-  height: 200px !important;
+  width: 360px;
+  height: 190px !important;
 }
-.dess{
+.dess {
   font-size: 12px;
-  margin-top: -50px;
-  padding: 3px 3px;
+  margin-top: -75px;
+  padding: 0px 0px;
 }
 @keyframes Rotate {
   from {
@@ -91,4 +94,46 @@
 }
 .stop p {
   font-size: 13px;
+}
+
+.dash {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #36ba24 50%, transparent 50%),
+    linear-gradient(90deg, #36ba24 50%, transparent 50%),
+    linear-gradient(0deg, #36ba24 50%, transparent 50%),
+    linear-gradient(0deg, #36ba24 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 16px 4px, 0px 0px, 0px 0px, 4px 0px;  
+  background-position: 0% 0%, 100% 100%, 0% 100%, 100% 0px;
+  border-radius: 5px;
+  /* padding: 0px; */
+  animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    background-position: 100% 0%, 0% 100%, 0% 0%, 100% 100%;
+  }
+}
+
+.dash1 {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #36ba24 50%, transparent 50%),
+    linear-gradient(90deg, #36ba24 50%, transparent 50%),
+    linear-gradient(0deg, #36ba24 50%, transparent 50%),
+    linear-gradient(0deg, #36ba24 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 0px, 15px 4px, 0px 0px, 0px 0px; 
+  background-position: 0% 0%, 100% 100%, 0% 100%, 100% 0px;
+  border-radius: 5px;
+  /* padding: 0px; */
+  animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    background-position: 100% 0%, 0% 100%, 0% 0%, 100% 100%;
+  }
 }

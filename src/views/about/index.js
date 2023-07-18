@@ -1,13 +1,15 @@
 import React from "react";
 import "./index.css";
 import Rotate from "../../components/rotate_components";
+import{BiRightArrow} from "react-icons/bi";
 import Lifecycle from "../../assests/data/constant";
-import arrow from "../../assests/images/background/arrow_icon.png";
+import arrow from "../../assests/images/background/Arrow.svg";
 import Team from "../../components/team";
 import piyush from "../../assests/images/PIYUSH_KUMAR.jpg";
 import team from "../../assests/data/team";
 import prashant from "../../assests/images/prashantgyan.jpg";
 import Aos from "aos";
+import { icons } from "react-icons";
 const About = () => {
   Aos.init();
   return (
@@ -58,13 +60,13 @@ const About = () => {
 
       <div className="container mobile_hidden px-5">
         <h4 className="mb-5 text-center backbone"> </h4>
-        <div className="m-auto ">
+        <div className="px-5">
           {/* <div className=" arrow_up text-center">
             <p className="mb-0 f-13">Farmer Onboarding</p>
             <img src={arrow} width={100} />
             <p className="f-13">Farm Onboarding</p>
           </div> */}
-          <div className="cycle__div">
+          <div className="cycle__div px-5">
             <Rotate
               aos="fade-right"
               offset="20"
@@ -74,13 +76,16 @@ const About = () => {
               mirror="false"
               once="false"
               anchor-placement="top"
-              className="circle_top_left text-white"
+              className="circle_top_left text-white mt-2"
               heading={Lifecycle.Lifecycle.heading1}
               desc={Lifecycle.Lifecycle.desc1}
             />
             <div className="">
               <p className="mb-0 f-13 backbone arrow_0 text-center">Farmer Onboarding</p>
-              <img src={arrow} width="100%" />
+              <div className="d-flex">
+                <div className="dash" style={{width: "250px" ,height:"10px",marginTop:"8px"}}></div>
+              <img src={arrow}  width=  "20px" className="" /> 
+              </div>
               <p className="f-13 backbone arrow_0 text-center">Farm Onboarding</p>
             </div>
             <Rotate
@@ -92,7 +97,7 @@ const About = () => {
               mirror="false"
               once="false"
               anchor-placement="top"
-              className="circle_top_right text-white"
+              className="circle_top_right text-white mt-2"
               heading={Lifecycle.Lifecycle.heading2}
               desc={Lifecycle.Lifecycle.desc2}
             />
@@ -100,18 +105,25 @@ const About = () => {
           <div className="d-flex align-items-center justify-content-between">
             <div className="arrow_1">
               <p className="mb-0 f-13 backbone text-center">Technology-backed marketplace</p>
-              <img src={arrow}  width="100px" className="text-center" />
-              <p className="mb-0 f-13 backbone text-center">Revenue generation</p>
+              <div className="d-flex">
+                <div className="dash" style={{width: "170px" ,height:"10px",marginTop:"8px"}}></div>
+              <img src={arrow}  width=  "20px" className="" /> 
+              </div>
+              <p className="mb-0 f-13 backbone text-center ">Revenue generation</p>
             </div>
             
             <div className="arrow_2">
               <p className="mb-0 f-13 backbone text-center">Farm Adoption </p>
-              <img src={arrow}  width="100px"/>
-              <p className="mb-0 f-13 backbone text-center">Yield Processing</p>
+             
+              <div className="d-flex">
+                <div className="dash" style={{width: "170px" ,height:"10px",marginTop:"8px"}}></div>
+              <img src={arrow}  width=  "20px" className="" /> 
+              </div>
+              <p className="mb-0 f-13 backbone text-center ">Yield Processing</p>
             </div>
           </div>
 
-          <div className="cycle__div my-7">
+          <div className="cycle__div my-7 px-5">
             <Rotate
               className="circle_bottom_right text-white"
               heading={Lifecycle.Lifecycle.heading3}
@@ -125,10 +137,14 @@ const About = () => {
               once="false"
               anchor-placement="top"
             />
-            <div className="mx-3 text-center">
+            <div className="text-center">
               <p className="mb-0 f-13 backbone text-center p-1">Food Packaging</p>
-              <img src={arrow}width="100%" className="rotate_img"  />
-              <p className="mb-0 f-13 backbone text-center p-1">
+              <div className="d-flex">
+              <img src={arrow}  width=  "20px" className="rotate_img" /> 
+                <div className="dash1" style={{width: "250px" ,height:"10px",marginTop:"3px"}}></div>
+              </div>
+              {/* <img src={arrow} className="rotate_img" width="20px" /> */}
+              <p className="mb-0 f-13 backbone text-center p-1 ">
                 ISO-certified and FSSAI-compliant yield
               </p>
             </div>
