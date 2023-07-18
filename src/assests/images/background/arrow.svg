@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"  width="500" height="200" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g fill="#000" fill-rule="evenodd" clip-rule="evenodd"><path d="M28.488 9.513a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-8a1 1 0 1 1 0-2h7v-7a1 1 0 0 1 1-1z" fill="#000000" data-original="#000000" class=""></path><path d="M18.147 12.207A11 11 0 0 0 5 23a1 1 0 0 1-2 0 13 13 0 0 1 22.195-9.195l4 4a1 1 0 0 1-1.415 1.415l-4-4a11.001 11.001 0 0 0-5.633-3.013z" fill="#000000" data-original="#000000" class=""></path></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 10.1 11.7" style="enable-background:new 0 0 10.1 11.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#29AAE2;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:6.9954,4.9967;}
+	.st1{fill:none;stroke:#29AAE2;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:7.1453,5.1038;}
+	.st2{fill:none;stroke:#29AAE2;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:7,5;}
+	.st3{fill:#29AAE2;}
+	.st4{fill:#29AAE2;stroke:url(#);stroke-miterlimit:10;}
+	.st5{fill:#37B24A;}
+	.st6{fill:#F59222;}
+	.st7{fill:#8BC441;}
+</style>
+<polygon class="st5" points="10.1,5.8 5,8.7 0,11.7 0,5.8 0,0 5,2.9 "/>
+</svg>

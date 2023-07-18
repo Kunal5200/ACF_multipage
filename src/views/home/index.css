@@ -1,6 +1,6 @@
 .banner {
   background-image: url("../../assests/images/banner//bannerhome.webp");
-  height: 80vh;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,7 +130,11 @@
 }
 .benefits_list::before {
   content: "🌿";
+  /* content: url(../../assests/images/background/PointerIcon.png) !important; */
+  /* transform: scale(0.1); */
   margin-right: 5px;
+  /* height: 50px;
+  width: 40px; */
 }
 .height_farmer {
   height: 400px;
@@ -202,10 +206,18 @@
   margin-left: 17px !important;
 }
 
+.years {
+  /* margin-left: 71px; */
+  font-size: 15px;
+  color: #000;
+  font-weight: 700;
+}
+
 .term {
   font-size: 25px;
-  color: #fff;
-  /* padding: 85px 15px; */
+  color: #36ba24;
+  font-weight: 500;
+
   text-align: center;
   justify-content: center;
   text-align: center;
@@ -217,22 +229,16 @@
   /* padding: 60px 0px; */
 }
 
-.termbg
-{
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../../assests/images/green_field.jpg");
-  height: 100%;
-  width: 100%;
-  
-}
-.termbgov{
-  background-color: #00000050;
-  height: 100%;
-  color: white;
+.termbg {
   display: grid;
-  place-items: start;
+  place-items: center;
+  padding: 5px;
+}
+.termbgov {
+  /* background-color: #fff; */
+  height: 100%;
+  /* color: white; */
+
   align-items: start;
 }
 
@@ -267,13 +273,19 @@
 }
 
 .front {
-  background-color: #bbb;
-  color: black;
+  /* background-color: white; */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assests/images/background/short\ term.png");
+  height: 60%;
+  width: 50%;
+  top: 2%; */
 }
 
 .back {
-  background-color: #36ba24;
-  color: #36ba24;
+  background-color: #32c51e;
+  /* color: #36ba24; */
 
   transform: rotateY(180deg);
 }
@@ -351,18 +363,18 @@
 
 @media screen and (min-width: 1920px) and (min-height: 1080px) {
   .banner {
-    height: 50vh;
+    height: 70vh !important;
   }
 }
 
 @media screen and (min-width: 1280px) and (min-height: 800px) {
   .banner {
-    height: 60vh;
+    height: 70vh;
   }
 }
 
-
 @media screen and (min-width: 1366px) and (min-height: 1024px) {
   .banner {
-    height: 50vh;}
+    height: 50vh;
+  }
 }

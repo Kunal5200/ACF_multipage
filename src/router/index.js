@@ -11,6 +11,7 @@ import Marketplace from "../views/maati";
 import Contact from "../views/contact";
 import Whatsapp from "../components/whatsapp";
 import Productview from "../views/product";
+import Subfooter from "../components/subfooter";
 
 const Router = () => {
   return (
@@ -28,6 +29,7 @@ const Router = () => {
         <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <Subfooter/>
     </BrowserRouter>
   );
 };

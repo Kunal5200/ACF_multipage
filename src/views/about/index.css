@@ -1,8 +1,8 @@
 .bg-about {
-  background-image: url("../../assests/images/background/bg-about.jpg");
+  background-image: url("../../assests/images/background/bg-about.webp");
   background-position: center;
   background-size: cover;
-  height: 60vh;
+  height: 80vh;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
 }
@@ -87,7 +87,7 @@
 .arrow_1 {
   transform: rotate(270deg);
   margin-top: 30px;
-  margin-left: 65px;
+  margin-left: 99px;
   
 }
 /* .asa{
@@ -96,12 +96,17 @@
 } */
 .arrow_2 {
   transform: rotate(90deg);
-padding: 45px 107px;
+padding: 45px 99px;
   margin-top: 30px;
 }
 
 /* .arrowray{
   width: 25%;
+} */
+/* 
+.arrow{
+  width: 10%;
+  height: 100px;
 } */
 
 @media screen and (max-width: 600px) {
