@@ -575,9 +575,9 @@ const Home = () => {
                       <div className="front">
                         <div className="termbg">
                           <div className="termbgov ">
-                            <img src={short}  className="long mt-4"/>
-                            <h4 className="term mt-5">Short Term Plan</h4>
-                            <p className="years mt-4 ">(2-3 Years)</p>
+                            <img src={short}  className="long mt-5"/>
+                            <h4 className="term mt-4">Short Term Plan</h4>
+                            <p className="years ">(2-3 Years)</p>
                           </div>
                           {/* <img
                   src={field}
@@ -629,11 +629,11 @@ const Home = () => {
                       <div className="front">
                         <div className="termbg">
                           <div className="termbgov">
-                            <img src={mid}  className="long mt-4"/>
-                            <h4 className="term mt-5 ms-2">
+                            <img src={mid}  className="long mt-5"/>
+                            <h4 className="term mt-4 text-center">
                               Mid Term Plan
-                              <p className="years mt-4">(4-7 Years)</p>
                             </h4>
+                              <p className="years mt-2">(4-7 Years)</p>
                           </div>
                         </div>
                       </div>
@@ -679,11 +679,11 @@ const Home = () => {
                       <div className="front">
                         <div className="termbg">
                           <div className="termbgov">
-                            <img src={long} className= "long mt-4"/>
-                            <h4 className="term mt-5 ms-1">
+                            <img src={long} className= "long mt-5"/>
+                            <h4 className="term mt-4 text-center">
                               Long Term Plan
-                              <p className="years mt-4">(8-15 Years)</p>
                             </h4>
+                              <p className="years mt-2">(8-15 Years)</p>
                           </div>
                         </div>
                       </div>

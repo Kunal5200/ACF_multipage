@@ -251,7 +251,7 @@ const Marketplace = () => {
         </div>
 
         
-          <h4 className="animate_animated animate__zoomInRight  backbone">
+          <h4 className="animate_animated animate__zoomInRight  backbone ms-3">
             PRODUCT LIST
           </h4>
         

@@ -217,7 +217,7 @@
   font-size: 25px;
   color: #ffffff;
   font-weight: 500;
-
+  padding: 2px 8px;
   text-align: center;
   justify-content: center;
   text-align: center;
@@ -226,7 +226,7 @@
   font-size: 15px;
   text-align: start;
   padding: 1px 28px;
-  /* padding: 60px 0px; */
+
 }
 
 .termbg {
@@ -318,17 +318,17 @@
 
 @media screen and (max-width: 768px) {
   .heading {
-    font-size: 23px;
+    font-size: 20px;
     text-align: left;
     margin-left: 4px;
-    margin-top: -155px;
+    margin-top: -165px;
   }
   .ina {
-    font-size: 10px;
+    font-size: 15px !important;
     margin-left: 7px !important;
   }
   .butto {
-    margin-left: 7px !important;
+    margin-left: 7px ;
   }
   .whywork {
     margin-top: 45px;

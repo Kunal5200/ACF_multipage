@@ -120,7 +120,7 @@ const Productview = (props) => {
                 <p className=" fw-bold f-18 ls-6 backbone ">
                 {location.state.heading}
                 </p>
-                <h3 className="text-justify mt-3 text-primary">Features:</h3>
+                <h3 className="text-justify mt-3 text-primary farmm">Features:</h3>
                 <ul className="list-unstyled">
                   {location.state.data.features.map((val,id)=>{
                     return(<li className="benefits_list mt-2 our py-1">{val.feature}</li>);

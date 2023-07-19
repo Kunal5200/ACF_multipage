@@ -61,7 +61,7 @@ const Footer = () => {
                 ))}
               </div> */}
 
-               <div className="col-sm-4 mt-4 px-5">
+               <div className="col-sm-4 mt-4 px-5 pull">
                <h2 className="text-white ourapp mt-5 ">OUR APP</h2> 
                 <a href="https://play.google.com/store/apps/details?id=com.allcanfarmapp.avigna">
                   <Button

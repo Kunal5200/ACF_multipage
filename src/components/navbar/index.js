@@ -34,7 +34,10 @@ function Navbar() {
     },
   ];
   return (
-    <div className="container home p-2" id="Home">
+    <div className="conatiner-fluid  home">
+
+    
+    <div className="container p-2" id="Home">
       <div className="home__bg">
         <div className="header Navbar">
           <NavLink to="/">
@@ -56,7 +59,9 @@ function Navbar() {
         </div>
       </div>
     </div>
+    </div>
   );
+
 }
 
 export default Navbar;

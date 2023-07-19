@@ -4,11 +4,12 @@ import Productcard from "../products";
 import { useNavigate } from "react-router-dom";
 // import "./index.css";
 const Multislider = (props) => {
+    
     let navigate = useNavigate();
     let clickHandler = (val) => {
         console.log("",val);
         navigate(`/productview/${val.heading}`, { state: val })
-        window.scrollTo(0,0);
+        window.scrollTo({top:500,behavior:"smooth"})
       }
     return (
         <div >
