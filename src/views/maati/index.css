@@ -1,8 +1,8 @@
 .bg_maati {
-  background-image: url("../../assests/images/maati.jpg");
+  background-image: url("../../assests/images/maati.webp");
   background-size: cover;
   background-position: center;
-  height: 75vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */

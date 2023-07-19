@@ -512,7 +512,7 @@ const Home = () => {
                   data-aos-once="true"
                   data-aos-anchor-placement="top"
                 >
-                  <h6 className=" backbone"> Why work with</h6>
+                  <h6 className=" backbone whywork"> Why work with</h6>
                   <h3 className="text-primary farmm"> AllCanFarm?</h3>
                   <p className="text-justify text-grey mt-3">
                     AllCanFarm is a collaborative relationship between farmers
@@ -553,7 +553,7 @@ const Home = () => {
           <div className="container">
             <div className="row mt-5 p-2">
               <h6 className=" backbone text-center mt-4">Farm</h6>
-              <h3 className="text-primary farmm text-center">Adoption Plans</h3>
+              <h3 className="text-primary farmm text-center"> Adoption Plans</h3>
               <p className="text-justify text-center text-grey mt-3">
                 We have curated farm adoption plans for angel farmers.
               </p>
@@ -575,9 +575,9 @@ const Home = () => {
                       <div className="front">
                         <div className="termbg">
                           <div className="termbgov ">
-                            <img src={short}  className="mt-1"/>
-                            <h4 className="term mt-4 ">Short Term Plan</h4>
-                            <p className="years mt-3 ">(2-3 Years)</p>
+                            <img src={short}  className="long mt-4"/>
+                            <h4 className="term mt-5">Short Term Plan</h4>
+                            <p className="years mt-4 ">(2-3 Years)</p>
                           </div>
                           {/* <img
                   src={field}
@@ -629,10 +629,10 @@ const Home = () => {
                       <div className="front">
                         <div className="termbg">
                           <div className="termbgov">
-                            <img src={mid}  className="mt-1"/>
-                            <h4 className="term mt-4 ms-2">
+                            <img src={mid}  className="long mt-4"/>
+                            <h4 className="term mt-5 ms-2">
                               Mid Term Plan
-                              <p className="years mt-3">(4-7 Years)</p>
+                              <p className="years mt-4">(4-7 Years)</p>
                             </h4>
                           </div>
                         </div>
@@ -679,10 +679,10 @@ const Home = () => {
                       <div className="front">
                         <div className="termbg">
                           <div className="termbgov">
-                            <img src={long} className="mt-1"/>
-                            <h4 className="term mt-4 ms-1">
+                            <img src={long} className= "long mt-4"/>
+                            <h4 className="term mt-5 ms-1">
                               Long Term Plan
-                              <p className="years mt-3">(8-15 Years)</p>
+                              <p className="years mt-4">(8-15 Years)</p>
                             </h4>
                           </div>
                         </div>
@@ -720,7 +720,7 @@ const Home = () => {
 
       <div className="container mt-4">
         <div className="row align-items-center">
-          <h3 className="text-center farmm mt-3">Common Questions</h3>
+          {/* <h3 className="text-center farmm mt-3">Common Questions</h3> */}
           <div
             className="col-sm-5 img-fluid"
             data-aos="fade-right"
@@ -745,14 +745,15 @@ const Home = () => {
             data-aos-mirror="false"
             data-aos-once="true"
             data-aos-anchor-placement="top"
-          >
+          > <h3 className="text-left text-primary farmm mb-3">Common Questions</h3>
             <Accordion transition={{ duration: "1000ms" }}>
               {data.faq.map((val, i) => (
                 <AccordionItem key={i}>
                   {({ open }) => (
                     <>
+                    
                       <AccordionHeader className="accordion_head">
-                        {val.title} {!open ? <FaPlus /> : <FaMinus />}
+                        {val.title} {!open ? <FaPlus  className="minus" /> : <FaMinus  className="minus"/>}
                       </AccordionHeader>
                       <AccordionBody
                         className={`${

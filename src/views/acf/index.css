@@ -1,9 +1,9 @@
 .ACf {
-  background-image: url("../../assests/images/farm_field.jpg");
+  background-image: url("../../assests/images/allcanfarmbanner.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 80vh;
   /* background-attachment: fixed; */
 }
 .bg-ACF {

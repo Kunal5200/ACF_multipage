@@ -209,13 +209,13 @@
 .years {
   /* margin-left: 71px; */
   font-size: 15px;
-  color: #000;
+  color: #ffffff;
   font-weight: 700;
 }
 
 .term {
   font-size: 25px;
-  color: #36ba24;
+  color: #ffffff;
   font-weight: 500;
 
   text-align: center;
@@ -232,20 +232,21 @@
 .termbg {
   display: grid;
   place-items: center;
-  padding: 5px;
+  /* padding: 5px; */
 }
-.termbgov {
-  /* background-color: #fff; */
+/* .termbgov { */
+  /* background-image: url("../../assests/images/adoptionplans.webp");
+  width: 100%;
   height: 100%;
-  /* color: white; */
-
   align-items: start;
+} */
+.long{
+  height: 72px;
 }
-
 .flip-card {
   background-color: transparent;
   width: 230px;
-  height: 230px;
+  height: 250px;
   perspective: 1000px;
 }
 
@@ -273,15 +274,12 @@
 }
 
 .front {
-  /* background-color: white; */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../../assests/images/background/short\ term.png");
-  height: 60%;
-  width: 50%;
-  top: 2%; */
+  background-image: url("../../assests/images/adoptionplans.webp");
+  width: 100%;
+  height: 100%;
+  align-items: start;
 }
+
 
 .back {
   background-color: #3da430;
@@ -290,6 +288,10 @@
   transform: rotateY(180deg);
 }
 
+
+.minus{
+  color: #F59120;
+}
 @media screen and (max-width: 600px) {
   .height_farmer {
     height: 100%;
@@ -315,6 +317,23 @@
 }
 
 @media screen and (max-width: 768px) {
+  .heading {
+    font-size: 23px;
+    text-align: left;
+    margin-left: 4px;
+    margin-top: -155px;
+  }
+  .ina {
+    font-size: 10px;
+    margin-left: 7px !important;
+  }
+  .butto {
+    margin-left: 7px !important;
+  }
+  .whywork {
+    margin-top: 45px;
+  }
+
   .farmm {
     font-size: 20px !important;
     margin-top: 14px !important ;

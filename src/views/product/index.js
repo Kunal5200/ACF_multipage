@@ -123,36 +123,37 @@ const Productview = (props) => {
                 <h3 className="text-justify mt-3 text-primary">Features:</h3>
                 <ul className="list-unstyled">
                   {location.state.data.features.map((val,id)=>{
-                    return(<li className="benefits_list mt-2 our">{val.feature}</li>);
+                    return(<li className="benefits_list mt-2 our py-1">{val.feature}</li>);
                   })}
                 </ul>
 
                 
               </div>
              <div className="d-flex store">
-                <a href="https://play.google.com/store/apps/details?id=com.avigna.maati">
+             <a href="https://play.google.com/store/apps/details?id=com.allcanfarmapp.avigna">
                   <Button
-                    bg="#36BA24"
-                    border="2px solid #36BA24"
-                    color="#ffffff"
+                    bg="black"
+                    border="transparent"
+                    // color="white"
                     padding="1px"
-                    rounded="12px"
+                    rounded="10px"
                     width="155px"
-                    height="
-                    55px"
-                    className="playstore"
-                    >
+                     height="
+                     52px"
+                    className="hover mt-2"
+                  >
                     <div className="d-flex align-items-center justify-content-center">
-                    <img src={playstore} className="playbutt"/>
+                   
+                      <img src={playstore} className="playbut" />
 
-<div className="googlebut">
-  <p className=" geet mb-0 mx-2">GET IN ON </p>
-                        {
-                        /* <span>Google Play</span> */}
+                      <div className="googlebut">
+                        <p className="geti mb-0">Get in on </p>
+                        <span className="playgo">Google Play</span>
                       </div>
                     </div>
                   </Button>
                 </a>
+              
                 <a href="#" className="mx-3">
                  
                 </a>
@@ -177,7 +178,7 @@ const Productview = (props) => {
           </div>
           
           
-          <h4 className="animate_animated animate__zoomInRight backbone">
+          <h4 className="ms-5 backbone">
             PRODUCT LIST
           </h4>
         
