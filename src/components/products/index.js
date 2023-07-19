@@ -9,7 +9,7 @@ const Productcard = (props) => {
 
       <div className="bbb border p-3 rounded product"  >
         <img src={props.img} className="img animate__animated  animate__pulse" />
-        <h6 className="heaad mt-3 backbone text-primary">{props.heading}</h6>
+        {/* <h6 className="heaad mt-3 backbone text-primary">{props.heading}</h6> */}
       </div>
 
 
