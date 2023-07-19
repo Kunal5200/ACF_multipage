@@ -6,14 +6,14 @@ const List = (props) => {
   return (
     <div>
       
-      <h5 className="mb-3 fs-13">{}</h5>
+      <h5 className=" fs-13">{}</h5>
       <ul className="list-unstyled mt-5 ">
         {props.data.map((val, i) => (
-          <li className="mb-1 py-1">
+          <li className="mb-2 py-1">
           
             {val.url ? (
                <NavLink to={val.url} 
-               className="link mb-3 text-white">
+               className="link  text-white">
                 {val.name}
               </NavLink>
             ) : (

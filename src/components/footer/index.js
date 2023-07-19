@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import logo from "../../assests/images/AllCanFarmLogoWhite.svg";
 import playstore from "../../assests/images/playstore.png";
+import appstore from "../../assests/images/apple.svg";
 import List from "../list";
 import data from "../../assests/data/data";
 import { AiFillApple } from "react-icons/ai";
@@ -41,14 +42,14 @@ const Footer = () => {
             <div className="row mb-4">
               <div className="col-sm-4">
                 <NavLink to="/">
-                  <img src={logo}  className="footerlogo mt-3"/>
+                  <img src={logo}  className="footerlogo mt-5"/>
                 </NavLink>
                 <p className="parag text-white mt-4">
                   AllCanFarm empowers farmers to achieve higher yields, increase
                   profitability, and embrace sustainable farming practices.
                 </p>
               </div>
-              <div className="col-sm-4 imp ">
+              <div className="col-sm-4 imp mt-4 ">
                 <List heading="Important Links" data={data.footerLinks} />
               </div>
 
@@ -69,9 +70,9 @@ const Footer = () => {
                     color="#ffffff"
                     padding="1px"
                     rounded="10px"
-                    width="165px"
-                    height="
-                    55px"
+                    width="155px"
+                     height="
+                     52px"
                     className="hover mt-2"
                   >
                     <div className="d-flex align-items-center justify-content-center">
@@ -79,7 +80,7 @@ const Footer = () => {
                       <img src={playstore} className="playbut" />
 
                       <div className="googlebut">
-                        <p className="getin mb-0">GET IN ON </p>
+                        <p className="getin mb-0">Get in on </p>
                         <span className="playgoo">Google Play</span>
                       </div>
                     </div>
@@ -92,15 +93,15 @@ const Footer = () => {
                      color="#ffffff"
                      padding="1px"
                      rounded="10px"
-                     width="165px"
+                     width="155px"
                      height="
-                     55px"
+                     52px"
                      className="hover"
                   >
                     <div className="d-flex align-items-center justify-content-center">
-                      <AiFillApple className="apple me-3" />
+                    <img src={appstore} className="playbut me-1 " />
                       <div>
-                        <p className="getin mb-0">Download on</p>
+                        <p className="getin mb-0 ms-1 ">Download on</p>
                         <span n className="playgoo">Apple Store</span>
                       </div>
                     </div>

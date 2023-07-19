@@ -575,7 +575,7 @@ const Home = () => {
                       <div className="front">
                         <div className="termbg">
                           <div className="termbgov ">
-                            <img src={short} />
+                            <img src={short}  className="mt-1"/>
                             <h4 className="term mt-4 ">Short Term Plan</h4>
                             <p className="years mt-3 ">(2-3 Years)</p>
                           </div>
@@ -629,7 +629,7 @@ const Home = () => {
                       <div className="front">
                         <div className="termbg">
                           <div className="termbgov">
-                            <img src={mid} />
+                            <img src={mid}  className="mt-1"/>
                             <h4 className="term mt-4 ms-2">
                               Mid Term Plan
                               <p className="years mt-3">(4-7 Years)</p>
@@ -679,7 +679,7 @@ const Home = () => {
                       <div className="front">
                         <div className="termbg">
                           <div className="termbgov">
-                            <img src={long} />
+                            <img src={long} className="mt-1"/>
                             <h4 className="term mt-4 ms-1">
                               Long Term Plan
                               <p className="years mt-3">(8-15 Years)</p>
