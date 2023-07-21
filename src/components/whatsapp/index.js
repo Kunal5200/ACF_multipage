@@ -3,12 +3,12 @@ import { FloatingWhatsApp } from "react-floating-whatsapp";
 import logo from "../../assests/images/acflogo.png";
 const Whatsapp = () => {
   return (
-    <div>
+    <div className="whatsapp">
       <FloatingWhatsApp
         phoneNumber="+918789018311"
         accountName="ALLCANFARM"
         avatar={logo}
-        chatMessage="hello"
+        chatMessage="Hello"
       />
     </div>
   );

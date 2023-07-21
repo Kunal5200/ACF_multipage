@@ -14,7 +14,7 @@ const Scrollup = () => {
       <span
         style={{
           position: "fixed",
-          bottom: 150,
+          bottom: 280,
           right: 30,
           cursor: "pointer",
           transitionDuration: "0.2s",
