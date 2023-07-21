@@ -230,6 +230,7 @@
 }
 
 .termbg {
+  /* background-color: #0000; */
   display: grid;
   place-items: center;
   /* padding: 5px; */
@@ -244,7 +245,8 @@
   height: 72px;
 }
 .flip-card {
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: #000;
   width: 230px;
   height: 250px;
   perspective: 1000px;
@@ -274,7 +276,8 @@
 }
 
 .front {
-  background-image: url("../../assests/images/adoptionplans.webp");
+  /* background-image: url("../../assests/images/adoptionplans.webp"); */
+  /* background-color: #0000; */
   width: 100%;
   height: 100%;
   align-items: start;

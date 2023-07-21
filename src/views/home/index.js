@@ -753,7 +753,7 @@ const Home = () => {
                     <>
                     
                       <AccordionHeader className="accordion_head">
-                        {val.title} {!open ? <FaPlus  className="minus" /> : <FaMinus  className="minus"/>}
+                        {val.title} {!open ? <FaPlus  className="" /> : <FaMinus  className=""/>}
                       </AccordionHeader>
                       <AccordionBody
                         className={`${

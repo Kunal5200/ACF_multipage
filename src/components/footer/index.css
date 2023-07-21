@@ -14,7 +14,8 @@ height: 283px;
 
 .footerlogo{
   height: 80px;
-  width: 43%;
+  width: 60%;
+  padding-left:20px ;
   align-items: center;
   justify-content: center;
   display: flex;

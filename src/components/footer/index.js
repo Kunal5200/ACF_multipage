@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import logo from "../../assests/images/AllCanFarmLogoWhite.svg";
+import logo from "../../assests/images/background/AllCanFarm Logo 02 White.svg";
 import playstore from "../../assests/images/playstore.png";
 import appstore from "../../assests/images/apple.svg";
 import List from "../list";
