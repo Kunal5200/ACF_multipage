@@ -39,17 +39,17 @@ const Footer = () => {
       <div className="footer ">
         <div className="bg-footer p-3">
           <div className="container">
-            <div className="row mb-4">
+            <div className="row ">
               <div className="col-sm-4">
                 <NavLink to="/">
                   <img src={logo}  className="footerlogo mt-5"/>
                 </NavLink>
-                <p className="parag text-white mt-4">
+                <p className="parag text-white mt-2">
                   AllCanFarm empowers farmers to achieve higher yields, increase
                   profitability, and embrace sustainable farming practices.
                 </p>
               </div>
-              <div className="col-sm-4 imp mt-4 ">
+              <div className="col-sm-4 imp">
                 <List heading="Important Links" data={data.footerLinks} />
               </div>
 
@@ -61,7 +61,7 @@ const Footer = () => {
                 ))}
               </div> */}
 
-               <div className="col-sm-4 mt-4 px-5 pull">
+               <div className="col-sm-4 px-5 pull">
                <h2 className="text-white ourapp mt-5 ">OUR APP</h2> 
                 <a href="https://play.google.com/store/apps/details?id=com.allcanfarmapp.avigna">
                   <Button
