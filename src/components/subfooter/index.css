@@ -5,7 +5,9 @@
   border-right: 1px solid #000;
 }
 
-
+.gaga{
+  cursor: pointer;
+}
 .copyright_wrapper{
   display: flex;
   align-items: center;

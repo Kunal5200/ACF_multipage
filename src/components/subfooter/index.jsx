@@ -18,8 +18,11 @@ const Subfooter = () => {
             <div className="col-sm-12">
               <div className="copyright_wrapper">
                 <div className="nana">
-                  Copyright &#169; <a href="/" className="link_Allcanfarm me-1">
-                  {new Date().getFullYear()} ALLCANFARM</a> All Rights Reserved
+                  Copyright &#169;{" "}
+                  <a href="/" className="link_Allcanfarm me-1">
+                    {new Date().getFullYear()} ALLCANFARM
+                  </a>{" "}
+                  All Rights Reserved
                 </div>
                 <div className="d-flex align-items-center hah">
                   <p className="m-0 pointer gaga ms-2" onClick={TermsCondition}>

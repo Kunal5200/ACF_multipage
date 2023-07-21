@@ -12,6 +12,8 @@ import Contact from "../views/contact";
 import Whatsapp from "../components/whatsapp";
 import Productview from "../views/product";
 import Subfooter from "../components/subfooter";
+import TermsConditions from "../components/Termconditon";
+import PrivacyPolicy from "../components/privacypolicy";
 
 const Router = () => {
   return (
@@ -27,6 +29,8 @@ const Router = () => {
         <Route exact path="/maati" element={<Marketplace />} />
         <Route exact path="/productview/:name" element={<Productview />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/TermsConditions" element={<TermsConditions/>}/>
+          <Route exact path="/PrivacyPolicy" element={<PrivacyPolicy/>}/>
       </Routes>
       <Footer />
       <Subfooter/>
