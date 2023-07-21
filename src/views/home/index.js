@@ -14,7 +14,7 @@ import short from "../../assests/images/background/short term.png";
 import mid from "../../assests/images/background/mid term.png";
 import long from "../../assests/images/background/long term.png";
 import { Link } from "react-router-dom";
-import organic from "../../assests/images/organic.jpg";
+import organic from "../../assests/images/organic.webp";
 import green_field from "../../assests/images/green_field.jpg";
 import farm_field from "../../assests/images/farm_field.jpg";
 import field from "../../assests/images/banner/field.webp";
