@@ -10,6 +10,7 @@ import playstore from "../../assests/images/playstore.png";
 
 
 const Productview = (props) => {
+  console.log(props);
   //   const params=useParams()
   // const productview=params.Productview
 
@@ -35,6 +36,7 @@ const Productview = (props) => {
   let data3 = [
     {
       img: product.img1,
+      banner: product.banner1,
       heading: product.heading1,
       data: {
         features: product.feature1,
@@ -42,6 +44,7 @@ const Productview = (props) => {
     },
     {
       img: product.img2,
+      banner: product.banner2,
       heading: product.heading2,
       data: {
         features: product.feature2,
@@ -49,6 +52,7 @@ const Productview = (props) => {
     },
     {
       img: product.img3,
+      banner: product.banner3,
       heading: product.heading3,
       data: {
         features: product.feature3,
@@ -56,7 +60,7 @@ const Productview = (props) => {
     },
     {
       img: product.img4,
-
+      banner: product.banner4,
       heading: product.heading4,
       data: {
         features: product.feature4,
@@ -64,6 +68,7 @@ const Productview = (props) => {
     },
     {
       img: product.img5,
+      banner: product.banner5,
       data: {
         features: product.feature5,
       },
@@ -72,6 +77,7 @@ const Productview = (props) => {
     },
     {
       img: product.img6,
+      banner: product.banner6,
       heading: product.heading6,
 
       data: {
@@ -80,6 +86,7 @@ const Productview = (props) => {
     },
     {
       img: product.img7,
+      banner: product.banner7,
       heading: product.heading7,
 
       data: {
@@ -93,8 +100,12 @@ const Productview = (props) => {
   Aos.init();
   return (
     <div>
-      <div className="pro">
-        <div className="bg-ACF">
+      <div style={{   backgroundImage: `url(${location.state.banner})`,
+      backgroundRepeat: "no-repeat",
+      backgroundPosition : "center",
+      height:"80vh",
+    }}>
+        <div className="bg-ACF" >
           <h2 className="text-white animate__animated animate__bounceInDown ">
           {location.state.heading}
           </h2>
