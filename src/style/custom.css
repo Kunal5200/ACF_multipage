@@ -30,19 +30,13 @@ font-size: 12px;
 bottom:9rem !important;
 }
 .styles-module_chatBody__VBxQH {
-  padding: 8px 14px; 
+  padding: 8px 8px; 
 }
 .styles-module_chatBody__VBxQH .styles-module_messageBody__9-hwo {
   font-size: 12px;
-  line-height: 16px;
-  margin-top: 2px;
+  line-height: 15px;
+  margin-top: 1px;
+  padding: 2px 0px;
   color: #111111;
   white-space: pre-wrap;
-}
-.styles-module_chatFooter__TGv0P form {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 85% 15%;
-  padding: 1.45rem;
-  /* background-color: transparent !important; */
 }
