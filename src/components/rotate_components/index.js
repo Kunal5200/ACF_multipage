@@ -21,8 +21,11 @@ const Rotate = (props) => {
         </div>
       
       </div>
-      <div className="dess">
+      {/* <div className="desc">
         <p className="text-justify text-grey px-4">{props.desc}</p>
+      </div> */}
+      <div className="desc">
+        <p className="text-justify text-grey px-4 f-13">{props.desc}</p>
       </div>
     </div>
   );

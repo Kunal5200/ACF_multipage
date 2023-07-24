@@ -55,8 +55,8 @@
   width: 360px;
   height: 190px !important;
 }
-.dess {
-  font-size: 12px;
+.desc {
+  
   margin-top: -75px;
   padding: 0px 0px;
 }
@@ -93,7 +93,7 @@
   }
 }
 .stop p {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .dash {

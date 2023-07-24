@@ -125,6 +125,13 @@ padding: 45px 99px;
 }
 
 @media screen and (max-width: 768px) {
+.maati{
+  margin-left: -2px !important;
+}
+
+
+
+
   
 .styles-module_whatsappButton__tVits{
   margin-left: 62px;
