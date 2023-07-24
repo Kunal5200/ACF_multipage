@@ -37,12 +37,12 @@ const Footer = () => {
   return (
     <>
       <div className="footer ">
-        <div className="bg-footer p-3">
+        <div className="bg-footer p-2">
           <div className="container">
             <div className="row ">
               <div className="col-sm-4">
                 <NavLink to="/">
-                  <img src={logo}  className="footerlogo mt-5"/>
+                  <img src={logo}  className="footerlogo mt-4"/>
                 </NavLink>
                 <p className="parag text-white mt-2">
                   AllCanFarm empowers farmers to achieve higher yields, increase
@@ -68,12 +68,12 @@ const Footer = () => {
                     bg="#ffff"
                     border="transparent"
                     color="#ffffff"
-                    padding="1px"
+                    // padding="1px"
                     rounded="10px"
-                    width="155px"
+                    width="150px"
                      height="
-                     52px"
-                    className="hover mt-2"
+                     50px"
+                    className="hover mt-1"
                   >
                     <div className="d-flex align-items-center justify-content-center">
                    
@@ -91,12 +91,12 @@ const Footer = () => {
                      bg="#ffff"
                      border="transparent"
                      color="#ffffff"
-                     padding="1px"
+                    //  padding="1px"
                      rounded="10px"
-                     width="155px"
+                     width="150px"
                      height="
-                     52px"
-                     className="hover"
+                     50px"
+                     className="hover mt-2"
                   >
                     <div className="d-flex align-items-center justify-content-center">
                     <img src={appstore} className="playbut me-1 " />

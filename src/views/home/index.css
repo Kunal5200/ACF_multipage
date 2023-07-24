@@ -320,6 +320,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .workwith{
+    margin-left: -28px;
+  }
+
   .heading {
     font-size: 20px;
     text-align: left;
@@ -374,6 +379,9 @@
   }
   .india {
     font-size: 14px;
+  }
+  .backup{
+    margin-top: -69px !important;
   }
 }
 

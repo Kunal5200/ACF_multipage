@@ -81,7 +81,7 @@ const Home = () => {
           <div className="row"></div>
           <div className="row align-items-center mt-5">
             <div
-              className="col-sm-5 col-md-6 col-lg-5 p-5"
+              className="col-sm-5 col-md-6 col-lg-5 p-5 backup"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-delay="50"
@@ -502,7 +502,7 @@ const Home = () => {
                 </div>
 
                 <div
-                  className="col-sm-6 px-5"
+                  className="col-sm-6 px-5 workwith"
                   data-aos="fade-right"
                   data-aos-offset="20"
                   data-aos-delay="50"
@@ -550,7 +550,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="container">
+          <div className="container farms">
             <div className="row mt-5 p-2">
               <h6 className=" backbone text-center mt-4">Farm</h6>
               <h3 className="text-primary farmm text-center"> Adoption Plans</h3>
