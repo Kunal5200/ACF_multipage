@@ -94,7 +94,7 @@ const Home = () => {
               <h6 className=" backbone">Backbone of the economy</h6>
               <h1 className=" text-primary farmm ">Farmers</h1>
               <p className="text-justify  text-grey farmmer">
-                Farmers are the unsung heroes of our society, working tirelessly
+              Farmers are the unsung heroes of our society, working tirelessly
                 to feed the nation's population. From sunrise to sunset, they
                 toil away in fields and pastures, tending to crops and livestock
                 with unwavering dedication. Whether it's cultivating crops for
@@ -767,6 +767,7 @@ const Home = () => {
                 </AccordionItem>
               ))}
             </Accordion>
+            
           </div>
         </div>
       </div>
