@@ -53,7 +53,7 @@
 .main_border {
   border: 2px dashed #36ba24;
   width: 360px;
-  height: 190px !important;
+  height: 190px;
 }
 .desc {
   
@@ -136,4 +136,15 @@
   to {
     background-position: 100% 0%, 0% 100%, 0% 0%, 100% 100%;
   }
+}
+@media screen and (min-width: 1024px) and (min-height: 1366px) {
+  .main_border{
+height: 17vh !important;
+  }
+}
+@media screen and (min-width: 820px) and (min-height: 1180px) {
+  .main_border{
+    height: 28vh;
+/* padding: 0 20px 0 20px; */
+      }
 }

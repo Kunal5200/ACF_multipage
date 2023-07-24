@@ -25,6 +25,10 @@
 .f-12{
 font-size: 12px;
 }
+
 .styles-module_whatsappButton__tVits {
-bottom: 9rem !important;
+bottom:9rem !important;
+}
+.styles-module_chatBody__VBxQH {
+  padding: 10px;  
 }

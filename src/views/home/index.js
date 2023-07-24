@@ -81,7 +81,7 @@ const Home = () => {
           <div className="row"></div>
           <div className="row align-items-center mt-5">
             <div
-              className="col-sm-5 col-md-6 col-lg-5 p-5"
+              className="col-sm-5 col-md-6 col-lg-5 p-5 backfara"
               data-aos="fade-left"
               data-aos-offset="20"
               data-aos-delay="50"

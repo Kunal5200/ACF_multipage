@@ -5,10 +5,10 @@ const Whatsapp = () => {
   return (
     <div className="whatsapp">
       <FloatingWhatsApp
-        phoneNumber="+918789018311"
+        phoneNumber="+918420170040"
         accountName="ALLCANFARM"
         avatar={logo}
-        chatMessage="Hello"
+        chatMessage="Hiya! Welcome to AllCanFarm. We will get back to you within 1–2 hours. In the meantime, check out the services that we offer."
       />
     </div>
   );
