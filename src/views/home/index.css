@@ -130,7 +130,7 @@
 }
 .benefits_list::before {
   margin-right: 5px;
-  /* content: "🌱"; */
+  /* content: "🍀"; */
   /* content: url(../../assests/images/background/PointerIcon.png) !important; */
   /* transform: scale(0.1); */
   /* height: 50px;
@@ -285,7 +285,7 @@
 
 
 .back {
-  background-color: #3b9230;
+  background-color: #1e6c14;
   transform: rotateY(180deg);
 }
 

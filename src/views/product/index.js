@@ -10,7 +10,7 @@ import playstore from "../../assests/images/playstore.png";
 
 
 const Productview = (props) => {
-  console.log(props);
+//  const location=useLocation()
   //   const params=useParams()
   // const productview=params.Productview
 
@@ -41,6 +41,7 @@ const Productview = (props) => {
       data: {
         features: product.feature1,
       },
+      url: product.url1,
     },
     {
       img: product.img2,
@@ -49,6 +50,7 @@ const Productview = (props) => {
       data: {
         features: product.feature2,
       },
+      url: product.url2,
     },
     {
       img: product.img3,
@@ -57,6 +59,7 @@ const Productview = (props) => {
       data: {
         features: product.feature3,
       },
+      url: product.url3,
     },
     {
       img: product.img4,
@@ -65,6 +68,7 @@ const Productview = (props) => {
       data: {
         features: product.feature4,
       },
+      url: product.url4,
     },
     {
       img: product.img5,
@@ -74,6 +78,7 @@ const Productview = (props) => {
       },
 
       heading: product.heading5,
+      url: product.url5,
     },
     {
       img: product.img6,
@@ -83,6 +88,7 @@ const Productview = (props) => {
       data: {
         features: product.feature6,
       },
+      url: product.url6,
     },
     {
       img: product.img7,
@@ -92,15 +98,15 @@ const Productview = (props) => {
       data: {
         features: product.feature7,
       },
+      url: product.url7,
     },
   ];
-
   let location = useLocation();
-  console.log(location.state);
+  console.log(location);
   Aos.init();
   return (
     <div>
-      <div style={{   backgroundImage: `url(${location.state.banner})`,
+      <div style={{backgroundImage: `url(${location.state.banner})`,
       backgroundRepeat: "no-repeat",
       backgroundPosition : "center",
       height:"80vh",

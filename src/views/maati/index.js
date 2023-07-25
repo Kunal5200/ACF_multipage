@@ -16,7 +16,6 @@ const Marketplace = () => {
   // const params=useParams()
   // const product=params.product
 
-
   const productresponsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -79,6 +78,7 @@ const Marketplace = () => {
       data: {
         features: product.feature1,
       },
+      url: product.url1,
     },
     {
       img: product.img2,
@@ -87,6 +87,7 @@ const Marketplace = () => {
       data: {
         features: product.feature2,
       },
+      url: product.url2,
     },
     {
       img: product.img3,
@@ -95,6 +96,7 @@ const Marketplace = () => {
       data: {
         features: product.feature3,
       },
+      url: product.url3,
     },
     {
       img: product.img4,
@@ -103,6 +105,7 @@ const Marketplace = () => {
       data: {
         features: product.feature4,
       },
+      url: product.url4,
     },
     {
       img: product.img5,
@@ -112,6 +115,7 @@ const Marketplace = () => {
       },
 
       heading: product.heading5,
+      url: product.url5,
     },
     {
       img: product.img6,
@@ -121,6 +125,7 @@ const Marketplace = () => {
       data: {
         features: product.feature6,
       },
+      url: product.url6,
     },
     {
       img: product.img7,
@@ -130,6 +135,7 @@ const Marketplace = () => {
       data: {
         features: product.feature7,
       },
+      url: product.url7,
     },
   ];
   let data4 = [];
@@ -139,17 +145,19 @@ const Marketplace = () => {
     <div>
       <div className="bg_maati">
         <div className="overlay">
-          <h2 className="animate__animated animate__zoomInLeft maati">Dhur Maati</h2>
+          <h2 className="animate__animated animate__zoomInLeft maati">
+            Dhur Maati
+          </h2>
         </div>
       </div>
       <div className="container p-3">
         <div className="row my-5">
           <div className="col-sm-12">
-          
-            <h4 className="backbone"
+            <h4
+              className="backbone"
               data-aos="fade-right"
               data-aos-offset="20"
-              data-aos-delay="50" 
+              data-aos-delay="50"
               data-aos-duration="600"
               data-aos-easing="ease-in-out"
               data-aos-mirror="false"
@@ -158,9 +166,7 @@ const Marketplace = () => {
             >
               Dhur Maati-
             </h4>
-              <h3 className="farmm text-primary">
-                Farm to Table
-                </h3>
+            <h3 className="farmm text-primary">Farm to Table</h3>
             <p
               className="text-justify text-grey"
               data-aos="fade-left"
@@ -174,8 +180,9 @@ const Marketplace = () => {
             >
               {maati.para}
             </p>
-           
-            <p className="text-grey text-justify"
+
+            <p
+              className="text-grey text-justify"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
@@ -198,7 +205,8 @@ const Marketplace = () => {
               their customers and provide high-quality, sustainably produced
               produce.
             </p>
-            <p className="text-grey"
+            <p
+              className="text-grey"
               data-aos="fade-right"
               data-aos-offset="20"
               data-aos-delay="50"
@@ -249,18 +257,16 @@ const Marketplace = () => {
               data-aos-mirror="false"
               data-aos-once="true"
               data-aos-anchor-placement="top"
-              
             >
               <Featurebox img={val.img} heading={val.heading} desc={val.desc} />
             </div>
           ))}
         </div>
 
-        
-          <h4 className="animate_animated animate__zoomInRight  backbone ms-3">
-            PRODUCT LIST
-          </h4>
-        
+        <h4 className="animate_animated animate__zoomInRight  backbone ms-3">
+          PRODUCT LIST
+        </h4>
+
         <div className="mb-3">
           <Multislider data={data3} responsive={productresponsive} />
         </div>

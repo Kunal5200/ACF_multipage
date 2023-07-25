@@ -92,6 +92,9 @@
 }
 .sasa{font-size: 11px;
   text-align: justify;
+  font-weight: 400;
+  padding: 2px 2px !important;
+  margin-top: -5px !important;
 }
 
 @media screen and (max-width: 768px) {
