@@ -74,6 +74,7 @@ const Marketplace = () => {
   let data3 = [
     {
       img: product.img1,
+      banner: product.banner1,
       heading: product.heading1,
       data: {
         features: product.feature1,
@@ -81,6 +82,7 @@ const Marketplace = () => {
     },
     {
       img: product.img2,
+      banner: product.banner2,
       heading: product.heading2,
       data: {
         features: product.feature2,
@@ -88,6 +90,7 @@ const Marketplace = () => {
     },
     {
       img: product.img3,
+      banner: product.banner3,
       heading: product.heading3,
       data: {
         features: product.feature3,
@@ -95,7 +98,7 @@ const Marketplace = () => {
     },
     {
       img: product.img4,
-
+      banner: product.banner4,
       heading: product.heading4,
       data: {
         features: product.feature4,
@@ -103,6 +106,7 @@ const Marketplace = () => {
     },
     {
       img: product.img5,
+      banner: product.banner5,
       data: {
         features: product.feature5,
       },
@@ -111,6 +115,7 @@ const Marketplace = () => {
     },
     {
       img: product.img6,
+      banner: product.banner6,
       heading: product.heading6,
 
       data: {
@@ -119,6 +124,7 @@ const Marketplace = () => {
     },
     {
       img: product.img7,
+      banner: product.banner7,
       heading: product.heading7,
 
       data: {
