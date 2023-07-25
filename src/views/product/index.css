@@ -44,3 +44,8 @@ height: 30px;
 }
 }
 @media screen and  (min-width: 1024px) and (min-height:1366px){}
+
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .bannerss{
+    height: 55vh !important;
+  }}

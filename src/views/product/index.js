@@ -106,7 +106,8 @@ const Productview = (props) => {
   Aos.init();
   return (
     <div>
-      <div style={{backgroundImage: `url(${location.state.banner})`,
+      <div className="bannerss" 
+      style={{backgroundImage: `url(${location.state.banner})`,
       backgroundRepeat: "no-repeat",
       backgroundPosition : "center",
       height:"80vh",
