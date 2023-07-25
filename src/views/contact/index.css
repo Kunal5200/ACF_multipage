@@ -81,3 +81,10 @@
     height: 45vh;
   }
 }
+
+
+@media screen and  (min-width: 1024px) and (min-height:1366px){
+  .proo{
+    height: 30vh;
+  } 
+}

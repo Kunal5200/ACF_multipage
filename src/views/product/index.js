@@ -111,7 +111,7 @@ const Productview = (props) => {
           </h2>
         </div>
       </div>
-      <div></div>
+      
 
       <div className="container mt-5 pt-5">
         <div className="row">
@@ -189,7 +189,7 @@ const Productview = (props) => {
           </div>
           
           
-          <h4 className="ms-5 backbone">
+          <h4 className=" backbone">
             PRODUCT LIST
           </h4>
         

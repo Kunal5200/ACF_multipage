@@ -767,8 +767,7 @@ const Home = () => {
                 </AccordionItem>
               ))}
             </Accordion>
-            
-          </div>
+                     </div>
         </div>
       </div>
     </div>

@@ -34,10 +34,13 @@ bottom:9rem !important;
   padding: 8px 8px; 
 }
 .styles-module_chatBody__VBxQH .styles-module_messageBody__9-hwo {
-  font-size: 12px;
+  font-size: 12px !important;
   line-height: 15px;
   margin-top: 1px;
   padding: 2px 0px;
   color: #111111;
   white-space: pre-wrap;
+}
+.floatwhatsapp{
+  
 }

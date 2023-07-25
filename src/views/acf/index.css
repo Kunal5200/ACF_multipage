@@ -111,3 +111,10 @@ margin-top: 51px;
       height: 45vh;
     }
   }
+
+  @media screen and  (min-width: 1024px) and (min-height:1366px){
+    .ACf{
+      height: 30vh;
+    }
+
+  }

@@ -164,6 +164,21 @@ padding: 45px 99px;
   .bg-about{
     height: 45vh;
   }
+}
 
-  
+@media screen and  (min-width: 1024px) and (min-height:1366px){
+  .bg-about{
+    height: 30vh;
+  }
+ 
+  .arrow_2 {
+    transform: rotate(90deg);
+    padding: 47px 54px;
+    margin-top: 30px;
+}
+.arrow_1 {
+  transform: rotate(270deg);
+  margin-top: 30px;
+  margin-left: 55px;
+}
 }
