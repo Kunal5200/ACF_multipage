@@ -17,6 +17,7 @@ import { Link } from "react-router-dom";
 import organic from "../../assests/images/organic.webp";
 import green_field from "../../assests/images/green_field.jpg";
 import farm_field from "../../assests/images/farm_field.jpg";
+import{TbPlant} from "react-icons/tb";
 import field from "../../assests/images/banner/field.webp";
 import {
   Accordion,
@@ -590,19 +591,24 @@ const Home = () => {
 
                       <div className="back">
                         <ul className="list-unstyled mt-5">
-                          <li className="short benefits_list my-2 text-white ">
+                          <li className="short  my-2 text-white ">
+                          <TbPlant className="crop me-2"/>
                             2 crops or plants
                           </li>
-                          <li className="short benefits_list my-2 text-white ">
+                          <li className="short my-2 text-white ">
+                          <TbPlant className="crop me-2"/>
                             1-3 YOY Returns
                           </li>
-                          <li className="short benefits_list my-2 text-white ">
+                          <li className="short my-2 text-white ">
+                          <TbPlant className="crop me-2"/>
                             15% YOY Returns
                           </li>
-                          <li className="short benefits_list my-2 text-white ">
+                          <li className="short my-2 text-white ">
+                          <TbPlant className="crop me-2"/>
                             Investment Protection
                           </li>
-                          <li className="short benefits_list my-2 text-white ">
+                          <li className="short my-2 text-white ">
+                          <TbPlant className="crop me-2"/>
                             Low Risk Investment
                           </li>
                         </ul>
@@ -640,19 +646,24 @@ const Home = () => {
 
                       <div className="back">
                         <ul className="list-unstyled mt-5">
-                          <li className="short benefits_list my-2 text-white">
+                          <li className="short  my-2 text-white">
+                          <TbPlant className="crop me-2"/>
                             3 crops or plants
                           </li>
-                          <li className="short benefits_list my-2 text-white">
+                          <li className="short  my-2 text-white">
+                          <TbPlant className="crop me-2"/>
                             1-7 YOY Returns
                           </li>
-                          <li className="short benefits_list my-2 text-white">
+                          <li className="short  my-2 text-white">
+                          <TbPlant className="crop me-2"/>
                             25% YOY Returns
                           </li>
-                          <li className="short benefits_list my-2 text-white">
+                          <li className="short  my-2 text-white">
+                          <TbPlant className="crop me-2"/>
                             Investment Protection
                           </li>
-                          <li className="short benefits_list my-2 text-white">
+                          <li className="short  my-2 text-white">
+                          <TbPlant className="crop me-2"/>
                             Low Risk Investment
                           </li>
                         </ul>
@@ -690,19 +701,24 @@ const Home = () => {
 
                       <div className="back">
                         <ul className="list-unstyled mt-5">
-                          <li className="short benefits_list my-2 text-white">
+                          <li className="short  my-2 text-white">
+                          <TbPlant className="crop me-2"/>
                             4 crops or plants
                           </li>
-                          <li className="short benefits_list my-2 text-white">
+                          <li className="short  my-2 text-white">
+                          <TbPlant className="crop me-2"/>
                             1-15 YOY Returns
                           </li>
-                          <li className="short benefits_list my-2 text-white">
+                          <li className="short  my-2 text-white">
+                          <TbPlant className="crop me-2"/>
                             35% YOY Returns
                           </li>
-                          <li className="short benefits_list my-2 text-white">
+                          <li className="short  my-2 text-white">
+                          <TbPlant className="crop me-2"/>
                             Investment Protection
                           </li>
-                          <li className="short benefits_list my-2 text-white">
+                          <li className="short  my-2 text-white">
+                          <TbPlant className="crop me-2"/>
                             Low Risk Investment
                           </li>
                         </ul>

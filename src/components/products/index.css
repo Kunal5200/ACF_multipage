@@ -20,7 +20,7 @@
     align-items: center;
   }
   .benefits_list::before {
-    content: "🌱";
+    content: "🌿";
     margin-right: 5px;
   }
   /* .heaad{
