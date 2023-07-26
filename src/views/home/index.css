@@ -223,9 +223,9 @@
   text-align: center;
 }
 .short {
-  font-size: 15px;
+  font-size: 12px;
   text-align: start;
-  padding: 1px 28px;
+  padding: 3px 15px;
 
 }
 .crop{
